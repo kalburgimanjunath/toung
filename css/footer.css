@@ -1,0 +1,40 @@
+#headerlogo {
+	background-image: url("../images/logos/small.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    position: relative;
+	height: 65px;
+	float: left;
+}
+
+#appheader {
+	height: 75px;
+	background: #f1f1f1;
+	
+}
+
+#appheader .headercontent div {
+	float: right;
+}
+
+#appheader .headercontent div #appnav {
+	float: left;
+}
+
+#appnav ul li{
+	float: left;
+}
+
+
+#appfooter {
+	clear:both;
+	color: #999;
+	background-color: #ffffff;
+	height: 24px;
+	font-size: 10px;
+	position:relative;
+	width: 100%;
+	margin-top:10px;
+	text-align: center;
+	white-space: nowrap;
+}

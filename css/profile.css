@@ -1,0 +1,606 @@
+@charset "UTF-8";
+/* CSS Document */
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+img,
+form,
+fieldset,
+blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+}
+html {
+    height: 100%; /* fix height to 100% for IE */
+    max-height: 100%; /* fix height for other browsers */
+    padding: 0; /*remove padding */
+    margin: 0; /* remove margins */
+    border: 0; /* remove borders */
+    overflow: hidden;
+}
+body {
+    height: 100%; /* fix height to 100% for IE */
+    max-height: 100%; /* fix height for other browsers */
+    overflow: hidden; /*get rid of scroll bars in IE */
+    padding: 0; /*remove padding */
+    margin: 0; /* remove margins */
+    border: 0; /* remove borders */
+}
+#container {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    z-index: 1;
+    overflow: scroll;
+}
+.rounded {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.pressed {
+    border: 1px solid #f0f0f0;
+    border-bottom: 2px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+/*Form*/
+.contentbtns {
+    position: relative;
+    display: block;
+    height: 30px;
+}
+#loginbutton {
+    float: right
+}
+#loginbutton,
+.submitbutton {
+    background-color: #0099FF;
+    background: url(../images/buttons/btn-bg-blue.png) repeat-x;
+    background-position: top;
+    border: 1px solid #0066FF;
+    padding: 5px;
+    margin: 10px 0 0;
+    background-attachment: scroll;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+}
+#loginbutton:hover,
+.submitbutton:hover {
+    background-position: bottom;
+    border: 1px solid #0099ff;
+}
+.deletebutton {
+    display: block;
+    background-image: url(../images/buttons/delete.png);
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+.deletebutton:hover {
+    background-position: center bottom
+}
+.editbutton {
+    display: block;
+    background-image: url(../images/buttons/edit.png);
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+.editbutton:hover {
+    background-position: center bottom
+}
+.controls {
+    //float: right;
+    margin-right: 80px;
+    //margin-top: 10px;
+}
+.btncontrol {
+    border: 1px solid #999;
+    color: #0099FF;
+    background: #F0F0F0;
+    display: block;
+    float: left;
+    padding: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 11px;
+}
+/*Navs*/
+.menu {
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    display: block;
+    width: 100%;
+}
+ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    background: none;
+}
+li {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    background: none;
+}
+/*
+.nav {
+    margin: 0 auto;
+    width: auto;
+    padding: 0;
+    position: relative;
+    background: none;
+    display: block;
+}
+.nav ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+}
+.nav li {
+    float: left;
+    list-style: none;
+}
+.nav ul li a {
+    color: #999999;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+.nav ul li a:hover {
+    color: #333333
+}
+.nav ul li a:active {
+    color: #0099FF
+}
+.nav ul li a .current {
+    color: #0099FF
+}
+*/
+/*Headers*/
+#head-wrap {
+    z-index: 5;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+#head {
+    height: 30px;
+    background: #F6F6F6;
+    background-position: left center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius-bottom: 5px;
+    -moz-bottom-radius: 5px;
+    -o-radius-bottom: 5px;
+    -webkit-radius-bottom: 5px;
+    padding: 10px;
+}
+#head-container {
+    height: 50px;
+    margin: 0 auto;
+}
+.headercontent {
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    background: none;
+}
+/*Section*/
+.section {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+#me,
+#education,
+#experience,
+#references {
+    padding: 10px
+}
+
+/*Image border style*/
+.border {
+    border: 5px solid #e9e9e9
+}
+/*Content Sections*/
+.box435 {
+    width: 435px;
+    float: left;
+    padding: 20px;
+}
+.box155 {
+    width: 155px;
+    float: left;
+    padding: 20px;
+}
+.box600 {
+    font-size: 12px;
+    width: 600px;
+    padding: 20px;
+}
+.box590 {
+    width: 590px;
+    float: left;
+    padding: 20px;
+}
+.box280 {
+    width: 280px;
+    float: left;
+    padding: 20px;
+}
+.boxlinks {
+    width: 280px;
+    padding-top: 100px;
+    float: left;
+}
+.float_left {
+    float: left
+}
+.float_right {
+    float: right
+}
+img.float_left {
+    margin: 0 10px 10px 0
+}
+img.float_right {
+    margin: 0 0 10px 10px
+}
+/*Other*/
+.spacer {
+    height: 280px;
+    background: #fff;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.head_spacer {
+    height: 10px;
+    background: #000;
+    opacity: 0.3;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.checkbox,
+.radio {
+    width: 19px;
+    height: 25px;
+    background: url(../images/formimgs/checkbox.png) no-repeat;
+    display: block;
+    clear: left;
+    float: left;
+}
+.radio {
+    background: url(radio.gif) no-repeat
+}
+.select {
+    position: absolute;
+    width: 158px; /* With the padding included, the width is 190 pixels: the actual width of the image. */;
+    height: 21px;
+    padding: 0 24px 0 8px;
+    color: #fff;
+    font: 12px/21px arial,sans-serif;
+    background: url(select.gif) no-repeat;
+    overflow: hidden;
+}
+:focus {
+    outline: none
+}
+::-moz-focus-inner {
+    border: 0
+}
+/* Bio Tab */
+#biodesc {
+    width: 85%
+}
+#bio-disp {
+    cursor: text
+}
+/* Education card */
+.cardspacer {
+    clear: both
+}
+.card {
+    clear: both
+}
+.card:hover {
+    border-color: #00aeef
+}
+.card table {
+    float: left
+}
+.card table th {
+    text-align: right;
+    vertical-align: top;
+    width: 100px;
+}
+.card table tr {
+    text-align: left;
+    line-height: 1.8;
+}
+.card table td {
+    padding-left: 10px;
+    vertical-align: top;
+    width: auto;
+}
+.actions {
+    float: right;
+    margin-top: 5px;
+}
+.actions a {
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    width: 50px;
+    display: block;
+    border: 1px solid #fff;
+    color: #00aeef;
+}
+.actions a:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+.bio-edit-actions,
+.edit-actions {
+    text-align: right;
+    float: right;
+}
+.bio-edit-actions .submitbutton {
+    width: 50px;
+    margin: 2px;
+}
+.contact-edit-actions .submitbutton,
+.edit-actions .submitbutton {
+    width: 50px;
+    margin: 2px;
+    display: block;
+}
+.link,
+.contact-edit-actions .submitlink,
+.bio-edit-actions .submitlink,
+.edit-actions .submitlink {
+    color: #00aeef;
+    text-decoration: none;
+    border: 1px solid #fff;
+    background-color: #fff;
+    cursor: pointer;
+    width: 50px;
+}
+.edit-actions .submitlink:hover {
+    color: #000;
+    text-decoration: underline;
+}
+.contactdisp {
+    float: left;
+    width: 92%;
+}
+.disp {
+    float: left;
+    width: 85%;
+}
+.edit-errors {
+    color: #AA0000;
+    font-weight: bold;
+}
+.spinner-s,
+.spinner-m {
+    display: inline-block;
+    padding: 3px;
+}
+.spinner-s {
+    background: url("../images/spinner-s.gif");
+    height: 10px;
+    width: 10px;
+}
+.spinner-m {
+    background: url("../images/spinner-m.gif");
+    height: 26px;
+    width: 26px;
+}
+.norecords {
+    font-size: 14px
+}
+.timestamp {
+    color: #aaa
+}
+.loginerror {
+    color: #a00;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 10px;
+}
+.loginform {
+    height: 125px;
+    font-size: 12px;
+}
+.loginform table {
+    float: left;
+    padding: 5px;
+}
+.loginform table th {
+    text-align: right;
+    vertical-align: top;
+    width: 80px;
+    color: #777;
+}
+.loginform table tr {
+    text-align: left;
+    line-height: 1.8;
+}
+.loginform table td {
+    padding-left: 10px;
+    vertical-align: top;
+}
+.loginform .logo {
+    background: url("../images/logos/tiny.png") no-repeat scroll center center transparent;
+    border-bottom: 1px solid #CCCCCC;
+    height: 28px;
+    padding: 5px;
+}
+.simplemodal-container {
+    border: 2px solid #00AEEF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#bio-data h1,
+#bio-data h2,
+#bio-data h3,
+#bio-data h4,
+#bio-data h5,
+#bio-data h6 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+}
+#bio-data h1 {
+    font-size: 18px
+}
+#bio-data h2 {
+    font-size: 16px
+}
+#bio-data h3 {
+    font-size: 14px
+}
+#bio-data h4,
+#bio-data h5,
+#bio-data h6 {
+    font-size: 12px
+}
+#skills .selfrating {
+    padding-left: 5px;
+    vertical-align: baseline;
+    color: #999;
+}
+
+/*Social*/
+.socialdock{
+	height:40px;
+	width:100%;
+	background: #000;
+}
+
+.socialdock li{
+	padding-left: 0px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	float:left;
+	height:24px;
+	width:24px;
+}
+
+.socialdock li a{
+	width:24px;
+	height:24px;
+	display: block;
+	cursor: pointer;
+}
+
+.socialdock li a:hover {
+	opacity: 0.6;
+}
+.linkedin {
+	background-image: url("../images/socialicons/linkedin.png");
+}
+
+.twitter {
+	background-image: url("../images/socialicons/twitter.png");
+}
+
+.facebook {
+	background-image: url("../images/socialicons/facebook.png");
+}
+
+.blogger {
+	background-image: url("../images/socialicons/blogger.png")
+}
+.headline-top{
+	margin-top:15px;
+	font-size: 14px;
+	font-family: 'Cantarell', sans-serif;
+	color: #fff;
+}
+.scrollspy-credential {
+    height: 550px;
+    overflow: auto;
+    position: relative;
+}
+.dashboard {
+    height: 600px;
+    overflow: auto;
+    position: relative;
+}
+#scrollspy {
+    height: 350px;
+    overflow: auto;
+    position: relative;
+}
+.profileimage{
+	float:left;
+}
+.rtprofilename{
+	font-size:14px;
+	line-height:2px;
+}
+.importsection {
+width: 200px;
+margin: 0 auto;
+margin-top: 10px;
+margin-bottom: 10px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+padding: 5px;
+overflow: hidden;
+position: relative;
+font-family: 'Cantarell' , sans-serif;
+background: white;
+border: 1px solid #CCC;
+}
+.connections{
+	background-image:url('../images/extras/conn.jpg');
+}

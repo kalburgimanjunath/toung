@@ -1,0 +1,168 @@
+/*General*/
+#container {
+    background: white; /*Dynamic*/
+    color: #535353;
+}
+.section {
+    font-family: 'Cantarell' , sans-serif;
+    background: #fff; /*Dynamic*/
+    border: 1px solid #ccc; /*Dynamic*/
+}
+#header {
+    background: #000;
+    height: 150px;
+    width: 100%;
+    padding: 45px 0;
+    position: relative;
+    z-index: 100;
+}
+.shadow {
+    -moz-box-shadow: 0px 5px 10px #efefef;
+    -webkit-box-shadow: 0px 5px 10px #efefef;
+    box-shadow: 0px 5px 10px #efefef;
+}
+.name {
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+.headline {
+    font-size: 14px;
+    font-family: 'Cantarell', sans-serif;
+    color: #fff;
+}
+.logo {
+    background-image: url(../images/title.png); /*Dynamic*/
+    background-repeat: no-repeat;
+    background-position: center center; /*Dynamic*/
+}
+/*Navigation*/
+/*
+ul.nav li a {
+    color: #fff; //Dynamic
+    font-family: 'Cantarell' , sans-serif;
+    font-size: 14px; //Dynamic
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    outline: none;
+	margin:auto;
+}
+.nav ul li a:hover {
+    color: #333333
+}
+.nav ul li a:active {
+    color: #0099FF
+}
+.nav ul li a .current {
+    color: #0099FF
+}
+*/
+/*Text*/
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px; /*Dynamic*/
+    color: #202020; /*Dynamic*/
+    font-weight: bold; /*Dynamic*/
+    margin-bottom: 20px;
+}
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px; /*Dynamic*/
+    color: #202020; /*Dynamic*/
+    font-weight: bold; /*Dynamic*/
+}
+h3 {
+    font-family: 'Cantarell' , sans-serif;
+    font-size: 16px; /*Dynamic*/
+    color: #666666; /*Dynamic*/
+    font-weight: bold; /*Dynamic*/
+}
+h4 {
+    font-family: 'Cantarell' , sans-serif;
+    font-size: 14px; /*Dynamic*/
+    color: #202020; /*Dynamic*/
+}
+p {
+    color: #202020; /*Dynamic*/
+    font-size: 12px; /*Dynamic*/
+    line-height: 18px;
+    font-family: 'Cantarell' , sans-serif;
+}
+p.ref {
+    font-family: 'Cantarell' , sans-serif;
+    font-size: 12px; /*Dynamic*/
+    font-style: italic; /*Dynamic*/
+    line-height: 18px;
+    background: url(../images/quote.png) no-repeat left top;
+    margin: 0 0 20px 0;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: normal; /*Dynamic*/
+}
+/*Other*/
+ul.educ {
+    list-style: none;
+    margin-bottom: 20px;
+    float: left;
+}
+ul.exper {
+    list-style: none;
+    margin-bottom: 30px;
+}
+ul.ref {
+    list-style: none;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 10px;
+}
+ul.ref2 {
+    list-style: none;
+    margin-bottom: 30px;
+    text-align: right;
+    font-size: 10px;
+}
+.label {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+.icon {
+    border-style: none;
+    padding: 20px;
+    /*Images*/
+    border-style: none;
+    padding: 15px;
+}
+.placeholder {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+/*Opera Fix*/
+body:before {
+    /* thanks to Maleika (Kohoutec)*/
+    content: "";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px; /* thank you Erik J - negate effect of float*/
+    background: #666666;
+}
+/* IMPORTANT
+
+You also need to include this conditional style in the  of your HTML file to feed this style to IE 6 and lower and 8 and higher.
+
+
+
+*/
+:focus {
+    outline: none
+}
+::-moz-focus-inner {
+    border: 0
+}
+.none {
+    display: none
+}
+

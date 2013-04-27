@@ -1,0 +1,283 @@
+/* global styles */
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+canvas {
+    border: 1px solid #9C9898;
+	background-color:white;
+}
+
+canvas:active{
+	cursor:pointer;
+}
+
+canvas:hover{
+	cursor:pointer;
+}
+
+.fb-like{
+	padding-bottom:20px;
+}
+
+#tools{
+	padding-top:15px;
+	position:fixed;
+	top:48px;
+	z-index:200;
+	background-color:white;
+}
+
+/* custom drawing area */
+#custom{
+	position:fixed;
+	top:48px;
+	z-index:300;
+}
+
+/* drawContainer - left(overlay) */
+#drawContainer{
+	width:580px;
+	height:1000px;
+	background-color:rgba(0,0,0,0.75);
+}
+
+#drawContainer div {
+	left:139px;
+	top:20px;
+}
+
+/* brushes */
+.brushContainer{
+	float:left;
+	height:32px;
+	border:1px solid white;
+}
+
+.brushContainer:hover{
+	background: #b4b4b4;
+}
+
+.brush:hover{
+	color:#fff;
+	background:red;
+}
+
+#brushes{
+	border: 1px solid white;
+	margin-right: 0px; 
+	margin-bottom: 0px; 
+	margin-left: 3px; 
+	margin-top: 2px;  
+	height: 34px;
+	float: left;
+}
+
+#brush1{
+	margin-top:16px;
+	margin-left:6px;
+	margin-right:6px;
+	width:5px;
+	height:5px;
+	display:block;
+	border-radius:50px;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	-khtml-border-radius:50px;
+	font-size:20px;
+	color:#fff;
+	background:#000;
+	float: left;
+}
+
+#brush2{
+	margin-top:14px;
+	margin-left:6px;
+	margin-right:6px;
+	width:8px;
+	height:8px;
+	display:block;
+	border-radius:50px;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	-khtml-border-radius:50px;
+	font-size:20px;
+	color:#fff;
+	background:#000;
+	float: left;
+}
+
+#brush3{
+	margin-top:12px;
+	margin-left:6px;
+	margin-right:6px;
+	width:11px;
+	height:11px;
+	display:block;
+	border-radius:50px;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	-khtml-border-radius:50px;
+	font-size:20px;
+	color:#fff;
+	background:#000;
+	float: left;
+}
+
+#brush4{
+	margin-top:10px;
+	margin-left:6px;
+	margin-right:6px;
+	width:14px;
+	height:14px;
+	display:block;
+	border-radius:50px;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	-khtml-border-radius:50px;
+	font-size:20px;
+	color:#fff;
+	background:#000;
+	float: left;
+}
+
+#brush5{
+	margin-top:9px;
+	margin-left:6px;
+	margin-right:6px;
+	width:17px;
+	height:17px;
+	display:block;
+	border-radius:50px;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	-khtml-border-radius:50px;
+	font-size:20px;
+	color:#fff;
+	background:#000;
+	float: left;
+}
+
+#colorSelectorGroup {
+	border-width: 1px; 
+	border-style: solid;
+	border-color: #b4b4b4; 
+	border-image: initial; 
+	margin-right: 0px; 
+	margin-bottom: 0px; 
+	margin-left: 0px; 
+	margin-top: 3px; 
+	width: 578px; 
+	height: 40px; 
+	cursor:pointer;
+	background-color:white;
+}
+
+
+#colorSelected {
+	margin-right: 0px; 
+	margin-bottom: 0px; 
+	margin-left: 0px; 
+	margin-top: 1px;  
+	height: 40px;
+	float: left;
+}
+
+#colorGroup {
+	margin-right: 0px; 
+	margin-bottom: 0px; 
+	margin-left: 0px; 
+	margin-top: 1px;  
+	height: 38px;
+	float: left; 
+}
+
+.colorCell {
+	width: 15px; 
+	height: 15px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px; 
+	margin-top: 1px; 
+	margin-right: 1px; 
+	margin-bottom: 1px; 
+	margin-left: 1px; 
+	cursor: pointer; 
+	line-height: 15px; 
+	font-size: 1px; 
+	float: left;
+}
+
+.whiteCell {
+	width: 15px; 
+	height: 15px;
+	border-style: solid;
+	border-color: #dcdcdc;
+	border-width: 1px; 
+	margin-top: 1px; 
+	margin-right: 1px; 
+	margin-bottom: 1px; 
+	margin-left: 2px; 
+	cursor: pointer; 
+	line-height: 15px; 
+	font-size: 1px; 
+	float: left;
+}
+
+.blackCell {
+	width: 15px; 
+	height: 15px;
+	border-style: solid;
+	border-color: #dcdcdc;
+	border-width: 1px; 
+	margin-top: 1px; 
+	margin-right: 1px; 
+	margin-bottom: 1px; 
+	margin-left: 2px; 
+	cursor: pointer; 
+	line-height: 15px; 
+	font-size: 1px; 
+	float: left;
+}
+
+.selectedCell {
+	width: 34px; 
+	height: 34px;
+	border-style: solid;
+	border-color: #dcdcdc;
+	border-width: 1px; 
+	margin-top: 1px; 
+	margin-right: 1px; 
+	margin-bottom: 1px; 
+	margin-left: 2px;  
+	line-height: 15px; 
+	font-size: 1px; 
+	float: left;
+}
+
+
+.whiteCell:hover{
+	border: 1px solid red;
+}
+
+.blackCell:hover{
+	border: 1px solid red;
+}
+
+.colorCell:hover {
+	border: 1px solid black;
+}
+
+
+.clickImage {
+	float:left;
+	border:1px solid white;
+	cursor:pointer;
+}
+
+.clickImage:hover{
+	border:1px solid #9C9898;
+}

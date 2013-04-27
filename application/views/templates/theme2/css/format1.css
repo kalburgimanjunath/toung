@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0; padding: 0; border: 0;
+}
+
+
+div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote {
+	margin: 0; padding: 0; border: 0;
+	}
+
+
+/*General*/
+#container {
+		margin: 0 auto;
+		width: 960px;
+		}
+
+.section {
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+		padding: 0 0 60px 30px;
+		overflow: hidden;
+		clear: both;
+	}
+
+	.spacer {
+		height: 600px;
+	}
+	
+/*Content Sections*/	
+	.box435 {
+		width: 435px;
+		float:left;
+		margin: 0px 0px 30px 0;
+	}
+	
+	.box155 {
+		width: 155px;
+		float:left;
+		margin:0 30px 30px 0;
+		}
+	
+	.box900 {
+		font-size:12px;
+		width: 900px;
+		margin: 30px 30px 30px 0;
+		
+	}
+	
+	.box590 {
+		width: 590px;
+		float: left;
+		margin: 30 30px 30px 0;
+	}
+	
+	.box280 {
+		width: 280px;
+		float: left;
+		margin: 0 30px 30px 0;
+	}
+	
+	.boxlinks {
+		width: 280px;
+		padding-top:100px;
+		float: left;
+		margin: 0 30px 30px 0;
+	}
+	
+	.picture {
+		width: 435px;
+		float:left;
+		margin: 0px 30px 30px 0;
+		padding-top:80px;
+		padding-bottom:80px;
+	}
+
+	.float_left {
+		float: left;
+	}
+	
+	.float_right {
+		float: right;
+	}
+	
+	img.float_left {
+		margin: 0 10px 10px 0;
+	}
+	
+	img.float_right {
+		margin: 0 0 10px 10px;
+	}
+
+#header {
+height:100px;
+padding: 30px 0;
+position: relative;
+}
+
+.logo {
+background-repeat: no-repeat;
+}
+
+#menu {
+margin:0 auto;
+position:relative;
+top:100px;
+width:700px;
+height:50px;
+}
+
+
+
+/*Navigation*/
+ul.nav {	
+			width:700px;
+			margin: 0 auto;
+			position:relative;
+			padding-bottom: 40px;
+			margin-bottom: 10px;
+		}
+		
+			ul.nav li {
+				float: left;
+				list-style: none;
+				margin: 0 0 0 30px;
+			}
+
+				ul.nav li a {
+					text-align: center;
+					text-decoration: none;
+					display: block;
+					padding: 10px 15px;
+					outline: none;
+				}
+
+
+/*Text*/
+p {
+		line-height: 18px;
+		}
+
+p.ref {
+		line-height:18px;
+		background: url(../images/quote.png) no-repeat left top;
+		margin: 0 0 20px 0;
+		padding-left: 20px;
+		padding-top: 10px;
+}
+	
+	
+/*Other*/
+
+ul.educ {
+	list-style:none;
+	margin-bottom:20px;
+	float:left;
+	margin: 0 0 0 60px;
+}
+
+ul.exper {
+	list-style:none;
+	margin-bottom:30px;
+}
+
+ul.ref {
+	list-style:none;
+	margin-bottom:30px;
+	text-align:center;
+	font-size:10px;
+	}
+	
+ul.ref2 {
+	list-style:none;
+	margin-bottom:30px;
+	text-align:right;
+	font-size:10px;
+	}
+
+li {
+	margin-bottom:3px;
+	}
+
+.label {
+	font-size:12px;
+	font-weight:bold;
+	padding: 10px 0 10px 0;
+}
+	
+.icon {
+	border-style:none;
+	padding:20px;
+
+/*Images*/
+
+img {
+border-style:none;
+padding:15px;
+}
+
+.placeholder{
+	margin-top:80px;
+	margin-bottom:80px;
+	}
+
+/*Footer CSS*/
+
+#footer {position: relative;
+	margin-top: -80px; /* negative value of footer height */
+	height: 80px;
+	clear:both;
+	} 
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+
+
+
+/* IMPORTANT
+
+You also need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
+
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+
+*/
+
+:focus {
+	outline:none;
+}
+::-moz-focus-inner {
+border:0;
+}
+
+

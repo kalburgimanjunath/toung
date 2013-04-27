@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+#dash_wrap {
+width: 700px;
+margin: 0 auto;
+position: relative;
+}
+
+#dash_content{
+	width:550px;
+	height:30px;
+	opacity: 0.8;
+	position: relative;
+	background: #111;
+	z-index: 1100;
+	display: none;
+	float: left;
+}
+
+#dash_content ul li {
+	list-style: none;
+	height:25px;
+	font-size: 12px;
+	font-family: 'Raleway', cursive;
+	padding-left: 10px;
+	float: left;
+}
+
+#dash_content a {
+	display: block;
+	cursor: pointer;
+	color: #d2d2d2;
+}
+
+#dash_content a:hover {
+	color: #fff;
+}
+
+.cusbutton {
+	width:20px;
+	height: 20px;
+	margin-top: 3px;
+	display: block;
+	float: left;
+	background-image: url(../images/customize.png);
+}
+
+.messbutton {
+	width:20px;
+	height: 20px;
+	margin-top: 3px;
+	display: block;
+	float: left;
+	background-image: url(../images/mail.png);
+}
+
+.dash_drop {
+	width:35px;
+	height:20px;
+	margin-top: 3px;
+	margin-right: 10px;
+	background-image: url(../images/opts.png);
+}
+
+.dash_drop:hover {
+	background-image: url(../images/opts_hover.png);
+}
+
+.dash_list_item {
+	padding: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+}
+
+.form_search {
+	position: relative;
+	clear: left;
+	float: left;
+	margin-top: 1px;
+	padding: 4px 12px;
+}
+
+.search_input {
+	display: block;
+	width:125px;
+	height:7px;
+	padding:9px 10px 4px 24px;
+	font-size: 12px;
+	line-height: 1;
+	color: #ccc;
+	border: 0;
+	font-family: 'Raleway', cursive;
+	background-color: #555;
+	border-radius: 13px;
+	-webkit-border-radius: 13px;
+	-moz-border-radius:13px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.4),inset 0 1px 0 rgba(0,0,0,.3);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.4),inset 0 1px 0 rgba(0,0,0,.3);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.4),inset 0 1px 0 rgba(0,0,0,.3); 
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	outline: none;
+	background-image: url(../images/search.png);
+	background-position: 5px 2px;
+	background-repeat: no-repeat;
+}
+
+.search_input:focus {
+	color: black;
+	background: #cccccc;
+	width:205px;
+	background-image: url(../images/search_hov.png);
+	background-position: 5px 2px;
+	background-repeat: no-repeat;
+}
+
+#dash_open {
+width: 110px;
+background: #111;
+opacity: 0.7;
+height: 10px;
+padding: 10px;
+position: relative;
+font-size: 12px;
+font-family: 'Raleway', cursive;
+color:#fff;
+z-index: 1000;
+cursor: pointer;
+float: left;
+}	
+
+#dash_close {
+width: 110px;
+background: #111;
+opacity: 0.6;
+height: 10px;
+padding: 10px;
+position: relative;
+font-size: 12px;
+font-family: 'Raleway', cursive;
+color:#fff;
+z-index: 1000;
+display: none;
+cursor: pointer;
+}
+
+.dash_div {
+	background-image: url(../images/dash_div.png);
+	width:5px;
+	height:20px;
+	display: inline-block;
+	vertical-align: text-top;
+	margin-top: 4px;
+	position: relative;
+	float: left;
+}
+
+.dash_rounded_right{
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.dash_rounded_left {
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-left-radius: 10px;
+}
+
+
+.usropts {
+	width:180px;
+	height:32px;
+	padding:3px;
+	position: relative;
+	float: right;
+}
+
+.usropts ul li{
+	list-style: none;
+	float:left;
+	margin-left:10px;
+}
+
+.secview{
+	background-image: url(../images/vis.png);
+	height:32px;
+	width:32px;
+	display: block;
+}
+
+.secview:hover {
+	background-image: url(../images/vis-hov.png);
+}
+
+.secedit {
+	background-image: url(../images/edit.png);
+	height:32px;
+	width:32px;
+	display: block;
+}
+
+.secedit:hover {
+	background-image: url(../images/edit-hov.png);
+}
+
+.secup {
+	background-image: url(../images/up.png);
+	height:32px;
+	width:32px;
+	display: block;
+}
+
+.secup:hover {
+	background-image: url(../images/up-hov.png);
+}
+
+.secdown {
+	background-image: url(../images/down.png);
+	height:32px;
+	width:32px;
+	display: block;
+}
+
+.secdown:hover {
+	background-image: url(../images/down-hov.png);
+}

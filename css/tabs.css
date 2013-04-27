@@ -1,0 +1,131 @@
+ul {
+	list-style: none outside none;
+}
+
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px; /*--Set height of tabs--*/
+	/** border-bottom: 1px solid #999; */
+	/** border-left: 1px solid #999; */
+	width: auto;
+}
+ul.tabs li {
+	float: left;
+	margin: 5px;
+	padding: 0;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #EAF3F9; /* 999; */
+	/** border-left: none; */
+	/** margin-bottom: -1px; */ /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #EAF3F9;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+ul.tabs li a {
+	color: #2276BB;
+	text-decoration: none;
+	display: block;
+	font-size: 1.2em;
+	padding: 0 20px;
+	/** border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+}
+ul.tabs li a:hover {
+	background: #99d3ff; /* ccc; */
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+}
+html ul.tabs li.active a, 
+html ul.tabs li.active { 
+	color: #fff;
+	background: none repeat scroll 0 0 #00aeef; /* #fff; */
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/** border-bottom: 1px solid #fff; */ /*--Makes the active tab look like it's connected with its content--*/
+}
+html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	/* background: #fff; */
+	/** border-bottom: 1px solid #fff; */ /*--Makes the active tab look like it's connected with its content--*/
+}
+
+.tab_container {
+	/** border: 1px solid #999; */
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; 
+	width: auto;
+	background: #fff;
+}
+.tab_content {
+	padding: 20px;
+	font-size: 1.2em;
+}
+
+.bioitem, 
+.eduitem,
+.expitem,
+.refitem {
+	-moz-border-radius: 2px 10px 2px 10px;
+	border-radius: 1em 4em 1em 4em;
+	padding: 10px;
+	margin-bottom: 5px;
+	background: #f9f9f9;
+	line-height: 1.5;
+}
+
+.label {
+	color: #aaa;
+	padding-bottom: 2px;
+}
+.content {
+	color: #00aeef;
+	padding-bottom: 10px;
+}
+
+.spacer {
+	clear:both;
+}
+
+.colorSelector {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 36px;
+	height: 36px;
+	background: url(plugins/colorpicker/images/select2.png);
+}
+.colorSelector2 div {
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: 28px;
+	height: 28px;
+	background: url(plugins/colorpicker/images/select2.png) center;
+}
+
+.colorpickerHolder {
+	top: 32px;
+	left: 0;
+	width: 356px;
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+}
+.colorpickerHolder .colorpicker {
+	background-image: url(plugins/colorpicker/images/custom_background.png);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.colorWidget {
+	position: relative;
+	height: 36px;
+}

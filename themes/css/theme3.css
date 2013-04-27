@@ -1,0 +1,316 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0; padding: 0; border: 0;
+	background: #fff; /*Dynamic*/
+}
+
+
+div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote {
+	margin: 0; padding: 0; border: 0;
+	background: #fff; /*Dynamic*/
+	font-family:"Helvetica Neue", Helvetica, Arial; /*Dynamic*/
+	}
+
+
+/*General*/
+#container {
+		margin: 0 auto;
+		width: 960px;
+		background: #fff; /*Dynamic*/
+		}
+
+.section {
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+		background: #fff; /*Dynamic*/
+		border: 1px solid #ccc; /*Dynamic*/
+		padding: 0 0 60px 30px;
+		overflow: hidden;
+		clear: both;
+	}
+
+	.spacer {
+		height: 600px;
+		background: #fff;
+	}
+
+/*Image border style*/
+	.border {
+		border: 5px solid #e9e9e9;
+	}
+	
+/*Content Sections*/	
+	.box435 {
+		width: 435px;
+		float:left;
+		margin: 0px 0px 30px 0;
+	}
+	
+	.box155 {
+		width: 155px;
+		float:left;
+		margin:0 30px 30px 0;
+		}
+	
+	.box900 {
+		font-size:12px;
+		width: 900px;
+		margin: 30px 30px 30px 0;
+		
+	}
+	
+	.box590 {
+		width: 590px;
+		float: left;
+		margin: 30 30px 30px 0;
+	}
+	
+	.box280 {
+		width: 280px;
+		float: left;
+		margin: 0 30px 30px 0;
+	}
+	
+	.boxlinks {
+		width: 280px;
+		padding-top:100px;
+		float: left;
+		margin: 0 30px 30px 0;
+	}
+	
+	.picture {
+		width: 435px;
+		float:left;
+		margin: 0px 30px 30px 0;
+		padding-top:80px;
+		padding-bottom:80px;
+	}
+
+	.float_left {
+		float: left;
+	}
+	
+	.float_right {
+		float: right;
+	}
+	
+	img.float_left {
+		margin: 0 10px 10px 0;
+	}
+	
+	img.float_right {
+		margin: 0 0 10px 10px;
+	}
+
+#header {
+height:100px;
+padding: 30px 0;
+position: relative;
+background: none; /*Dynamic*/
+color: #b0b0b0; /*Dynamic*/
+font-size: 75px; /*Dynamic*/
+font-weight:bold; /*Dynamic*/
+text-align: center;
+letter-spacing: -4px; /*Dynamic*/
+}
+
+.logo {
+background-image:url(../images/title.png); /*Dynamic*/
+background-repeat: no-repeat;
+background-position: center center;/*Dynamic*/
+}
+
+#menu {
+margin:0 auto;
+position:relative;
+top:100px;
+width:700px;
+height:50px;
+}
+
+
+
+/*Navigation*/
+ul.nav {	
+			width:700px;
+			margin: 0 auto;
+			position:relative;
+			padding-bottom: 40px;
+			margin-bottom: 10px;
+		}
+		
+			ul.nav li {
+				float: left;
+				list-style: none;
+				margin: 0 0 0 30px;
+			}
+
+				ul.nav li a {
+					color: #999; /*Dynamic*/
+					font-size: 14px;/*Dynamic*/
+					font-weight: bolder;/*Dynamic*/
+					text-align: center;
+					text-decoration: none;
+					display: block;
+					padding: 10px 15px;
+					outline: none;
+				}
+				
+				ul.nav li a:hover {
+					color:#202020;/*Dynamic*/
+				}
+				
+				ul.nav li a:active {
+					color:#202020;/*Dynamic*/
+				}
+				
+				ul.nav li a.active {
+					color: #202020;/*Dynamic*/
+				}
+
+
+
+/*Text*/
+
+h1 {
+	font-size:24px;/*Dynamic*/
+	color:#202020;/*Dynamic*/
+	font-weight:bold;/*Dynamic*/
+	margin: 30px 0 20px 0;
+	padding: 0 0 10px 0;
+}
+
+h2 {
+	font-size:18px;/*Dynamic*/
+	color:#202020;/*Dynamic*/
+	font-weight:bold;/*Dynamic*/
+	}
+
+h3 {
+	font-size:16px;/*Dynamic*/
+	color:#666666;/*Dynamic*/
+	font-weight:bold;/*Dynamic*/
+}
+
+h4 {
+	font-size:14px;/*Dynamic*/
+	color:#202020;/*Dynamic*/
+	}
+	
+
+p {
+		color: #202020;/*Dynamic*/
+		font-size: 12px;/*Dynamic*/
+		line-height: 18px;
+		}
+
+p.ref {
+	font-size:12px;/*Dynamic*/
+	font-style:italic;/*Dynamic*/
+	line-height:18px;
+		background: url(../images/quote.png) no-repeat left top;
+		margin: 0 0 20px 0;
+		padding-left: 20px;
+		padding-top: 10px;
+		font-weight: normal;/*Dynamic*/
+}
+	
+	
+/*Other*/
+
+ul.educ {
+	list-style:none;
+	margin-bottom:20px;
+	float:left;
+	margin: 0 0 0 60px;
+}
+
+ul.exper {
+	list-style:none;
+	margin-bottom:30px;
+}
+
+ul.ref {
+	list-style:none;
+	margin-bottom:30px;
+	text-align:center;
+	font-size:10px;
+	}
+	
+ul.ref2 {
+	list-style:none;
+	margin-bottom:30px;
+	text-align:right;
+	font-size:10px;
+	}
+
+li {
+	margin-bottom:3px;
+	}
+
+.label {
+	font-size:12px;
+	font-weight:bold;
+	padding: 10px 0 10px 0;
+}
+	
+.icon {
+	border-style:none;
+	padding:20px;
+
+/*Images*/
+
+img {
+border-style:none;
+padding:15px;
+}
+
+.placeholder{
+	margin-top:80px;
+	margin-bottom:80px;
+	}
+
+/*Footer CSS*/
+
+#footer {position: relative;
+	margin-top: -80px; /* negative value of footer height */
+	height: 80px;
+	clear:both;
+	background:#666666;} 
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+background:#666666;
+}
+
+
+
+
+/* IMPORTANT
+
+You also need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
+
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+
+*/
+
+:focus {
+	outline:none;
+}
+::-moz-focus-inner {
+border:0;
+}
+
+

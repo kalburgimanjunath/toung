@@ -1,0 +1,94 @@
+body {
+	background-image: url(http://subtlepatterns.com/patterns/furley_bg.png);
+}
+
+.head {
+	height:300px;
+	background: white;
+	position: relative;
+	z-index: 100;
+}
+
+.profile-picture {
+	height: 160px;
+	width: 160px;
+	float: left;	
+	background-image: url(https://si0.twimg.com/profile_images/2174145492/pic.png);
+	border-radius: 8px;
+}
+
+.ribbon {
+	height:200px;
+	width: 182px;
+	background-image: url(../../images/ribbonbg.png);
+}
+
+.section {
+	height:200px;
+	margin-top: 10px;
+	padding: 20px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background: white;
+	box-shadow: 1px 1px 1px 1px rgba(224,224,224,0.68);
+}
+
+.section-head {
+	margin-top:20px;
+	padding-bottom: 10px;
+}
+
+.head-content {
+	height:160px;
+	padding-top: 30px;
+}
+
+.name{
+	margin-top: 10px;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.headline{
+	font-size: 18px;
+	padding: 15px 0px 0px 0px;
+}
+.other {
+	height:60px;
+	width:200px;
+	float: right;
+}
+
+.social{
+	font-family: "Icomoon";
+	font-size: 32px;
+}
+
+.social ul {
+	list-style: none;
+	list-style-type: none;
+	margin: 0;
+}
+
+.social ul li {
+	float: left;
+	margin-top:20px;
+	width:32px;
+	height:32px;
+	padding: 5px 10px 5px 0px;
+}
+
+.social ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+.social ul li a:hover{
+	text-decoration: none;
+}
+
+#nav {
+	height:30px;
+	margin-top: 30px;
+}
+

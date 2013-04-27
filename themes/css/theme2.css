@@ -1,0 +1,356 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+height:100%; /* fix height to 100% for IE */
+max-height:100%; /* fix height for other browsers */
+padding:0; /*remove padding */
+margin:0; /* remove margins */
+border:0; /* remove borders */
+overflow: hidden;
+}
+
+body {
+
+height:100%; /* fix height to 100% for IE */
+max-height:100%; /* fix height for other browsers */
+overflow:hidden; /*get rid of scroll bars in IE */
+padding:0; /*remove padding */
+margin:0; /* remove margins */
+border:0; /* remove borders */
+}
+
+
+div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote {
+	margin: 0; padding: 0; border: 0;
+	font-family:"Helvetica Neue", Helvetica, Arial; /*Dynamic*/
+	}
+
+
+/*General*/
+#container {
+		display: block;
+		height: 100%;
+		width: 100%;
+		background: url('../images/whitey.png') repeat; /*Dynamic*/
+		position: relative;
+		padding-top: 10px;
+		padding-bottom: 30px;
+		z-index: 1;
+		overflow: auto;
+		margin-left: 200px;
+		}
+
+.section {
+		font-family: 'Cantarell' , sans-serif;
+		width: 650px;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+		background: #fff; /*Dynamic*/
+		border: 1px solid #ccc; /*Dynamic*/
+		padding:20px;
+		overflow: hidden;
+		position: relative;
+
+	}
+
+
+/*Image border style*/
+	.border {
+		border: 5px solid #e9e9e9;
+	}
+	
+/*Content Sections*/	
+	.box435 {
+		width: 435px;
+		float:left;
+		padding: 20px;
+	}
+	
+	.box155 {
+		width: 155px;
+		float:left;
+		padding: 20px;
+		}
+	
+	.box600 {
+		font-size:12px;
+		width: 600px;
+		padding: 20px;
+		
+	}
+	
+	.box590 {
+		width: 590px;
+		float: left;
+		padding: 20px;
+	}
+	
+	.box280 {
+		width: 280px;
+		float: left;
+		padding: 20px;
+	}
+	
+	.boxlinks {
+		width: 280px;
+		padding-top:100px;
+		float: left;
+	}
+	
+	.float_left {
+		float: left;
+	}
+	
+	.float_right {
+		float: right;
+	}
+	
+	img.float_left {
+		margin: 0 10px 10px 0;
+	}
+	
+	img.float_right {
+		margin: 0 0 10px 10px;
+	}
+
+#header {
+background: url('../images/black_linen_v2.png') repeat;
+height:100%;
+width: 380px;
+float: left;
+padding-top: 30px;
+position: absolute;
+z-index: 100;
+}
+
+.name {
+	font-size: 38px;
+	font-family: 'Ubuntu', sans-serif;
+	color:#eeeeee;
+}
+
+.headline {
+	font-size: 14px;
+	font-family: 'Cantarell', sans-serif;
+	color: #eeeeee;
+	margin-left: 10px;
+}
+
+.headercontent {
+width:350px;
+margin: 0 auto;
+position: relative;
+background: none;
+padding: 20px;
+}
+
+.logo {
+background-image:url(../images/title.png); /*Dynamic*/
+background-repeat: no-repeat;
+background-position: center center;/*Dynamic*/
+}
+
+.menu {
+margin:0 auto;
+position:relative;
+top:150px;
+width:300px;
+}
+
+#me, #education, #experience, #references {
+ padding-top:10px;
+}
+
+/*Navigation*/
+ul.nav {	
+			width:200px;
+			position:relative;
+			padding-bottom: 40px;
+			margin-bottom: 10px;
+		}
+		
+			ul.nav li {
+				float: left;
+				list-style: none;
+				margin: 0 0 0 30px;
+			}
+
+				ul.nav li a {
+					color: #e6e6e6; /*Dynamic*/
+					font-family: 'Cantarell' , sans-serif;
+					font-size: 14px;/*Dynamic*/
+					text-align: center;
+					text-decoration: none;
+					display: block;
+					padding: 10px 15px;
+					outline: none;
+				}
+				
+				ul.nav li a:hover {
+					color: white;/*Dynamic*/
+				}
+				
+				ul.nav li a:active {
+					color:#eee;/*Dynamic*/
+				}
+				
+				ul.nav li a.active {
+					color: #eee;/*Dynamic*/
+				}
+
+
+
+/*Text*/
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size:24px;/*Dynamic*/
+	color:#202020;/*Dynamic*/
+	font-weight:bold;/*Dynamic*/
+	margin-bottom: 20px;
+	}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;	
+	font-size:18px;/*Dynamic*/
+	color:#202020;/*Dynamic*/
+	font-weight:bold;/*Dynamic*/
+	}
+
+h3 {
+	font-family: 'Cantarell' , sans-serif;	
+	font-size:16px;/*Dynamic*/
+	color:#666666;/*Dynamic*/
+	font-weight:bold;/*Dynamic*/
+}
+
+h4 {
+	font-family: 'Cantarell' , sans-serif;	
+	font-size:14px;/*Dynamic*/
+	color:#202020;/*Dynamic*/
+	}
+	
+
+p {
+		color: #202020;/*Dynamic*/
+		font-size: 12px;/*Dynamic*/
+		line-height: 18px;
+		font-family: 'Cantarell' , sans-serif;
+		}
+
+p.ref {
+	font-family: 'Cantarell' , sans-serif;	
+	font-size:12px;/*Dynamic*/
+	font-style:italic;/*Dynamic*/
+	line-height:18px;
+		background: url(../images/quote.png) no-repeat left top;
+		margin: 0 0 20px 0;
+		padding-left: 20px;
+		padding-top: 10px;
+		font-weight: normal;/*Dynamic*/
+}
+	
+	
+/*Other*/
+
+ul.educ {
+	list-style:none;
+	margin-bottom:20px;
+	float:left;
+}
+
+ul.exper {
+	list-style:none;
+	margin-bottom:30px;
+}
+
+ul.ref {
+	list-style:none;
+	margin-bottom:30px;
+	text-align:center;
+	font-size:10px;
+	}
+	
+ul.ref2 {
+	list-style:none;
+	margin-bottom:30px;
+	text-align:right;
+	font-size:10px;
+	}
+
+li {
+	margin-bottom:3px;
+	}
+
+.label {
+	font-size:12px;
+	font-weight:bold;
+	padding: 10px 0 10px 0;
+}
+	
+.icon {
+	border-style:none;
+	padding:20px;
+
+/*Images*/
+
+img {
+border-style:none;
+padding:15px;
+}
+
+.placeholder{
+	margin-top:80px;
+	margin-bottom:80px;
+	}
+
+/*Footer CSS*/
+
+#footer {position: relative;
+	margin-top: -80px; /* negative value of footer height */
+	height: 80px;
+	clear:both;
+	background:#666666;} 
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+background:#666666;
+}
+
+
+
+
+/* IMPORTANT
+
+You also need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
+
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+
+*/
+
+:focus {
+	outline:none;
+}
+::-moz-focus-inner {
+border:0;
+}
+
+.none {
+	display: none;
+}
+
+

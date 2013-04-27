@@ -1,0 +1,1836 @@
+Hi Deepak do you have few minutes for chat?
+[5/11/2012 11:27:34 AM] Deepak Alur: yes
+[5/11/2012 11:34:20 AM] manjunath kalburgi: Santosh is talking abt the assembla pms
+[5/11/2012 11:35:17 AM] manjunath kalburgi: let me know when you provide me access to that
+[5/11/2012 11:39:08 AM] manjunath kalburgi: and share the database and server details
+[5/11/2012 11:39:57 AM] Deepak Alur: yes. i will set it up this saturday and send you
+[5/11/2012 11:40:30 AM] manjunath kalburgi: ok,any qst?
+[5/11/2012 11:40:50 AM | Edited 11:40:56 AM] Deepak Alur: not right now... i think we are going to talk on saturday
+[5/11/2012 11:41:11 AM] manjunath kalburgi: ok,Thanks
+[5/11/2012 11:43:03 AM] Deepak Alur: thanks, bye for now
+[5/11/2012 11:44:58 AM] manjunath kalburgi: bye
+[5/13/2012 11:03:07 AM] *** Deepak Alur added Tim Thimmaiah ***
+[5/14/2012 11:29:54 PM] manjunath kalburgi: Hi Deepak
+[5/14/2012 11:30:34 PM] Bob: hi
+[5/14/2012 11:31:29 PM] manjunath kalburgi: i saw the code base and database
+[5/14/2012 11:32:22 PM] Bob: ok good. are you able to get it up and running?
+[5/14/2012 11:32:58 PM] manjunath kalburgi: but its not running only home page came with
+[5/14/2012 11:33:31 PM] manjunath kalburgi: stylesheet loaded outsite the folder
+[5/14/2012 11:33:57 PM] manjunath kalburgi: and I saw the database as well
+[5/14/2012 11:34:00 PM] Bob: hmm...
+[5/14/2012 11:34:39 PM] manjunath kalburgi: I feel better we could start with good database
+[5/14/2012 11:35:03 PM] manjunath kalburgi: database is not flexible and value driven
+[5/14/2012 11:35:14 PM] manjunath kalburgi: how you feel
+[5/14/2012 11:35:16 PM] Bob: here is what i see ... http://screencast.com/t/LU2lIZctQNQP
+[5/14/2012 11:36:17 PM | Edited 11:36:28 PM] Bob: and if i login, i see this: http://screencast.com/t/dh28PESzcgyP
+[5/14/2012 11:36:37 PM] Bob: u ar not getting the login screen?
+[5/14/2012 11:37:39 PM] manjunath kalburgi: yes
+[5/14/2012 11:39:38 PM] *** manjunath kalburgi sent IMG_14052012_233938.png IMG_14052012_233938.png ***
+[5/14/2012 11:40:36 PM] Bob: ok. and are you able to signup?
+[5/14/2012 11:40:42 PM] Bob: i.e. create a new account
+[5/14/2012 11:41:05 PM] manjunath kalburgi: no some javascript error is der
+[5/14/2012 11:41:08 PM] Bob: here is the flow video http://screencast.com/t/iFllyFUagKSq
+[5/14/2012 11:41:24 PM] Bob: i just ran it...it is the same code base that i checked in
+[5/14/2012 11:41:35 PM] Bob: what error are you getting
+[5/14/2012 11:42:35 PM] *** manjunath kalburgi sent IMG_14052012_234235.png IMG_14052012_234235.png ***
+[5/14/2012 11:44:47 PM] manjunath kalburgi: can I update svn
+[5/14/2012 11:46:34 PM] Bob: sure...i think i know what this is
+[5/14/2012 11:46:39 PM] Bob: i havne't tested on IE
+[5/14/2012 11:46:57 PM] Bob: so yes, go ahead and update svn to make it run if you find a bug
+[5/14/2012 11:46:58 PM] Bob: about the database design
+[5/14/2012 11:47:27 PM] Bob: i am open to ideas... i don't know what you mean by flexible / value driven design. can you write up your thoughts on the wiki and i will read and comment
+[5/14/2012 11:47:54 PM] manjunath kalburgi: ok
+[5/14/2012 11:48:00 PM] Bob: i started with a very basic DB design to prove out the concept
+[5/14/2012 11:48:27 PM] Bob: so once you get it up and running, you can try out the app and then you can write up the DB thoughts
+[5/14/2012 11:48:39 PM] Bob: also, the DB design is not complete
+[5/14/2012 11:48:49 PM] Bob: it does not take care of all the use cases yet
+[5/14/2012 11:48:58 PM] manjunath kalburgi: ok
+[5/14/2012 11:49:07 PM] Bob: just the resumes, profille and some details of the resumes as you can see
+[5/14/2012 11:49:25 PM] manjunath kalburgi: ok
+[5/14/2012 11:49:32 PM] Bob: does it work on firefox or chrome for you?
+[5/14/2012 11:50:08 PM] manjunath kalburgi: no I just dowloaded new and tested in IE,firefox gave same result
+[5/14/2012 11:50:25 PM] Bob: ok
+[5/14/2012 11:50:41 PM] Bob: i use firefox on mac
+[5/14/2012 11:51:10 PM] manjunath kalburgi: can you plz update the database file
+[5/14/2012 11:51:36 PM] manjunath kalburgi: and you are using xampp right
+[5/14/2012 11:51:50 PM] Bob: i am using MAMP (same as XAMPP, but on mac)
+[5/14/2012 11:52:18 PM] manjunath kalburgi: ok but file exporting differs
+[5/14/2012 11:53:05 PM] Bob: i c
+[5/14/2012 11:53:05 PM] manjunath kalburgi: I saw code was nicely built
+[5/14/2012 11:53:28 PM] Bob: what do you want me to update in the database file?
+[5/14/2012 11:54:32 PM] manjunath kalburgi: can you plz export a new copy of database and share it i wil check that
+[5/14/2012 11:54:57 PM] Bob: ok
+[5/14/2012 11:56:00 PM] manjunath kalburgi: now i am downloading older version of firefox let me chk that first
+[5/14/2012 11:56:02 PM] Bob: i see the error says
+[5/14/2012 11:56:05 PM] Bob: something about "getElementsByTagName"
+[5/14/2012 11:56:17 PM] Bob: thats a jquery func
+[5/14/2012 11:56:36 PM] manjunath kalburgi: yes
+[5/14/2012 11:57:33 PM] Bob: http://bugs.jquery.com/ticket/8052
+[5/14/2012 11:58:21 PM] Bob: do this
+[5/14/2012 11:58:34 PM] Bob: since the code has been idle for a while, i think i am using an older jquery jquery-1.7.1.js
+[5/14/2012 11:58:48 PM] Bob: download latest jquery, and update the code base to load that instead
+[5/14/2012 11:59:28 PM] manjunath kalburgi: ok let me try that
+[5/14/2012 11:59:36 PM] Bob: or
+[5/14/2012 11:59:57 PM] Bob: just replace these two lines to point to the latest CDN jquery in header.php under application/views/includes
+[5/14/2012 11:59:58 PM] Bob:  17 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+ 18 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+[5/15/2012 12:00:11 AM] manjunath kalburgi: ok
+[5/15/2012 12:00:14 AM] Bob: i mean line 17 only
+[5/15/2012 12:01:18 AM] Bob: actually, 1.7.2 is their latest
+[5/15/2012 12:01:20 AM] Bob: http://code.jquery.com/jquery-1.7.2.min.js
+[5/15/2012 12:01:24 AM] Bob: you can use that path to test
+[5/15/2012 12:01:52 AM] Bob: or change
+[5/15/2012 12:01:54 AM] Bob: 17 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+[5/15/2012 12:02:02 AM] manjunath kalburgi: ok
+[5/15/2012 12:02:04 AM] Bob: 1.7.1 to 1.7.2
+[5/16/2012 12:03:46 AM] manjunath kalburgi: Hi Deepak
+[5/16/2012 12:04:09 AM] Bob: hey
+[5/16/2012 12:04:39 AM] manjunath kalburgi: in which folder routing contains
+[5/16/2012 12:04:56 AM] Bob: by routing what do you mean?
+[5/16/2012 12:05:26 AM] Bob: you mean front controller?
+[5/16/2012 12:05:46 AM] manjunath kalburgi: url routing
+[5/16/2012 12:05:57 AM] Bob: thats managed by code igniter
+[5/16/2012 12:07:27 AM] manjunath kalburgi: I am not finding why following error coming
+[5/16/2012 12:07:29 AM] *** manjunath kalburgi sent IMG_16052012_000729.png IMG_16052012_000729.png ***
+[5/16/2012 12:08:01 AM] manjunath kalburgi: I think some where url routing mentioned
+[5/16/2012 12:09:46 AM] Bob: ok i see
+[5/16/2012 12:10:09 AM] manjunath kalburgi: because user folder and files not present in the site place
+[5/16/2012 12:10:33 AM] Bob: what i think you need to do is
+[5/16/2012 12:10:33 AM] *** manjunath kalburgi sent IMG_16052012_001033.png IMG_16052012_001033.png ***
+[5/16/2012 12:11:57 AM] Bob: let me think
+[5/16/2012 12:17:28 AM] Bob: default controller is defined in routes.php
+[5/16/2012 12:17:31 AM] Bob: under application/config
+[5/16/2012 12:18:03 AM] Bob: and the default controller is home.php under application/controllers
+[5/16/2012 12:18:19 AM] manjunath kalburgi: ok
+[5/16/2012 12:25:52 AM] Bob: but the way i had done it was that anyone should be able to get it up and running without changing any routing
+[5/16/2012 12:27:49 AM] manjunath kalburgi: as I shared you screen shot the localhost/user/signup its not finding the controller
+[5/16/2012 12:28:00 AM] Bob: yes i see that
+[5/16/2012 12:29:41 AM] manjunath kalburgi: its not a big problem I will try some more and get back to you
+[5/16/2012 12:29:45 AM] Bob: for example
+[5/16/2012 12:29:50 AM] Bob: after you login
+[5/16/2012 12:29:58 AM] Bob: if you try to just go to the raw api
+[5/16/2012 12:29:59 AM] Bob: like
+[5/16/2012 12:30:04 AM] Bob: http://localhost/user/account/get
+[5/16/2012 12:30:12 AM] Bob: you should get the JSON result for the account info
+[5/16/2012 12:30:17 AM] Bob: like
+[5/16/2012 12:30:19 AM] Bob: {"data":{"userid":"da","posnum":"1","username":"da","fullname":"da","firstname":null,"lastname":null,"password":"******","email":"da@da.com","phone":"123456788","mobile":"7776633333","status":null,"started":null,"suspended":null,"usertype":null,"company":null,"streetaddress1":"123 abbcbcb","streetaddress2":"ssssdf sfsd","city":"jkhk j sdfsdfd","state":"kjh jkh","postalcode":"kjhk","country":" hjkhkjhk","communityid":null,"aboutme":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet mi dolor, quis tempus lorem. Quisque vehicula ligula at enim convallis tempus. In convallis, magna quis ullamcorper fringilla, erat ante facilisis lorem, et aliquet tellus sem mattis felis. Sed blandit mi at sem sagittis fringilla. Mauris eget justo dui. Nullam consequat condimentum tortor, et ultrices dui ultricies sed. Phasellus quis turpis massa. Quisque fermentum egestas tortor, tempor adipiscing urna posuere dignissim. Maecenas condimentum erat nec est rhoncus faucibus ut at nunc. Donec ornare arcu sit amet enim vestibulum sagittis. Maecenas semper posuere eros. Phasellus lacinia blandit faucibus.\n\nQuisque fermentum egestas tortor, tempor adipiscing urna posuere dignissim. Maecenas condimentum erat nec est rhoncus faucibus ut at nunc. Donec ornare arcu sit amet enim vestibulum sagittis. Maecenas semper posuere eros. Phasellus lacinia blandit faucibus.","created":"2011-04-24 20:41:48","updated":"2012-02-13 20:19:18","headline":"Kick Ass Auto Designer"},"error":""}
+[5/16/2012 12:30:41 AM] Bob: so codeigniter automatically routes the paths to
+[5/16/2012 12:30:45 AM] Bob: controllers
+[5/16/2012 12:30:53 AM] Bob: if you notice that the controller for the above URL is
+[5/16/2012 12:31:09 AM] manjunath kalburgi: no it gave page not found error
+[5/16/2012 12:31:24 AM] Bob: /user/account/get => maps to user/account.php page, get function() inside that php
+[5/16/2012 12:33:06 AM] Bob: so somehow the codeigniter controller is not routing
+[5/16/2012 12:33:12 AM] manjunath kalburgi: yes i think its config issue
+[5/16/2012 12:33:23 AM] Bob: have you modified anything in config or any other file after checking out of svn
+[5/16/2012 12:34:04 AM] manjunath kalburgi: no
+[5/16/2012 12:34:09 AM] Bob: ok
+[5/16/2012 12:34:44 AM] Bob: and you have htdocs/application/controllers/user/account.php
+[5/16/2012 12:35:17 AM] manjunath kalburgi: yes
+[5/16/2012 12:35:48 AM] Bob: and other files like application/controllers/user/validate.php etc.
+[5/16/2012 12:36:28 AM] manjunath kalburgi: yes
+[5/16/2012 12:36:45 AM] Bob: i am not using any sophisticated routing or anything custom
+[5/16/2012 12:36:50 AM] Bob: so it is strange
+[5/16/2012 12:37:48 AM] manjunath kalburgi: ok fine
+[5/16/2012 12:38:51 AM] manjunath kalburgi: let me check by creating one blank page
+[5/16/2012 12:39:45 AM] Bob: ok the info i used was here http://codeigniter.com/user_guide/general/controllers.html
+[5/16/2012 12:39:50 AM] Bob: "Organizing Your Controllers into Sub-folders"
+[5/16/2012 12:40:17 AM] manjunath kalburgi: ok
+[5/16/2012 12:40:56 AM] Bob: can you try this:
+[5/16/2012 12:41:05 AM] Bob: http://localhost/index.php/user/account/get
+[5/16/2012 12:42:01 AM] manjunath kalburgi: yes worked
+[5/16/2012 12:42:24 AM] Bob: so
+[5/16/2012 12:42:25 AM] manjunath kalburgi: may I need to set that path in config
+[5/16/2012 12:42:34 AM] Bob: hmm...
+[5/16/2012 12:42:53 AM] manjunath kalburgi: ok
+[5/16/2012 12:43:25 AM] Bob: i think
+[5/16/2012 12:43:31 AM] Bob: i have a mod rewrite in my apache
+[5/16/2012 12:43:36 AM] Bob: see
+[5/16/2012 12:43:37 AM] Bob: http://codeigniter.com/user_guide/general/urls.html
+[5/16/2012 12:43:48 AM] Bob: "Removing the index.php file" section
+[5/16/2012 12:44:10 AM] Bob: when you checked out the code base, did you get the .htaccess file?
+[5/16/2012 12:44:16 AM] manjunath kalburgi: yes
+[5/16/2012 12:44:26 AM] Bob: that one has
+[5/16/2012 12:44:27 AM] Bob:  24 RewriteRule ^(.*)$ index.php?/$1 [L]
+[5/16/2012 12:45:08 AM] Bob:  10 RewriteRule ^(.*)$ /index.php?/$1 [L]
+[5/16/2012 12:45:11 AM] manjunath kalburgi: ok
+[5/16/2012 12:45:34 AM] Bob: so that's it.. you need to make your apache instance's rewrite rule to do the same
+[5/16/2012 12:45:50 AM] Bob: i dont see .htaccess in the screenshot you sent
+[5/16/2012 12:46:55 AM] manjunath kalburgi: ya
+[5/16/2012 12:47:12 AM] manjunath kalburgi: I saw diff folder
+[5/16/2012 12:47:38 AM] Bob: ok. anyway..thats the issue...you ok now?
+[5/16/2012 12:47:50 AM] manjunath kalburgi: yes
+[5/16/2012 12:48:37 AM] manjunath kalburgi: did you checked the wiki
+[5/16/2012 12:48:57 AM] Bob: yes
+[5/16/2012 12:49:18 AM] Bob: about the database right?
+[5/16/2012 12:49:22 AM] manjunath kalburgi: yes
+[5/16/2012 12:49:31 AM] Bob: let me respond to it tonight
+[5/16/2012 12:49:45 AM] Bob: i know what you mean, i just need time to think about it
+[5/16/2012 12:50:17 AM] manjunath kalburgi: ok
+[5/16/2012 12:50:24 AM] manjunath kalburgi: fn
+[5/16/2012 11:38:44 PM] Bob: Tim.. manju and i been talking... he is going to check out zerply
+[5/16/2012 11:39:02 PM] tim.thimmaiah: ok
+[5/16/2012 11:39:18 PM] manjunath kalburgi: Hi Tim
+[5/16/2012 11:39:30 PM] Tim Thimmaiah: hey manju
+[5/16/2012 11:40:03 PM] manjunath kalburgi: how are you doing?
+[5/16/2012 11:40:50 PM] Tim Thimmaiah: I am well thanks and you?
+[5/16/2012 11:41:04 PM] manjunath kalburgi: yes good
+[5/16/2012 11:41:39 PM] manjunath kalburgi: so on which mockup you are working now?
+[5/16/2012 11:42:30 PM] Tim Thimmaiah: i created a new mockup of the home page based on bootstrap styling
+[5/16/2012 11:42:43 PM] Tim Thimmaiah: basically has the sign up and sign in forms on one page
+[5/16/2012 11:43:21 PM] manjunath kalburgi: ok
+[5/16/2012 11:43:50 PM] Tim Thimmaiah: I believe that in the sign up phase we should be able to store a user's information directly instead of having them register using linked in or facebook
+[5/16/2012 11:44:17 PM] Tim Thimmaiah: the api integration will be mainly used if they want to import the information for experience, education, etc from linkedin or facebook
+[5/16/2012 11:44:18 PM] manjunath kalburgi: yes that we can do
+[5/16/2012 11:45:08 PM] Tim Thimmaiah: so once they register, the next step in the flow would be: would you like to import your information from facebook/linkedin or would you like to add the information in your resume yourself
+[5/16/2012 11:45:47 PM] manjunath kalburgi: ok
+[5/16/2012 11:45:59 PM] Tim Thimmaiah: this way we can minimize our privacy restrictions as our application wont be actually monitoring/posting through their social accounts
+[5/16/2012 11:46:15 PM] Tim Thimmaiah: i think thats an issue for a lot of people when they use other social accounts to actually register/sign in
+[5/16/2012 11:46:37 PM] Bob: i modified this https://www.assembla.com/spaces/credmine/wiki/Product_Requirements
+[5/16/2012 11:46:38 PM] manjunath kalburgi: that sounds good
+[5/16/2012 11:46:57 PM] Bob: and moved your writeup of the user signup to a sub-page
+[5/16/2012 11:47:09 PM] Tim Thimmaiah: ok thanks
+[5/16/2012 11:47:26 PM] Bob: can you add other use cases you can think of (just 1 line for each use case will do for now)
+[5/16/2012 11:47:34 PM] Bob: usecases/user stories
+[5/16/2012 11:47:45 PM] Tim Thimmaiah: under this page?
+[5/16/2012 11:48:00 PM] Bob: yes. edit it and add heading/bullets
+[5/16/2012 11:48:15 PM] Tim Thimmaiah: ok
+[5/16/2012 11:48:45 PM] Bob: we can use that 1 page to have all the functions listed and as we can create a page for each one as we spec/mock it out and implement it in an orderly fashion
+[5/16/2012 11:49:02 PM] Bob: and it also gives us a basis to create the sitemap later to show different workflows
+[5/16/2012 11:49:54 PM] Tim Thimmaiah: sounds good
+[5/16/2012 11:50:54 PM] manjunath kalburgi: yes and to display all the activity in one page I created appl page called sitemap where I will list all the links and call them
+[5/16/2012 11:51:00 PM] Bob: i gotta go for a meeting.. will check in later... you guys carry on and i will update wiki later
+[5/16/2012 11:51:07 PM] Tim Thimmaiah: ok
+[5/16/2012 11:51:16 PM] Bob: Manju, i moved the sitemap page under prod requiremetns as well. so it is a bit more structured
+[5/16/2012 11:51:17 PM] manjunath kalburgi: ok bye
+[5/16/2012 11:51:50 PM] Bob: ok later
+[5/16/2012 11:51:53 PM] manjunath kalburgi: ok great but I am taking abt in the website
+[5/16/2012 11:52:08 PM] Tim Thimmaiah: manju do you have access to the dropbox folder?
+[5/16/2012 11:52:16 PM] manjunath kalburgi: http://localhost/sitemap
+[5/16/2012 11:52:37 PM] manjunath kalburgi: where is that folder?
+[5/16/2012 11:52:43 PM] Bob: ah ok. got it about the sitemap. thanks
+[5/16/2012 11:52:51 PM] Bob: Tim you may need to send him an invite
+[5/16/2012 11:52:59 PM] Bob: gotta go...this time for sure.. bye
+[5/16/2012 11:53:01 PM] Tim Thimmaiah: ok. manju what's your email?
+[5/16/2012 11:53:16 PM] manjunath kalburgi: kalburgimanjunath@gmail.com
+[5/16/2012 11:54:12 PM] manjunath kalburgi: Tim I am Deepak were discussing about the database flexibility
+[5/16/2012 11:54:32 PM] Tim Thimmaiah: ok
+[5/16/2012 11:54:42 PM] Tim Thimmaiah: can you explain a little?
+[5/16/2012 11:55:34 PM] manjunath kalburgi: actually what I saw is the database is not so flexible enough to store the data in appropriate order
+[5/16/2012 11:56:28 PM] manjunath kalburgi: and as per our discussion will quick start with present db and will customize it later
+[5/16/2012 11:57:00 PM] Tim Thimmaiah: ok in terms of flexibilty, i am a little confused
+[5/16/2012 11:57:47 PM] manjunath kalburgi: I added user table did you checked by using flagging we can store a lot
+[5/16/2012 11:58:54 PM] Tim Thimmaiah: i see
+[5/16/2012 11:59:30 PM] manjunath kalburgi: and for example you are declaring the font variables in one file and using each time you or other needs to check with that file.if we can store in db by just value we can query
+[5/17/2012 12:00:38 AM] Tim Thimmaiah: so youre saying for styling, you would rather store specific variable definitions like font size, background ,etc in the database as opposed to a stylesheet?
+[5/17/2012 12:01:43 AM] manjunath kalburgi: means all constants we can store it in that table
+[5/17/2012 12:02:11 AM] manjunath kalburgi: it may be style or variable value like div width
+[5/17/2012 12:02:35 AM] Tim Thimmaiah: ok but in cases where we are changing the style of a user's resume
+[5/17/2012 12:02:44 AM] Tim Thimmaiah: for example if the user chooses a different theme/look
+[5/17/2012 12:02:55 AM] Tim Thimmaiah: wont we have to update all of these variables in the db?
+[5/17/2012 12:04:36 AM] manjunath kalburgi: it will not be limited to only stylesheet it can be any value
+[5/17/2012 12:05:24 AM] manjunath kalburgi: did you checked the facebook signup page which i started
+[5/17/2012 12:05:35 AM] Tim Thimmaiah: ok i think that is something you and deepak will sort out. like you said, lets start with the db we have now and modify later
+[5/17/2012 12:05:51 AM] manjunath kalburgi: ok
+[5/17/2012 12:05:55 AM] manjunath kalburgi: nice
+[5/17/2012 12:06:10 AM] Tim Thimmaiah: i think right now the focus can be basic user registration and information collection
+[5/17/2012 12:06:42 AM] Tim Thimmaiah: the whole process needs to be fluid so it will make the user sign up and create their resume without turning away from the screen
+[5/17/2012 12:06:50 AM] Tim Thimmaiah: this is important for traction too along with usability
+[5/17/2012 12:06:51 AM] manjunath kalburgi: can you share the facebook client id details
+[5/17/2012 12:07:37 AM] Tim Thimmaiah: as in what stuff from facebook we will be pulling out?
+[5/17/2012 12:07:53 AM] manjunath kalburgi: ok
+[5/17/2012 12:10:27 AM] manjunath kalburgi: signup->usrename,pwd,email
+[5/17/2012 12:11:01 AM] Tim Thimmaiah: and full name
+[5/17/2012 12:11:28 AM] Tim Thimmaiah: then next stage is a page that says something like
+[5/17/2012 12:11:51 AM] manjunath kalburgi: yes
+[5/17/2012 12:12:08 AM] Tim Thimmaiah: "John, welcome to CredMine...lets get some info to build your resume"
+[5/17/2012 12:12:28 AM] Tim Thimmaiah: "would you like to use information on your linkedin?"
+[5/17/2012 12:12:38 AM] Tim Thimmaiah: with a button for linkedin
+[5/17/2012 12:12:40 AM] Tim Thimmaiah: same with facebook
+[5/17/2012 12:12:50 AM] manjunath kalburgi: ok
+[5/17/2012 12:12:59 AM] Tim Thimmaiah: but under that are the forms for everything that goes on the resume
+[5/17/2012 12:13:14 AM] Tim Thimmaiah: like about...experience...education
+[5/17/2012 12:13:21 AM] Tim Thimmaiah: that needs to flow smoothly
+[5/17/2012 12:13:26 AM] Tim Thimmaiah: dont worry I will do the design
+[5/17/2012 12:13:33 AM] manjunath kalburgi: ok
+[5/17/2012 12:13:50 AM] manjunath kalburgi: I will do the functionality
+[5/17/2012 12:14:09 AM] Tim Thimmaiah: but for now i think the important thing is that if the user connects to facebook or linked in
+[5/17/2012 12:14:19 AM] Tim Thimmaiah: we need to store that information appropriately in the db for them
+[5/17/2012 12:15:08 AM] Tim Thimmaiah: thats why we wanted to use zerply as an example
+[5/17/2012 12:15:29 AM] Tim Thimmaiah: their functionality for user signup and information collect will be very similar to how we do it
+[5/17/2012 12:16:15 AM] Tim Thimmaiah: use zerply as an example of how fluid the process should be in terms of fucntionality
+[5/17/2012 12:16:20 AM] Tim Thimmaiah: the design is the other aspect
+[5/17/2012 12:17:04 AM] manjunath kalburgi: ok
+[5/17/2012 12:17:11 AM] manjunath kalburgi: I will check that site
+[5/17/2012 12:17:45 AM] Tim Thimmaiah: one example of fluid functionality is how authentication is done
+[5/17/2012 12:18:04 AM] Tim Thimmaiah: for example the user does not need to actually go to their email and activate until after the whole resume is created
+[5/17/2012 12:18:24 AM] Tim Thimmaiah: if they want to use it publicly, and retain that information for their account, they need to activate it
+[5/17/2012 12:18:45 AM] Tim Thimmaiah: does that make sense?
+[5/17/2012 12:19:05 AM] Tim Thimmaiah: that gap in most registration sites actually acounts for significant loss in user retention
+[5/17/2012 12:19:15 AM] Tim Thimmaiah: because they get distracted from the process or save it for later
+[5/17/2012 12:19:50 AM] Tim Thimmaiah: we need to make the user do the whole process in one sitting
+[5/17/2012 12:19:53 AM] manjunath kalburgi: yes that is the best option after signup we can provide alert to activate after registration
+[5/17/2012 12:19:59 AM] Tim Thimmaiah: exactly
+[5/17/2012 12:20:04 AM] manjunath kalburgi: ok
+[5/17/2012 12:20:36 AM] Tim Thimmaiah: ok manju im going to step away from my computer for about 20 mins. i will be back later
+[5/17/2012 12:20:38 AM | Edited 12:21:01 AM] manjunath kalburgi: did you planned.. what are the plugins want to use
+[5/17/2012 12:20:52 AM] Tim Thimmaiah: let me get back to you on that
+[5/17/2012 12:21:06 AM] manjunath kalburgi: ok
+[5/19/2012 10:21:15 AM] Bob: Hi Manju
+[5/19/2012 10:21:37 AM] manjunath kalburgi: hi Deepak
+[5/19/2012 10:21:40 AM] Bob: how are you
+[5/19/2012 10:21:53 AM] manjunath kalburgi: yes good
+[5/19/2012 10:21:55 AM] Bob: i was reading older messages above... did the jquery issue get resolved
+[5/19/2012 10:22:28 AM] manjunath kalburgi: yes
+[5/19/2012 10:22:32 AM] Bob: and the routing issue
+[5/19/2012 10:22:55 AM] manjunath kalburgi: it resolved
+[5/19/2012 10:23:17 AM] manjunath kalburgi: actually i not wrote .htaccess file thats why it not came
+[5/19/2012 10:23:47 AM] Bob: ok
+[5/19/2012 10:23:48 AM] manjunath kalburgi: i am now working with er-diagram
+[5/19/2012 10:24:06 AM] manjunath kalburgi: and facebook signup and linkedin signup page
+[5/19/2012 10:24:33 AM] Bob: i saw you created a lot of tickets
+[5/19/2012 10:25:23 AM] manjunath kalburgi: yes I want to quick start by -one by one ticket
+[5/19/2012 10:25:29 AM] Bob: good
+[5/19/2012 10:26:34 AM] Bob: ok. i will be working some tommorow and sunday
+[5/19/2012 10:26:41 AM] manjunath kalburgi: can I start commiting changes which I made and for facebook app
+[5/19/2012 10:26:45 AM] Bob: yes
+[5/19/2012 10:26:50 AM] manjunath kalburgi: great
+[5/19/2012 10:27:20 AM] manjunath kalburgi: and in facebook is that app created for credmine
+[5/19/2012 10:27:41 AM] Bob: not yet
+[5/19/2012 10:27:48 AM] Bob: we need to create one
+[5/19/2012 10:28:01 AM] Bob: should tim create that?
+[5/19/2012 10:28:06 AM] Bob: or it does not matter
+[5/19/2012 10:28:10 AM] Bob: who creates
+[5/19/2012 10:28:24 AM] manjunath kalburgi: ok right now i created one app
+[5/19/2012 10:28:54 AM] manjunath kalburgi: we can use that
+[5/19/2012 10:29:04 AM] Bob: ok
+[5/19/2012 10:29:50 AM] manjunath kalburgi: any questions
+[5/19/2012 10:30:57 AM] Bob: no
+[5/19/2012 10:31:05 AM] manjunath kalburgi: Thanks for your time
+[5/19/2012 10:31:09 AM] Bob: and you
+[5/19/2012 10:31:13 AM] Bob: thanks
+[5/19/2012 10:31:27 AM] manjunath kalburgi: bye
+[5/21/2012 11:32:07 PM] manjunath kalburgi: hi
+[5/21/2012 11:32:15 PM] Tim Thimmaiah: hey manju how are you
+[5/21/2012 11:32:47 PM] manjunath kalburgi: yes good
+[5/21/2012 11:32:59 PM] manjunath kalburgi: did you saw the updates
+[5/21/2012 11:35:48 PM] Bob: hi Manju
+[5/21/2012 11:35:51 PM] manjunath kalburgi: hi
+[5/21/2012 11:35:53 PM] Bob: no i havent seen them yet...
+[5/21/2012 11:35:56 PM] Bob: will do it today
+[5/21/2012 11:35:59 PM] manjunath kalburgi: ok
+[5/21/2012 11:36:03 PM] Bob: what are the top points to look for
+[5/21/2012 11:37:18 PM] Bob: can i just update and run it?
+[5/21/2012 11:37:40 PM] manjunath kalburgi: yes and actually i am waitinf for the data model usage
+[5/21/2012 11:37:57 PM] manjunath kalburgi: can you prefer to use prostgres
+[5/21/2012 11:38:11 PM] Bob: did you read up on the comparison?
+[5/21/2012 11:38:16 PM] manjunath kalburgi: yes
+[5/21/2012 11:38:17 PM] Tim Thimmaiah: postgres vs sql?
+[5/21/2012 11:38:21 PM] manjunath kalburgi: ye
+[5/21/2012 11:38:25 PM] manjunath kalburgi: s
+[5/21/2012 11:38:27 PM] Bob: postgres vs mysql
+[5/21/2012 11:38:30 PM | Edited 11:38:33 PM] Bob: to be precise timmy
+[5/21/2012 11:39:28 PM] manjunath kalburgi: postgres offers more flexible options we can use that
+[5/21/2012 11:39:43 PM] Bob: i think manju, we can continue to develop on mysql and figure that out later or is it important to decide now?
+[5/21/2012 11:40:30 PM] manjunath kalburgi: not at all take your time..
+[5/21/2012 11:41:29 PM] Bob: ok. lets continue on mysql, we can decide a few days later
+[5/21/2012 11:41:35 PM] manjunath kalburgi: ok
+[5/21/2012 11:41:50 PM] Bob: ok. on another note
+[5/21/2012 11:41:58 PM] manjunath kalburgi: yes plz
+[5/21/2012 11:41:58 PM] Bob: i saw your discussions about regarding facebook login, etc
+[5/21/2012 11:42:14 PM] Bob: i think we should allow people to come in to credmine and use their facebook login
+[5/21/2012 11:42:48 PM] Bob: we should support 3: facebook, twitter, google
+[5/21/2012 11:42:52 PM] Bob: on our sign up
+[5/21/2012 11:43:06 PM] Bob: this is similar to http://zerply.com/
+[5/21/2012 11:43:15 PM] manjunath kalburgi: ok
+[5/21/2012 11:43:23 PM] Bob: except zerply does not yet show google in their options, they only show fb and tw
+[5/21/2012 11:43:53 PM] Bob: if a user does not want to use either fb/tw then they should be able to use any email address and create a credmine login themselves
+[5/21/2012 11:43:58 PM] manjunath kalburgi: what abt linked in
+[5/21/2012 11:44:14 PM] Bob: i think since this is about resumes, i prefer linkedin over google
+[5/21/2012 11:44:27 PM] Bob: so lets choose 2 or 3
+[5/21/2012 11:44:38 PM] Bob: FB/LinkedIn/?
+[5/21/2012 11:44:47 PM] Bob: whats the third one? should be be twitter or google
+[5/21/2012 11:45:00 PM] manjunath kalburgi: twitter is good
+[5/21/2012 11:45:38 PM] manjunath kalburgi: what you think?
+[5/21/2012 11:46:00 PM] Bob: +1
+[5/21/2012 11:46:05 PM] Bob: lets stay with those 3
+[5/21/2012 11:46:10 PM] Bob: FB/LI/TW
+[5/21/2012 11:46:19 PM] manjunath kalburgi: ok
+[5/21/2012 11:47:02 PM] Bob: the other thing to think about is
+[5/21/2012 11:47:14 PM] Bob: we want Credmin to be the place where the user keeps their Master resume
+[5/21/2012 11:47:29 PM] Bob: and they can then push the resume to FB/LI
+[5/21/2012 11:48:11 PM] Bob: but this is done only with
+[5/21/2012 11:48:16 PM] Bob: user action...not automatic
+[5/21/2012 11:48:22 PM] Bob: so user has full control on this
+[5/21/2012 11:48:38 PM] Bob: but, i am not sure if LI allows APIs to update bio...need to check on that
+[5/21/2012 11:49:26 PM] manjunath kalburgi: ok i will check that..
+[5/21/2012 11:50:05 PM] Bob: so manju, i can just update the svn and do i need to create DB (if you changed the DB)
+[5/21/2012 11:50:40 PM] manjunath kalburgi: no before creating any db changes I will update that in wiki
+[5/21/2012 11:50:52 PM] Bob: ok cool
+[5/21/2012 11:50:52 PM] manjunath kalburgi: right now same table
+[5/21/2012 11:50:55 PM] Bob: ok
+[5/21/2012 11:56:18 PM] manjunath kalburgi: Thanks for update..
+[5/21/2012 11:57:37 PM] Bob: thank you... will catch up with you later
+[5/21/2012 11:57:54 PM] Bob: if you have any questions or need me do anything, dont hesitate to ping me
+[5/21/2012 11:58:30 PM] manjunath kalburgi: sure,Thanks
+[5/24/2012 8:50:39 AM] Bob: Manju
+[5/24/2012 8:51:00 AM] Bob: I checked out the code from https://subversion.assembla.com/svn/credmine/application
+[5/24/2012 8:51:03 AM] Bob: but how do i run it
+[5/24/2012 9:21:30 PM] manjunath kalburgi: i think in codebase its not storing properly
+[5/24/2012 9:21:47 PM] manjunath kalburgi: its making different set of application each time
+[5/24/2012 9:21:53 PM] Bob: hmm
+[5/24/2012 9:22:00 PM] Bob: what was the url you checked out
+[5/24/2012 9:22:25 PM] manjunath kalburgi: i redownloaded the files but it game me differently
+[5/24/2012 9:22:41 PM] Bob: thats because...i see diff directories
+[5/24/2012 9:22:51 PM] manjunath kalburgi: yes
+[5/24/2012 9:22:52 PM] Bob: one  under "trunk" and one under "application"
+[5/24/2012 9:23:21 PM] Bob: did you want to keep your application separate from trunk/application
+[5/24/2012 9:23:35 PM] manjunath kalburgi: yes and what i am commiting is coming to root folder
+[5/24/2012 9:26:33 PM] manjunath kalburgi: is it ok to save in root directory directly
+[5/24/2012 11:27:59 PM] Tim Thimmaiah: so under which directory is the latest revision?
+[5/24/2012 11:28:28 PM] manjunath kalburgi: its coming in root directory
+[5/24/2012 11:28:42 PM] manjunath kalburgi: its seams
+[5/24/2012 11:28:49 PM] Bob: manju, you should be makeing changes to the application directory and commiting there no?
+[5/24/2012 11:29:11 PM] Bob: there should be only 1 directory we are all checking out.. i.e. trunk
+[5/24/2012 11:29:39 PM] manjunath kalburgi: ok
+[5/24/2012 11:29:58 PM] manjunath kalburgi: i will do change the path np..
+[5/24/2012 11:50:42 PM] manjunath kalburgi: I changed the path
+[5/24/2012 11:55:19 PM] Bob: ok
+[5/24/2012 11:55:50 PM] Bob: i got this
+[5/24/2012 11:55:50 PM] Bob: Deepak-Alurs-MacBook-Pro:~/dev/credminesrc/trunk(master) $ svn update
+A    application/hooks/fb_require_login.php
+A    application/models/linkedin.php
+A    application/models/user_model.php
+A    application/models/fblogin.php
+A    application/models/sitemap.php
+A    application/config/facebook.php
+A    application/controllers/social.php
+A    application/controllers/fblogin.php
+A    application/controllers/sitemap.php
+A    application/controllers/login.php
+A    application/libraries/facebook.php
+A    application/libraries/linkedin.php
+A    application/libraries/OAuth.php
+A    application/views/sitemap.php
+A    application/views/fblogin.php
+[5/24/2012 11:56:00 PM] manjunath kalburgi: and committed the changes
+[5/24/2012 11:56:14 PM] Bob: excellent... to test it, what do i need to do? anything specific
+[5/24/2012 11:56:35 PM] manjunath kalburgi: just type:localhost/sitemap/
+[5/24/2012 11:56:46 PM] Bob: ok
+[5/24/2012 11:56:59 PM] manjunath kalburgi: you will find the list of functionality which I am working
+[5/24/2012 11:57:06 PM] Bob: ok
+[5/27/2012 11:08:21 PM] Bob: hi Manju
+[5/27/2012 11:09:45 PM] Bob: i noticed that the config.php had localhost/trunk in the home path.. so i removed it. it is much cleaner that way. when you test locally, make sure that you copy the entire content of the trunk directory to your webserver root... there is no need for trunk directory in the deployment. that is only in SVN for us in case we start creating branches in the future
+[5/27/2012 11:09:55 PM] Bob: i also added .htaccess to the svn
+[5/27/2012 11:10:12 PM] Bob: so now anyone can just check out the content of trunk under their htdocs or webserver root and just test
+[5/27/2012 11:10:46 PM] manjunath kalburgi: ok
+[5/27/2012 11:10:51 PM] manjunath kalburgi: Thanks
+[5/27/2012 11:11:25 PM] manjunath kalburgi: I was working with facebook integration
+[5/27/2012 11:12:11 PM] manjunath kalburgi: I got lot of errors while integration may be facebook got some issues
+[5/27/2012 11:12:47 PM] manjunath kalburgi: finally today signup started
+[5/27/2012 11:12:55 PM] manjunath kalburgi: and working now
+[5/27/2012 11:13:56 PM] Bob: excellent
+[5/27/2012 11:14:29 PM] Bob: right now i am testing per the sitemap
+[5/27/2012 11:14:38 PM] manjunath kalburgi: and I am working on profile import
+[5/27/2012 11:14:41 PM] Bob: i cant seem to get to linkedin page
+[5/27/2012 11:14:46 PM] manjunath kalburgi: from facebook
+[5/27/2012 11:15:05 PM] manjunath kalburgi: yes still some part of code integration is in progress
+[5/27/2012 11:15:41 PM] Bob: ok sure
+[5/27/2012 11:16:08 PM] Bob: let me share you what i see... that will help you i hope http://screencast.com/t/30a7ubP62
+[5/27/2012 11:16:17 PM] Bob: to know what i am seeing
+[5/27/2012 11:16:30 PM] manjunath kalburgi: yes please
+[5/27/2012 11:17:08 PM] Bob: btw, if you havent used jing, use it for sharing screenshots and/or short videos < 5mins
+[5/27/2012 11:17:32 PM | Edited 11:17:43 PM] Bob: http://www.techsmith.com/jing.html
+[5/27/2012 11:18:51 PM] Bob: i talked to Tim, and we decided not to offer "sign in with Twitter"
+[5/27/2012 11:19:26 PM] manjunath kalburgi: ok linked in we can use rt?
+[5/27/2012 11:19:31 PM] Bob: the reason being, this is about resume and credibility... twitter ids are not very credible....you dont really have to be a real person
+[5/27/2012 11:19:42 PM] Bob: we can always offer twitter integration for tweeting and sharing
+[5/27/2012 11:19:48 PM] Bob: but no need for signup via twitter
+[5/27/2012 11:20:00 PM] Bob: whereas facebook and linkedin are real persons
+[5/27/2012 11:20:04 PM] manjunath kalburgi: yes
+[5/27/2012 11:20:28 PM] manjunath kalburgi: and we can add connections,recommendation it provides more features
+[5/27/2012 11:20:48 PM] Bob: yep
+[5/27/2012 11:20:59 PM] Bob: what i dont know yet is
+[5/27/2012 11:21:15 PM] Bob: whether linkedin alllows you to offer "Sign up via LinkedIn"
+[5/27/2012 11:21:20 PM] Bob: like how facebook offers
+[5/27/2012 11:21:27 PM] manjunath kalburgi: yes it provides
+[5/27/2012 11:21:40 PM] Bob: ok
+[5/27/2012 11:21:44 PM] manjunath kalburgi: it has rest API for php
+[5/27/2012 11:21:48 PM] Bob: ok
+[5/27/2012 11:22:10 PM] Bob: so we will offer 3 ways to sign up: credmine (you provide userid/email/pass) | facebook | linkedin
+[5/27/2012 11:23:05 PM] manjunath kalburgi: ok but one thing in facebook signup you cant get the password of the user so rt now it stores empty value
+[5/27/2012 11:23:59 PM] Bob: yep
+[5/27/2012 11:24:12 PM] Bob: thats ok...we will ask them to add a credmine password
+[5/27/2012 11:24:17 PM] Bob: or
+[5/27/2012 11:24:23 PM] Bob: everytime they have to just login via fb
+[5/27/2012 11:24:30 PM] Bob: i think that is better
+[5/27/2012 11:24:34 PM] manjunath kalburgi: ok
+[5/27/2012 11:24:38 PM] Bob: if they signup with FB, they have to login with FB
+[5/27/2012 11:24:55 PM] Bob: one more thing to think about is Google+
+[5/27/2012 11:25:11 PM] Bob: that will be easy to do once you do FB/LI
+[5/27/2012 11:25:42 PM] manjunath kalburgi: yes we can add that as well it has simillar feature as that of FB
+[5/27/2012 11:25:50 PM] Bob: ok
+[5/27/2012 11:26:22 PM] Bob: ii noticed you modified https://www.assembla.com/spaces/credmine/wiki/Database_structure
+[5/27/2012 11:26:39 PM] Bob: do i need to recreate my DB?
+[5/27/2012 11:26:51 PM] Bob: or this is something i will need a bit later
+[5/27/2012 11:27:56 PM] manjunath kalburgi: yes we can use that later once we do basic things we can add features like inbox,notification,invite to friends,recommendation
+[5/27/2012 11:28:00 PM] Bob: i noticed sometimes you are using user_id and sometimes it is username ... are they same? if so we should use userid (since most of the current code is based on userid)
+[5/27/2012 11:28:38 PM] manjunath kalburgi: yes same
+[5/27/2012 11:28:40 PM] Bob: ok
+[5/27/2012 11:29:17 PM] manjunath kalburgi: I will change that still I hadnt done code review.. once I do I will update them
+[5/27/2012 11:29:24 PM] Bob: ok cool
+[5/27/2012 11:29:43 PM] Bob: ok. i will test more later...but keep up the good work... tim is working on the design and flow
+[5/27/2012 11:29:56 PM] Bob: and i will work with you on integration once he has the flows ready
+[5/27/2012 11:30:06 PM] manjunath kalburgi: ok
+[5/27/2012 11:30:10 PM] Bob: any other topics/questions before i go?
+[5/27/2012 11:30:45 PM] manjunath kalburgi: yoiu are asking about the Linked in like API for credmine rt
+[5/27/2012 11:30:53 PM | Removed 11:30:57 PM] Bob: This message has been removed.
+[5/27/2012 11:31:10 PM] Bob: you mean
+[5/27/2012 11:31:15 PM] Bob: what Credmine will offer to developers?
+[5/27/2012 11:31:58 PM] manjunath kalburgi: we can provide features to use our user database to upload basic information in signup
+[5/27/2012 11:33:03 PM] manjunath kalburgi: for other websites
+[5/27/2012 11:33:54 PM] Bob: yes, we want to be develper friendly and want to offer REST API for CredMine so other developers can integrate with us
+[5/27/2012 11:34:09 PM] Bob: so if you notice my older code
+[5/27/2012 11:34:18 PM] Bob: all my UI code was using the credmine services
+[5/27/2012 11:34:22 PM] Bob: via REST calls
+[5/27/2012 11:34:33 PM] Bob: and we will continue like that
+[5/27/2012 11:34:42 PM] Bob: and we will later introduce a concept of "developer key"
+[5/27/2012 11:34:42 PM] manjunath kalburgi: ok
+[5/27/2012 11:34:46 PM] Bob: similar to FB/LI
+[5/27/2012 11:34:54 PM] Bob: makes sense?
+[5/27/2012 11:34:57 PM] manjunath kalburgi: that sounds good
+[5/27/2012 11:35:09 PM] Bob: ok. btw, can i have your phone number in case i need to call you.
+[5/27/2012 11:35:36 PM] Bob: or
+[5/27/2012 11:35:40 PM] manjunath kalburgi: sure 8453949207
+[5/27/2012 11:35:43 PM] Bob: just put it on your profile on assembla
+[5/27/2012 11:35:45 PM] Bob: ok. thanks
+[5/27/2012 11:35:49 PM] manjunath kalburgi: ok
+[5/27/2012 11:35:53 PM] Bob: i will make sure i wont call you at 2 AM
+[5/27/2012 11:35:58 PM] Bob: :)
+[5/27/2012 11:36:25 PM | Edited 11:36:28 PM] Bob: my phone is 510-5895608 if you need it
+[5/27/2012 11:36:35 PM] Bob: and tim's is 510-5799878
+[5/27/2012 11:37:01 PM] manjunath kalburgi: ok Thanks
+[5/27/2012 11:37:42 PM] Bob: ok. later. bye
+[5/27/2012 11:37:53 PM] manjunath kalburgi: bye
+[5/30/2012 8:54:52 PM] manjunath kalburgi: Hi I noticed that assembla is not working is there any problem?
+[5/30/2012 9:00:22 PM] Bob: try https://www.assembla.com/spaces/credmine/start
+[5/30/2012 9:00:29 PM] Bob: just assembla.com did not work
+[5/30/2012 9:00:47 PM] Bob: but www.assembla.com works
+[5/30/2012 9:00:52 PM] Bob: so some dns issue on their side i think
+[5/30/2012 9:01:48 PM] manjunath kalburgi: no i am not able to open both
+[5/30/2012 9:10:58 PM] Bob: i tried now and it still works so maybe some routing issue from india
+[5/30/2012 9:11:27 PM] Bob: svn update also works
+[5/30/2012 9:24:12 PM] manjunath kalburgi: may be
+[6/1/2012 9:03:31 PM] manjunath kalburgi: Hi
+[6/1/2012 9:10:33 PM] Bob: Hi Manju
+[6/1/2012 9:11:09 PM] manjunath kalburgi: How r u?
+[6/1/2012 9:11:25 PM] Bob: good thanks. you?
+[6/1/2012 9:11:33 PM] manjunath kalburgi: Good
+[6/1/2012 9:11:35 PM] Bob: so i see you were able to use assembla again
+[6/1/2012 9:12:09 PM] manjunath kalburgi: it took one day to get resolved
+[6/1/2012 9:13:10 PM] manjunath kalburgi: you saw the facebook importing profile data option
+[6/1/2012 9:17:38 PM] Bob: i haven't yet...sorry
+[6/1/2012 9:18:03 PM] Bob: one more thing you can do is to record your own demos and share using jing like i said
+[6/1/2012 9:18:45 PM] manjunath kalburgi: ok I was thinking the same thing
+[6/1/2012 9:18:59 PM] manjunath kalburgi: I will do that
+[6/1/2012 9:19:17 PM] Bob: great. i have to ask tim on how he is doing with the flows...will check with him
+[6/1/2012 9:19:44 PM] manjunath kalburgi: ok
+[6/2/2012 8:06:37 AM] *** manjunath kalburgi added Santosh C Nelivigi ***
+[6/2/2012 8:07:19 AM] *** manjunath kalburgi removed Santosh C Nelivigi from this conversation. ***
+[6/2/2012 8:14:46 AM] manjunath kalburgi: http://www.screencast.com/users/kalburgimanjunath/folders/Jing/media/b459a62b-8f0b-49f6-b41b-4d42f2b855cc
+[6/2/2012 10:46:17 PM] Bob: thats very cool
+[6/2/2012 10:46:28 PM] Bob: so it is pulling your bio information from FB ?
+[6/2/2012 10:47:04 PM] manjunath kalburgi: yes but only thing I cannt crowl FB password
+[6/2/2012 10:47:19 PM] Bob: crowl?
+[6/2/2012 10:47:31 PM] manjunath kalburgi: means Hack
+[6/2/2012 10:47:39 PM] Bob: ah ok
+[6/2/2012 10:47:43 PM] Bob: yes, we dont need to do that
+[6/2/2012 10:47:48 PM] Bob: because that info is private to fb
+[6/2/2012 10:48:31 PM] manjunath kalburgi: but in mysocialids table password field is present
+[6/2/2012 10:48:46 PM] Bob: yes, we will have to let the user enter them in Credmine if they want to
+[6/2/2012 10:49:02 PM] Bob: so it will be their choice
+[6/2/2012 10:49:26 PM] manjunath kalburgi: I didnt understand
+[6/2/2012 10:49:59 PM] Bob: ok.. the reason i added those fields in the DB was
+[6/2/2012 10:50:46 PM] Bob: based on a different idea of us having to collect that userid/pass from the user
+[6/2/2012 10:50:52 PM] Bob: and then use it later to pull info from FB
+[6/2/2012 10:51:07 PM] Bob: but with the feature you are doing where you are integrating with thte FB API for login
+[6/2/2012 10:51:23 PM] Bob: we don't need to worry about the password...they will always be authenticated by FB
+[6/2/2012 10:52:00 PM] manjunath kalburgi: means thats an optional field rt?
+[6/2/2012 10:52:13 PM] manjunath kalburgi: not a mandatory
+[6/2/2012 10:53:11 PM] manjunath kalburgi: ok
+[6/2/2012 10:53:52 PM] manjunath kalburgi: and mysocialids this table what is the field called identity?
+[6/2/2012 11:06:33 PM] manjunath kalburgi: and please provide signup information of University,departments
+[6/2/2012 11:07:36 PM] manjunath kalburgi: Thanks
+[6/2/2012 11:08:44 PM] Bob: sorry had stepped away
+[6/2/2012 11:08:52 PM] manjunath kalburgi: NP
+[6/2/2012 11:08:55 PM] Bob: yes..that is optional field
+[6/2/2012 11:08:59 PM] manjunath kalburgi: ok
+[6/2/2012 11:09:05 PM] Bob: in mysocialids
+[6/2/2012 11:09:17 PM] Bob: i called it identiy to not get confused with our own userid field
+[6/2/2012 11:09:44 PM] Bob: i think. i need to refresh my memory..will review and get back about that
+[6/2/2012 11:09:49 PM] manjunath kalburgi: ok
+[6/2/2012 11:09:58 PM] Bob: about signup information for univ/departments
+[6/2/2012 11:10:12 PM] Bob: i am meeting Tim today to discuss the flow
+[6/2/2012 11:10:29 PM] Bob: i will ask him to elaborate on that. i am not familiar with that requirement. he is
+[6/2/2012 11:12:56 PM] manjunath kalburgi: ok I wanted to check that for Universities and departments what will be the sign up option
+[6/2/2012 11:13:52 PM | Edited 11:14:15 PM] manjunath kalburgi: and Service and community options interface
+[6/2/2012 11:33:08 PM] Bob: for them we will have to create a separate flow
+[6/2/2012 11:33:19 PM] Bob: they have to first create an account for the university and department
+[6/2/2012 11:33:30 PM] Bob: that is the flow i am not clear about. will talk to Tim about it
+[6/2/2012 11:34:57 PM] manjunath kalburgi: ok
+[6/3/2012 12:04:45 AM] manjunath kalburgi: Hi Tim
+[6/3/2012 12:05:01 AM] Tim Thimmaiah: hey
+[6/3/2012 12:05:06 AM] Tim Thimmaiah: how are you manju?
+[6/3/2012 12:05:20 AM] manjunath kalburgi: Good
+[6/3/2012 12:05:30 AM] manjunath kalburgi: what abt You
+[6/3/2012 12:06:04 AM] Tim Thimmaiah: im good
+[6/3/2012 12:06:31 AM] manjunath kalburgi: I was discussing about the Institutions,departments signups
+[6/3/2012 12:06:32 AM] Tim Thimmaiah: currently putting together entire credmine flow which will help you understand how everything should work
+[6/3/2012 12:06:43 AM] manjunath kalburgi: yes
+[6/3/2012 12:09:34 AM] manjunath kalburgi: once we work with the flow we can start designing the pages
+[6/3/2012 12:09:39 AM] Tim Thimmaiah: ok
+[6/3/2012 12:10:22 AM] Tim Thimmaiah: i have a question
+[6/3/2012 12:10:26 AM] manjunath kalburgi: yes plz
+[6/3/2012 12:10:41 AM] Tim Thimmaiah: if users sign up using facebook or linkedin
+[6/3/2012 12:10:57 AM] Tim Thimmaiah: is it possible to simultaneously import data from their accounts
+[6/3/2012 12:11:05 AM] Tim Thimmaiah: that way they dont need to go through two steps
+[6/3/2012 12:11:16 AM] Tim Thimmaiah: where they first login using facebook
+[6/3/2012 12:11:22 AM] Tim Thimmaiah: and then import when creating profile?
+[6/3/2012 12:11:37 AM] Tim Thimmaiah: not saying that this is how it should work
+[6/3/2012 12:11:42 AM] Tim Thimmaiah: just wondering if that can be done
+[6/3/2012 12:11:52 AM] manjunath kalburgi: yes that can be done
+[6/3/2012 12:13:41 AM] manjunath kalburgi: I have one question
+[6/3/2012 12:14:27 AM] Tim Thimmaiah: yes
+[6/3/2012 12:14:48 AM] manjunath kalburgi: if user doesnt filled full information in facebook or linkedin then that fields will be blank
+[6/3/2012 12:15:01 AM] Tim Thimmaiah: right
+[6/3/2012 12:15:14 AM] manjunath kalburgi: because in facebook you cannt upload your skills for example
+[6/3/2012 12:15:21 AM] Tim Thimmaiah: yes
+[6/3/2012 12:15:51 AM] Tim Thimmaiah: so if there are unfilled content sections like skills
+[6/3/2012 12:16:07 AM] Tim Thimmaiah: then they will be hidden on the public profile
+[6/3/2012 12:16:25 AM] manjunath kalburgi: ok
+[6/3/2012 12:16:36 AM] Tim Thimmaiah: but when they are logged in, they will be prompted to fill in that information if missing
+[6/3/2012 12:16:41 AM] Tim Thimmaiah: eg. to complete their profile
+[6/3/2012 12:16:45 AM] Tim Thimmaiah: like how linkedin does it
+[6/3/2012 12:17:31 AM] Tim Thimmaiah: however the point is that in the sign up process, they are efficiently directed to fill in all of the appropriate information if missing after importing
+[6/3/2012 12:17:49 AM] manjunath kalburgi: ok
+[6/3/2012 12:21:00 AM] Bob: one thing to show may be is
+[6/3/2012 12:21:20 AM] Bob: if the facebook profile field is empty
+[6/3/2012 12:21:57 AM | Edited 12:22:03 AM] Bob: then we can populate a string into that field saying "No information found in FaceBook, please enter it here."
+[6/3/2012 12:22:23 AM | Edited 12:22:26 AM] Bob: that way, the user wont feel it is a mystery and is informed that we tried to get it, but there wasn't anything in there
+[6/3/2012 12:22:37 AM] Tim Thimmaiah: right
+[6/3/2012 12:23:20 AM] manjunath kalburgi: that will be better..
+[6/4/2012 9:53:24 PM] manjunath kalburgi: Hi Good morning
+[6/4/2012 9:54:00 PM] Bob: hi Manju
+[6/4/2012 9:54:04 PM] Bob: how are you doing
+[6/4/2012 9:54:51 PM] manjunath kalburgi: good
+[6/4/2012 9:55:32 PM] manjunath kalburgi: merging signup+facebook profile import part
+[6/4/2012 9:55:48 PM] Bob: yes
+[6/4/2012 9:56:01 PM] Bob: and did you get the mockups of the flow from Tim ?
+[6/4/2012 9:56:11 PM] manjunath kalburgi: not yet
+[6/4/2012 9:56:24 PM] Bob: ok. he showed me yesterday, i think he is uploading to wiki then...
+[6/4/2012 9:56:33 PM] Bob: i have them i will upload in a bit
+[6/4/2012 9:56:42 PM] manjunath kalburgi: ok Great..
+[6/5/2012 10:45:43 PM] manjunath kalburgi: Hi
+[6/6/2012 12:09:31 AM] manjunath kalburgi: HI Deepak are you busy now?
+[6/6/2012 12:11:19 AM] Tim Thimmaiah: manju were you able to get access to the dropbox folder with all the mocks
+[6/6/2012 12:11:31 AM] manjunath kalburgi: Hi Tim
+[6/6/2012 12:11:39 AM] manjunath kalburgi: Yes I am able to get
+[6/6/2012 12:11:57 AM] Tim Thimmaiah: ok they are set up with signup1, signup2, signup3
+[6/6/2012 12:12:04 AM] Tim Thimmaiah: as the three steps the user will go through
+[6/6/2012 12:12:51 AM] manjunath kalburgi: ok
+[6/6/2012 12:14:24 AM] manjunath kalburgi: I have some questions.
+[6/6/2012 12:14:29 AM] Tim Thimmaiah: yes please
+[6/6/2012 12:14:58 AM] manjunath kalburgi: what is difference between Headline and aboutus
+[6/6/2012 12:15:49 AM] Tim Thimmaiah: about us?
+[6/6/2012 12:16:01 AM] Tim Thimmaiah: headline is the tagline that you see under someone's name
+[6/6/2012 12:16:35 AM] Tim Thimmaiah: it will be a 60 word limit to describe themselves in a sentence
+[6/6/2012 12:16:41 AM] manjunath kalburgi: will that be imported from FB/LI
+[6/6/2012 12:17:00 AM] Tim Thimmaiah: no
+[6/6/2012 12:17:31 AM] Tim Thimmaiah: the only thing on signup1 that will be imported from FB/LI will be location of the user and short bio if they have one on LI
+[6/6/2012 12:18:32 AM] manjunath kalburgi: ok
+[6/6/2012 12:19:36 AM] manjunath kalburgi: on signup3 displaying the headline am right
+[6/6/2012 12:20:57 AM] Tim Thimmaiah: the headline in signup3 is the sentence under the name
+[6/6/2012 12:21:14 AM] manjunath kalburgi: ok
+[6/6/2012 12:21:22 AM] Tim Thimmaiah: i think whats important is just having the forms submit the info to the db
+[6/6/2012 12:21:28 AM] Tim Thimmaiah: don't worry about styling
+[6/6/2012 12:21:43 AM] manjunath kalburgi: ok
+[6/6/2012 12:21:57 AM] Tim Thimmaiah: if you could create pages with just html forms that have relevant feilds that you see here
+[6/6/2012 12:22:14 AM] Tim Thimmaiah: submitting the information to appropriate sql tables/fields
+[6/6/2012 12:22:24 AM] Tim Thimmaiah: I can style them after
+[6/6/2012 12:22:34 AM] manjunath kalburgi: ok
+[6/6/2012 12:22:55 AM] Tim Thimmaiah: as long as the information is all there in the db for each user
+[6/6/2012 12:23:08 AM] Tim Thimmaiah: we can query them to make the final profile
+[6/6/2012 12:23:12 AM] Tim Thimmaiah: in the last step
+[6/6/2012 12:23:32 AM] Tim Thimmaiah: and in that step offer user several themes to choose from that will just change css
+[6/6/2012 12:25:29 AM] manjunath kalburgi: that is in the Mocks folder rt
+[6/6/2012 12:25:42 AM] Tim Thimmaiah: the last step?
+[6/6/2012 12:25:43 AM] Tim Thimmaiah: not yet
+[6/6/2012 12:25:52 AM] Tim Thimmaiah: working on it now
+[6/6/2012 12:26:25 AM] manjunath kalburgi: ok
+[6/6/2012 12:27:13 AM] manjunath kalburgi: I got the flow
+[6/6/2012 12:27:55 AM] manjunath kalburgi: and what will be the features of social
+[6/6/2012 12:30:00 AM] manjunath kalburgi: and what will be the institution flow?
+[6/6/2012 12:30:49 AM] Tim Thimmaiah: the institution flow?
+[6/6/2012 12:30:57 AM] manjunath kalburgi: yes
+[6/6/2012 12:31:23 AM] Tim Thimmaiah: if you see signup2-2
+[6/6/2012 12:31:32 AM] Tim Thimmaiah: you will see the form to fill out the education
+[6/6/2012 12:31:37 AM] Tim Thimmaiah: is that what you mean?
+[6/6/2012 12:32:05 AM] Tim Thimmaiah: basically the user will see that they have no education filled, and click add education and that form will show up and they fill it and click save
+[6/6/2012 12:32:17 AM] Tim Thimmaiah: and that data is displayed as signup2-3
+[6/6/2012 12:32:23 AM] Tim Thimmaiah: which they can delete or modify
+[6/6/2012 12:32:55 AM] manjunath kalburgi: no I am asking on Institution,department,company signup
+[6/6/2012 12:33:05 AM] Tim Thimmaiah: oh i see
+[6/6/2012 12:33:06 AM] Tim Thimmaiah: yes
+[6/6/2012 12:33:22 AM] Tim Thimmaiah: i am also working on that too
+[6/6/2012 12:33:31 AM] Tim Thimmaiah: still need to discuss with deepak on some logistics
+[6/6/2012 12:33:37 AM] manjunath kalburgi: ok
+[6/6/2012 12:33:53 AM] Tim Thimmaiah: for now we are focusing on users being able to create resumes
+[6/6/2012 12:33:59 AM] manjunath kalburgi: ok
+[6/6/2012 12:37:18 AM] manjunath kalburgi: will that import option will be merged in signup as discussed yest'day or will be kept separate
+[6/6/2012 10:02:11 PM] Bob: http://www.thetoolbox.cc/
+[6/6/2012 10:04:37 PM] manjunath kalburgi: oh its nice one will get all apps
+[6/6/2012 10:06:58 PM] Bob: yep..very useful
+[6/6/2012 10:11:28 PM] manjunath kalburgi: its wonderfull
+[6/6/2012 10:13:45 PM] Bob: +1
+[6/6/2012 10:14:51 PM] manjunath kalburgi: yes plz
+[6/7/2012 12:17:47 AM] Tim Thimmaiah: manju how is it going?
+[6/7/2012 12:18:35 AM] manjunath kalburgi: Hi Tim I started the signup form integration as per the design
+[6/7/2012 12:18:52 AM] Tim Thimmaiah: ok great
+[6/7/2012 12:19:44 AM] manjunath kalburgi: and we need one more field in account table to store headline of the user
+[6/7/2012 12:19:57 AM] Tim Thimmaiah: ok
+[6/7/2012 12:20:17 AM] Tim Thimmaiah: is there a seperate table for account and profile
+[6/7/2012 12:22:29 AM] Bob: there is a field in ACCOUNT called aboutme
+[6/7/2012 12:22:50 AM] Bob: which is curently used to store a brief bio
+[6/7/2012 12:22:57 AM] Bob: but there is no field to store "HEADLINE"
+[6/7/2012 12:23:03 AM] manjunath kalburgi: yes
+[6/7/2012 12:23:07 AM] Bob: so you will have to add it
+[6/7/2012 12:23:27 AM] manjunath kalburgi: I will create one field headline after aboutme
+[6/7/2012 12:23:49 AM] Bob: ok
+[6/8/2012 11:05:31 PM] manjunath kalburgi: Hi Assembla is not working again
+[6/10/2012 9:51:40 PM] manjunath kalburgi: Re:Facebook & Linkedin integration
+[6/10/2012 9:52:15 PM] manjunath kalburgi: I think its bad time to integrate both the signups because both are updating the API's
+[6/10/2012 9:53:39 PM] Bob: i dont understand, pls explain
+[6/10/2012 9:55:21 PM] manjunath kalburgi: Facebook and Linked in changing
+[6/10/2012 9:56:04 PM] manjunath kalburgi: integration API's
+[6/10/2012 9:58:39 PM] manjunath kalburgi: do you have any idea? on that
+[6/10/2012 10:12:03 PM] Bob: no
+[6/10/2012 10:12:43 PM] manjunath kalburgi: I tried to integrate both it seems because of updation n code its not returning the token properly and not validating
+[6/10/2012 10:14:45 PM] manjunath kalburgi: facebook working properly fine
+[6/10/2012 10:14:57 PM] manjunath kalburgi: thing is now with linkedin
+[6/10/2012 10:15:41 PM] Bob: ok
+[6/10/2012 10:17:01 PM] manjunath kalburgi: which is most important part for us in integration.. when I generate token and callback to my module its not validating old token
+[6/10/2012 10:18:01 PM | Edited 10:25:35 PM] manjunath kalburgi: can I wait in Linkedin integration until they fix the problem?
+[6/10/2012 10:20:41 PM] Bob: did it work before
+[6/10/2012 10:36:33 PM] manjunath kalburgi: yes
+[6/10/2012 10:36:47 PM] manjunath kalburgi: it worked
+[6/10/2012 10:42:04 PM] Bob: i see...sorry i was on the phone. back now
+[6/10/2012 10:42:13 PM] Bob: ok..so if it was working before, when did it stop working
+[6/10/2012 10:42:43 PM | Edited 10:42:51 PM] Bob: how did you find out they are upgrading/changing?
+[6/10/2012 10:43:29 PM] manjunath kalburgi: from Friday I am getting the error
+[6/10/2012 10:44:06 PM] Bob: did you change anything on our side? or the same code that was working stopped working
+[6/10/2012 10:44:22 PM] manjunath kalburgi: same thing stopped working
+[6/10/2012 10:44:45 PM] Bob: ok. lets wait a couple of days and see
+[6/10/2012 10:44:53 PM] Bob: did they announce that they were changing?
+[6/10/2012 10:45:31 PM] manjunath kalburgi: no I did nt get any mail from Linkedin I got only email to changed the old password because it was hacked...
+[6/10/2012 10:46:30 PM] Bob: did you try their developer forums and see if others were having same problem
+[6/10/2012 10:48:54 PM] manjunath kalburgi: I posted the error message
+[6/10/2012 10:49:05 PM] Bob: or is there a limit on the number of calls
+[6/10/2012 10:50:14 PM] manjunath kalburgi: no,only that option available is in Facebook
+[6/10/2012 10:57:18 PM] Bob: ok. then lets wait and see
+[6/10/2012 10:57:35 PM] Bob: i can still test the facebook integration right?
+[6/10/2012 10:57:43 PM] manjunath kalburgi: yes
+[6/12/2012 1:04:42 AM] *** manjunath kalburgi added Santosh C Nelivigi ***
+[6/12/2012 1:23:32 AM] manjunath kalburgi: plz check following demo
+[6/12/2012 1:23:33 AM] manjunath kalburgi: http://screencast.com/t/HdQOamPo
+[6/12/2012 1:26:57 AM] Bob: looking
+[6/12/2012 1:27:18 AM] manjunath kalburgi: ok
+[6/12/2012 1:27:55 AM] Bob: looks nice
+[6/12/2012 1:28:35 AM] Bob: for the Location field...see if you can use the HTML5 location detection http://locationdetection.mobi/
+[6/12/2012 1:29:45 AM] Bob: i have a meeting...back later...but it looks good...will test later tonight
+[6/12/2012 1:30:11 AM] Tim Thimmaiah:  looks good manju. good work
+[6/12/2012 1:30:25 AM] manjunath kalburgi: ok I will commit my changes in SVN
+[6/12/2012 1:32:16 AM] manjunath kalburgi: I will check that locationdetection its good I guess..
+[6/12/2012 11:29:00 PM] manjunath kalburgi: Hi
+[6/12/2012 11:29:58 PM] manjunath kalburgi: I saw the Location Detection but it wont refreshes the data.
+[6/12/2012 11:30:50 PM] manjunath kalburgi: results in old location data will be available when you try to find the location
+[6/12/2012 11:33:50 PM] *** manjunath kalburgi sent IMG_12062012_233350.png IMG_12062012_233350.png IMG_12062012_233350.png ***
+[6/12/2012 11:37:54 PM] Bob: the user will use it only once...and it is only a guess work on Wifi anyway... it works more accurately in the US
+[6/12/2012 11:38:09 PM] Bob: so it is more of a convenience feature to help them fill the field
+[6/12/2012 11:39:49 PM] manjunath kalburgi: can you plz provide me some example websites
+[6/12/2012 11:40:03 PM] Bob: ok
+[6/12/2012 11:42:18 PM] Bob: http://html5demos.com/geo
+[6/12/2012 11:44:01 PM] Bob: http://www.greatgovweb.org/locate-your-users-with-the-html5-geolocation-api/
+[6/12/2012 11:48:23 PM] manjunath kalburgi: This one is nice http://shropshire.gov.uk/bustimes/address.jsc text field and option of select automatically if dont want to enter.
+[6/12/2012 11:49:15 PM] Bob: agree
+[6/12/2012 11:50:46 PM] *** manjunath kalburgi removed Santosh C Nelivigi from this conversation. ***
+[6/12/2012 11:52:54 PM] manjunath kalburgi: ok Thanks I will try that now
+[6/13/2012 11:59:19 PM] *** manjunath kalburgi added Santosh C Nelivigi ***
+[6/15/2012 12:07:22 AM] manjunath kalburgi: Hi
+[6/15/2012 12:24:02 AM | Edited 12:24:04 AM] Bob: Hi Manju
+[6/15/2012 12:24:31 AM] manjunath kalburgi: what will be plan for institution signup
+[6/15/2012 12:24:38 AM] Bob: about that what we think is
+[6/15/2012 12:24:51 AM] Bob: well for starters, we captured the flow a bit more in detail
+[6/15/2012 12:25:08 AM] Bob: and we understand how things should work at a macro level. i need to document this on the wiki soon.
+[6/15/2012 12:25:18 AM] Bob: but for the first release
+[6/15/2012 12:25:22 AM] Bob: we want to put that out of scope
+[6/15/2012 12:25:40 AM] Bob: we want to make sure that users can really create awesome resumes and integrate with FB/LII
+[6/15/2012 12:26:01 AM] Bob: and we want to build up the tagging, searching, rating system for these resumes
+[6/15/2012 12:28:28 AM] manjunath kalburgi: I have one question
+[6/15/2012 12:28:56 AM] manjunath kalburgi: what will be the flow for rating system who will give rating
+[6/15/2012 12:30:02 AM] Bob: the rating, i mean the self rating for the skills
+[6/15/2012 12:30:15 AM] manjunath kalburgi: ok
+[6/15/2012 12:30:40 AM] Bob: once the institution part comes into play, then the institiution side will be able to make the user "Certified" etc
+[6/15/2012 12:30:49 AM] Bob: so when employers are searching, they can filter by that
+[6/15/2012 12:31:22 AM] manjunath kalburgi: ok
+[6/15/2012 12:35:06 AM] manjunath kalburgi: One important thing in Tags table what is tagtype
+[6/15/2012 12:35:39 AM | Edited 12:35:53 AM] manjunath kalburgi: in the signup form we are collecting only tags not tag-type
+[6/15/2012 12:36:09 AM] Bob: hmm...refresh my memory..where does that come in
+[6/15/2012 12:37:38 AM] *** manjunath kalburgi sent signup.png signup.png signup.png ***
+[6/15/2012 12:39:50 AM] Bob: ok. these are self assigned tags for the whole resume/bio/person
+[6/15/2012 12:40:33 AM] Bob: so tag type for this would be something like "resumetag"
+[6/15/2012 12:40:40 AM] Bob: user will not see the tagtype
+[6/15/2012 12:40:54 AM] Bob: if you have other ideas to do this, let us know
+[6/15/2012 12:41:25 AM] Bob: i have to leave now for a while...have a meeting. will be back later.. i will write up the institution part in a while
+[6/15/2012 12:41:44 AM] Bob: Tim is online i see, so he can contunue answering questions if there are
+[6/15/2012 12:42:24 AM] manjunath kalburgi: ok Thanks I will continue with Tim
+[6/15/2012 12:42:45 AM] manjunath kalburgi: Hi Tim
+[6/15/2012 1:42:58 AM] Tim Thimmaiah: hey manju sorry about that
+[6/15/2012 1:43:05 AM] Tim Thimmaiah: how are you
+[6/16/2012 10:47:48 PM] manjunath kalburgi: Hi
+[6/16/2012 11:12:05 PM] Bob: Hi Manju
+[6/16/2012 11:13:39 PM] manjunath kalburgi: reg tags
+[6/16/2012 11:13:51 PM] manjunath kalburgi: why primary key (tag, tagtype, taggeditemid)
+[6/16/2012 11:14:53 PM] Bob: ok
+[6/16/2012 11:15:00 PM] Bob: what is the taggeditemid
+[6/16/2012 11:15:09 PM] manjunath kalburgi: its userid
+[6/16/2012 11:15:12 PM] Bob: ok
+[6/16/2012 11:15:29 PM] Bob: it should vary based on tagtype?
+[6/16/2012 11:15:31 PM] Bob: e.g. if
+[6/16/2012 11:15:33 PM | Edited 11:17:15 PM] Bob: i have a tag record
+[6/16/2012 11:15:47 PM | Edited 11:15:57 PM] Bob: ("Engineer", "user", "deepakalur")
+[6/16/2012 11:16:21 PM] Bob: if tagtype is "user" then taggeditemid is "userid"
+[6/16/2012 11:17:09 PM] manjunath kalburgi: but users will add multiple tag
+[6/16/2012 11:17:32 PM] Bob: right.
+[6/16/2012 11:17:33 PM] manjunath kalburgi: eg:developer,php developer,.net developer
+[6/16/2012 11:17:44 PM] manjunath kalburgi: then duplications needed
+[6/16/2012 11:18:23 PM] manjunath kalburgi: with primary key its not possible to duplicate
+[6/16/2012 11:18:55 PM] Bob: have you seen
+[6/16/2012 11:19:14 PM] manjunath kalburgi: what?
+[6/16/2012 11:19:19 PM] Bob: http://stackoverflow.com/questions/597016/what-tag-schemas-are-the-most-efficient-effective
+[6/16/2012 11:19:57 PM] manjunath kalburgi: just a min
+[6/16/2012 11:20:34 PM] Bob: lets talk about what kind of queries we will be doing for tags:
+[6/16/2012 11:20:42 PM] manjunath kalburgi: ok
+[6/16/2012 11:20:49 PM] Bob: 1. When displaying a user profile, we will just do a query for tags for the user id
+[6/16/2012 11:21:07 PM] Bob: 2. When doing a search for users, who have tagged themselves with "X", we will be doing a different query
+[6/16/2012 11:21:22 PM] Bob: can you think of other queries
+[6/16/2012 11:21:36 PM] Bob: these are the primary ones i can think of
+[6/16/2012 11:22:41 PM] Bob: also read http://www.pui.ch/phred/archives/2005/04/tags-database-schemas.html
+[6/16/2012 11:23:00 PM] manjunath kalburgi: but if user wants to highlight there resume more with multiple skills then they will add multiple tags
+[6/16/2012 11:26:35 PM] Bob: correct
+[6/16/2012 11:26:43 PM] Bob: we should allow multiple tags
+[6/16/2012 11:27:56 PM] manjunath kalburgi: Great.. because by duplicating we allow them to add more flexibility and more search result option
+[6/16/2012 11:28:02 PM] Bob: correct
+[6/16/2012 11:28:42 PM] Bob: so we dont need a primary key on tags
+[6/16/2012 11:29:18 PM] manjunath kalburgi: and tagtype as well
+[6/16/2012 11:29:30 PM] Bob: yes
+[6/16/2012 11:29:38 PM] Bob: 303         primary key (tag, tagtype, taggeditemid)
+[6/16/2012 11:29:39 PM] Bob: i mean we dont need this
+[6/16/2012 11:29:59 PM] manjunath kalburgi: yes
+[6/16/2012 11:30:11 PM] Bob: the only reason i was thinking about a PK for this was what if user tags with
+[6/16/2012 11:30:22 PM] Bob: "Developer", "Developer", "Developer" and hits submit
+[6/16/2012 11:30:29 PM] Bob: we should not be creating 3 entries
+[6/16/2012 11:31:01 PM] Bob: so tag and tagtype will have to be PK
+[6/16/2012 11:31:11 PM] Bob: but not tag, tagtype, taggeditem ?
+[6/16/2012 11:31:49 PM] Bob: if we make the PK
+[6/16/2012 11:31:52 PM] Bob: primary key (tag, tagtype)
+[6/16/2012 11:32:06 PM] Bob: we can allow many entries for the same taggeditemid
+[6/16/2012 11:32:47 PM] manjunath kalburgi: no that duplication of userid we can handle but why tagtype be pk
+[6/16/2012 11:33:20 PM] Bob: so we can have
+[6/16/2012 11:34:05 PM | Edited 11:34:14 PM] Bob: ("Developer", "user", "deepak")
+("designer", "user", "deepak")
+("Developer", "recommendation", "deepak")
+[6/16/2012 11:34:27 PM] Bob: so together, tag and tagtype make the composite key
+[6/16/2012 11:34:34 PM] Bob: you should not allow
+[6/16/2012 11:34:40 PM] Bob: ("Developer", "user", "deepak")
+("Developer", "user", "deepak")
+[6/16/2012 11:34:53 PM] Bob: but you can allow
+[6/16/2012 11:35:00 PM] Bob: ("Developer", "user", "deepak")
+("Developer", "recommendation", "deepak")
+[6/16/2012 11:36:30 PM] manjunath kalburgi: yes correct
+[6/16/2012 11:39:00 PM] Bob: i will be back in 20 mins
+[6/16/2012 11:39:14 PM] manjunath kalburgi: To have ("Developer","user","deepak"),("Developer","recommendation","deepak") entry we dont need tagtype tobe pk
+[6/16/2012 11:40:05 PM] manjunath kalburgi: ok
+[6/16/2012 11:42:29 PM] Bob: go ahead make changes as you see fit
+[6/16/2012 11:42:32 PM] Bob: we can adjust later
+[6/16/2012 11:42:36 PM] Bob: if we come across some issue
+[6/16/2012 11:42:54 PM] manjunath kalburgi: ok
+[6/16/2012 11:42:59 PM] manjunath kalburgi: Thanks
+[6/16/2012 11:55:29 PM] Bob: ok i am back
+[6/16/2012 11:55:37 PM] Bob: anything else Manju?
+[6/16/2012 11:58:42 PM] manjunath kalburgi: I am working on linkedin following functions connection,signup,endoresement,search people
+[6/16/2012 11:59:14 PM] manjunath kalburgi: is there any extra functionality you want to add into this list
+[6/17/2012 12:00:06 AM] manjunath kalburgi: like posting into linkedin wil that be needed?
+[6/17/2012 12:02:06 AM] Bob: yes...i think we need to talk about that
+[6/17/2012 12:02:20 AM] Bob: basically, credmine should be one place to keep your resume
+[6/17/2012 12:02:43 AM] Bob: and with a button they should be able to update their bio in linked in
+[6/17/2012 12:02:54 AM] Bob: and similarly to facebook
+[6/17/2012 12:04:12 AM] manjunath kalburgi: can you please explain sharing resume in facebook how it will be and what format?
+[6/17/2012 12:04:40 AM] Bob: to share on facebook, is just a posting to link on credmine
+[6/17/2012 12:04:47 AM] Bob: but to update facebook bio is different
+[6/17/2012 12:04:56 AM] Bob: so there are 2 different use cases
+[6/17/2012 12:05:31 AM] Bob: 1. you can share your credmine resume anywhere... twitter, google+, linkedin, facabook.... it just posts a status with link to your credmine
+[6/17/2012 12:05:49 AM] Bob: 2. you can update your bio in facebook or linkedin with the changes you made to the bio in Credmine
+[6/17/2012 12:06:11 AM] Bob: so for 1, we use the status update API
+[6/17/2012 12:06:16 AM] Bob: for each of the sites
+[6/17/2012 12:06:34 AM] Bob: for #2, we have to figure out what part of the bio can be updated where
+[6/17/2012 12:06:46 AM] Bob: for example, facebook may not have place to store all the credmine content
+[6/17/2012 12:07:13 AM] Bob: but when you start with your credmine acount, and you login/signup using facebook, you have the ability to pull in bio from facebook as a starting point
+[6/17/2012 12:07:35 AM] Bob: and if i make a change to my bio (still in credmine), i should be able to push those changes back to facebook
+[6/17/2012 12:07:40 AM | Edited 12:07:43 AM] Bob: makes sense?
+[6/17/2012 12:09:50 AM] manjunath kalburgi: Great..
+[6/17/2012 12:11:43 AM] manjunath kalburgi: I have to do some R&D on 2 point its great if we update facebook data
+[6/17/2012 12:12:30 AM] Bob: yep....can you document your findings
+[6/17/2012 12:12:51 AM] manjunath kalburgi: sure I am doing all will share you
+[6/17/2012 12:13:02 AM] Bob: i would like to know what you come up with
+[6/17/2012 12:13:10 AM] manjunath kalburgi: sure
+[6/17/2012 12:13:16 AM] Bob: i am testing the code today and tomorrow...will get you feedback shortly. if i see a bug, i will create a ticket.
+[6/17/2012 12:13:27 AM] manjunath kalburgi: sure
+[6/17/2012 12:13:30 AM] Bob: we should start putting a list of things to accomplish in next 4 weeks as well
+[6/17/2012 12:13:46 AM] Bob: we are 2 months away from a beta launch
+[6/17/2012 12:13:57 AM] manjunath kalburgi: ok
+[6/17/2012 12:19:50 AM] Bob: ok. thanks. ttyl
+[6/17/2012 12:20:42 AM] manjunath kalburgi: wc Thanks
+[6/17/2012 1:52:54 AM] Bob: Manju u still there?
+[6/17/2012 1:53:15 AM] manjunath kalburgi: yes
+[6/17/2012 1:53:26 AM] Bob: wow...its late...quick question
+[6/17/2012 1:53:34 AM] manjunath kalburgi: yes plz
+[6/17/2012 1:53:39 AM] Bob: in user/validate.php
+[6/17/2012 1:53:58 AM] Bob: i notice the isLoggedIn() has an exit immediately
+[6/17/2012 1:54:18 AM] Bob: previously, i was returning true or false
+[6/17/2012 1:54:32 AM] Bob: so now i get an error in firebug for the profile page
+[6/17/2012 1:54:55 AM] manjunath kalburgi: oh just a min I will update my svn
+[6/17/2012 1:55:11 AM] Bob: response is null
+[Break On This Error] if (response.error) {
+[6/17/2012 1:55:40 AM] Bob: becuase instead of response being "true" or "false" it is now null
+[6/17/2012 1:55:58 AM] manjunath kalburgi: ok I got it
+[6/17/2012 1:56:34 AM] Bob: any idea why you want to exit here?
+[6/17/2012 1:57:23 AM] manjunath kalburgi: actually I was testing the flow and while testing facebook i made status exit and echo'd the result
+[6/17/2012 1:57:51 AM] Bob: ah ok
+[6/17/2012 1:58:23 AM] Bob: so it is temporary? we can remove exit now?
+[6/17/2012 1:58:35 AM] manjunath kalburgi: plz update svn
+[6/17/2012 1:58:48 AM] Bob: ok
+[6/17/2012 1:59:01 AM] Bob: i was testing and was unable to use fb login so created a ticket https://www.assembla.com/spaces/credmine/tickets/30
+[6/17/2012 1:59:38 AM] Bob: i am also doing some planning, creating milestones and moving diff tasks to diff milestones
+[6/17/2012 1:59:52 AM] Bob: basically we will have a monthly milestone
+[6/17/2012 1:59:57 AM] manjunath kalburgi: why not able to login can you share the screen shot
+[6/17/2012 2:00:08 AM] Bob: i shared the screenshot on that ticket
+[6/17/2012 2:00:09 AM] Bob: video
+[6/17/2012 2:00:22 AM] Bob: http://screencast.com/t/6NDlJDJv
+[6/17/2012 2:01:33 AM] manjunath kalburgi: ok let me chk I just signed up it came
+[6/17/2012 2:01:38 AM] Bob: ok
+[6/17/2012 2:02:22 AM] Bob: in firebug i see
+[6/17/2012 2:02:22 AM] Bob: OAuth2 specification states that 'perms' should now be called 'scope'. Please update.
+all.js (line 49)
+[6/17/2012 2:17:22 AM] manjunath kalburgi: I updated all files plz chk
+[6/17/2012 2:27:56 AM] manjunath kalburgi: strange
+[6/17/2012 2:27:57 AM] manjunath kalburgi: http://screencast.com/t/w9NwD5AaRw
+[6/19/2012 1:14:56 AM] manjunath kalburgi: Hi
+[6/19/2012 1:15:21 AM] manjunath kalburgi: can you add graphics icon to image directory
+[6/19/2012 1:15:34 AM] Bob: Tim ?
+[6/19/2012 1:15:38 AM] Tim Thimmaiah: yeah
+[6/19/2012 1:16:19 AM] Tim Thimmaiah: give me a minute
+[6/19/2012 1:16:19 AM] manjunath kalburgi: and I think that facebook Auth error removed from facebook API
+[6/19/2012 1:20:05 AM] Bob: so you were able to reproduce the issue?
+[6/19/2012 1:22:42 AM] manjunath kalburgi: yes the param is removed from facebook and scope added in place
+[6/19/2012 1:23:24 AM] Bob: ok will test
+[6/19/2012 1:23:35 AM] manjunath kalburgi: Great..
+[6/19/2012 1:24:53 AM] Bob: i added some planning in the assembla site
+[6/19/2012 1:24:57 AM] Bob: made 3 iterations
+[6/19/2012 1:25:08 AM] Bob: and grouped different tickets to diff iterations
+[6/19/2012 1:25:22 AM] Bob: and also added mockups to the homepage/signin/signup that tim gave me
+[6/19/2012 1:25:28 AM] Bob: to the respective tickets
+[6/19/2012 1:25:57 AM] Bob: if you go to the tickets and use the outline view, you can choose stories/milestones to see the mapping
+[6/19/2012 1:25:58 AM] manjunath kalburgi: ok I saw its nice
+[6/19/2012 1:26:33 AM] Bob: https://www.assembla.com/spaces/credmine/tickets/agile_planner
+[6/19/2012 1:26:59 AM] Bob: so if you create more tickets, create them and associate them with the story or the parent ticket
+[6/19/2012 1:27:06 AM] Bob: it makes it easier to track/plan
+[6/19/2012 1:27:13 AM] manjunath kalburgi: sure
+[6/19/2012 1:27:47 AM] Bob: if you want to assign a ticket to me or tim, feel free to add and assign
+[6/19/2012 1:28:11 AM] manjunath kalburgi: sure
+[6/19/2012 1:28:13 AM] Bob: e.g. this facebook ticket i logged for you, if you feel it is resolved and you want me to test it, assign it back to me so i know what items i have on my plate
+[6/19/2012 1:28:41 AM] manjunath kalburgi: ok
+[6/19/2012 1:35:41 AM] manjunath kalburgi: or is it ok if I crop and add some of the images will make  us easy to work
+[6/19/2012 1:36:16 AM] Bob: yes
+[6/19/2012 1:36:22 AM] manjunath kalburgi: ok
+[6/19/2012 1:36:36 AM] Bob: do what you need to in order to implement the right html/css
+[6/19/2012 1:36:48 AM] Bob: all this graphics is placeholder, we will replace them later
+[6/19/2012 1:36:57 AM] Bob: with higher quality ones
+[6/19/2012 1:37:18 AM] Bob: btw, have you checked out bootstrap yet?
+[6/19/2012 1:37:34 AM] Tim Thimmaiah: manju, for the sake of organization, should I create a folder in images that includes all the graphics I have used in the mockups?
+[6/19/2012 1:37:40 AM] manjunath kalburgi: yes I gone through that
+[6/19/2012 1:37:49 AM] Bob: i want us to start using bootstrap.css and bootstrap.js .. i like the flexibility it offers
+[6/19/2012 1:37:56 AM] Bob: and the default styling is pretty good
+[6/19/2012 1:38:04 AM] Bob: no...tim
+[6/19/2012 1:38:09 AM] Bob: don't check in the mockups
+[6/19/2012 1:38:19 AM] Tim Thimmaiah: i mean the graphics used in mockups
+[6/19/2012 1:38:23 AM] Bob: yes
+[6/19/2012 1:38:37 AM] Bob: pls create a subfolder and add there
+[6/19/2012 1:38:39 AM] Tim Thimmaiah: ok
+[6/19/2012 1:38:55 AM] Bob: it would be better if the files are named to easily recognize
+[6/19/2012 1:39:08 AM] Tim Thimmaiah: ok
+[6/19/2012 1:48:29 AM] Tim Thimmaiah: manju i just put in a folder called signup graphics which has 32x32 images of all the graphics used in the flows
+[6/19/2012 1:48:46 AM] manjunath kalburgi: ok let me chk
+[6/19/2012 1:48:47 AM] Tim Thimmaiah: dont worry too much about styling like deepak said use them as placeholders and we will replace them
+[6/19/2012 1:49:01 AM] Tim Thimmaiah: also let me know if theres anything that is missing that you dont see
+[6/19/2012 1:51:18 AM] *** manjunath kalburgi sent home.png home.png home.png ***
+[6/19/2012 1:51:32 AM] manjunath kalburgi: I wont find the leftside icon images
+[6/19/2012 1:51:44 AM] Tim Thimmaiah: ok i will put those in as one image
+[6/19/2012 1:52:04 AM] manjunath kalburgi: ok Thanks
+[6/19/2012 1:53:36 AM] Tim Thimmaiah: committed
+[6/19/2012 1:53:48 AM] manjunath kalburgi: ok
+[6/19/2012 2:00:34 AM] Tim Thimmaiah: let me know what file you are working in to render the views and i can help style while you focus on functionality
+[6/19/2012 2:01:09 AM] manjunath kalburgi: I am working on view/welcome.php
+[6/19/2012 2:01:35 AM] manjunath kalburgi: shall I commit the changes
+[6/19/2012 2:02:03 AM] Tim Thimmaiah: sure, whenever you feel like the content is ready
+[6/19/2012 2:02:18 AM] manjunath kalburgi: ok
+[6/19/2012 2:14:49 AM] Tim Thimmaiah: is createschema.sql the db sql?
+[6/19/2012 2:15:02 AM] manjunath kalburgi: yes
+[6/19/2012 2:15:14 AM] manjunath kalburgi: and some changes I added in Wiki
+[6/19/2012 2:15:20 AM] Tim Thimmaiah: ok
+[6/19/2012 2:16:40 AM] Tim Thimmaiah: how come these changes are not updated in the current file?
+[6/19/2012 2:17:41 AM] manjunath kalburgi: you want me to add those changes in that .sql file
+[6/19/2012 2:18:10 AM] manjunath kalburgi: wait I will add and will comit the file
+[6/19/2012 2:18:15 AM] Tim Thimmaiah: ok
+[6/19/2012 2:19:47 AM] manjunath kalburgi: comitted plz check
+[6/19/2012 2:25:29 AM] Tim Thimmaiah: I am getting an sql error when I try to create account table
+[6/19/2012 2:25:31 AM] Tim Thimmaiah: #1075 - Incorrect table definition; there can be only one auto column and it must be defined as a key
+[6/19/2012 2:25:51 AM] manjunath kalburgi: which table
+[6/19/2012 2:26:01 AM] Tim Thimmaiah: account
+[6/19/2012 2:29:23 AM] manjunath kalburgi: plz set foreign_key_checks and autocommit to 0
+[6/19/2012 2:31:23 AM] manjunath kalburgi: I am going for sleep now
+[6/19/2012 2:31:30 AM] Tim Thimmaiah: ok sounds good. thanks manju
+[6/19/2012 2:31:36 AM] manjunath kalburgi: bye
+[6/19/2012 2:31:47 AM] manjunath kalburgi: here its 2.30 AM
+[6/19/2012 2:32:03 AM] Tim Thimmaiah: no problem. good night
+[6/19/2012 2:32:14 AM] manjunath kalburgi: bye GN
+[6/20/2012 12:42:18 AM] manjunath kalburgi: Hi
+[6/20/2012 2:17:56 AM] manjunath kalburgi: Hi
+[6/20/2012 2:18:15 AM] Tim Thimmaiah: hey manju
+[6/20/2012 2:18:20 AM] manjunath kalburgi: I have a question?
+[6/20/2012 2:18:27 AM] Tim Thimmaiah: ok
+[6/20/2012 2:19:10 AM] manjunath kalburgi: if I dont want to load the menu in profile page what can I do?
+[6/20/2012 2:20:36 AM] manjunath kalburgi: this is CM_Controller.php file
+[6/20/2012 2:20:59 AM] manjunath kalburgi: and this is function _checkAndLoad
+[6/20/2012 2:21:34 AM] Tim Thimmaiah: let me take a look
+[6/20/2012 2:21:42 AM] manjunath kalburgi: ok
+[6/20/2012 2:23:55 AM] Bob:  sorry i was away
+[6/20/2012 2:24:03 AM] Bob: manju, your status showed offline, hence i didnt respond
+[6/20/2012 2:24:15 AM] Bob: when i saw the message, i thought you must have logged off
+[6/20/2012 2:24:28 AM] Bob: ok. since i wrote this controller...
+[6/20/2012 2:24:50 AM] Bob: let me see if i can answer it
+[6/20/2012 2:24:50 AM] manjunath kalburgi: oh sorry I did nt changed status
+[6/20/2012 2:24:53 AM] Bob: basically
+[6/20/2012 2:25:14 AM] Bob: if you dont want the header (navigation) you should call it with false
+[6/20/2012 2:25:25 AM] manjunath kalburgi: I passed  $wrapHeaderFooter=false
+[6/20/2012 2:25:26 AM] Bob: not sure if that is the question
+[6/20/2012 2:25:28 AM] Bob: ok
+[6/20/2012 2:25:49 AM] manjunath kalburgi: then its not  loading the session
+[6/20/2012 2:25:59 AM] Bob: let me see
+[6/20/2012 2:26:25 AM] Bob: in which page do you want to do this?
+[6/20/2012 2:26:27 AM] manjunath kalburgi: wait I will comit the changes then you chk
+[6/20/2012 2:26:35 AM] Bob: ok
+[6/20/2012 2:28:01 AM] manjunath kalburgi: I started implementing twitter bootstrap
+[6/20/2012 2:28:13 AM] Bob: ok
+[6/20/2012 2:28:36 AM] manjunath kalburgi: I converted home page
+[6/20/2012 2:30:17 AM] Bob: ok cool
+[6/20/2012 2:30:54 AM] Bob: ok. by the way, this header is an older design in CM_Controller
+[6/20/2012 2:31:07 AM] Bob: this only applies to the resume page
+[6/20/2012 2:31:22 AM] Bob: anyway..check in and let me know what i should look at
+[6/20/2012 2:48:52 AM] manjunath kalburgi: let me knw how can I load the education,experience frm that js file
+[6/20/2012 2:49:01 AM] manjunath kalburgi: ex:experience.js
+[6/20/2012 2:49:25 AM] Bob: i dont follow
+[6/20/2012 2:50:28 AM] manjunath kalburgi: what?
+[6/20/2012 2:51:40 AM] manjunath kalburgi: how you call experience.js file in profile.php
+[6/20/2012 2:52:38 AM] Bob: so you want me to check profile.php
+[6/20/2012 2:52:55 AM] manjunath kalburgi: yes
+[6/20/2012 2:53:52 AM] Bob: this one? http://localhost/home/profile
+[6/20/2012 2:54:02 AM] manjunath kalburgi: yes
+[6/20/2012 2:54:07 AM] Bob: works fine for me
+[6/20/2012 2:55:39 AM] Bob: let me show the video
+[6/20/2012 2:55:50 AM] Bob: so we know are talking about the same
+[6/20/2012 2:55:58 AM] Bob: http://screencast.com/t/XYHhWvfchur
+[6/20/2012 2:56:32 AM] manjunath kalburgi: how you are loading values to follwing parts,Education,experience,bio,skills
+[6/20/2012 2:56:54 AM] Bob: ok
+[6/20/2012 2:57:04 AM] Bob: so for each section, there is a js file right?
+[6/20/2012 2:57:09 AM] manjunath kalburgi: yes
+[6/20/2012 2:57:58 AM] Bob: so for experience section, there is a experience.js
+[6/20/2012 2:58:02 AM] Bob: and this code has
+[6/20/2012 2:58:39 AM] Bob: several methods
+[6/20/2012 2:58:46 AM] Bob: basically all the JS classes follow this pattern
+[6/20/2012 2:59:00 AM] Bob: there is a method called populateExperienceInfo
+[6/20/2012 2:59:04 AM] manjunath kalburgi: ok
+[6/20/2012 2:59:23 AM] Bob: this method takes 2 arguments
+[6/20/2012 2:59:29 AM] Bob: 1. div into which to populate
+[6/20/2012 2:59:37 AM] Bob: 2. data (list) to use to populate
+[6/20/2012 3:00:12 AM] Bob: this method is called by
+[6/20/2012 3:00:16 AM] Bob: loadAndShowExp()
+[6/20/2012 3:00:43 AM] Bob: so
+[6/20/2012 3:00:46 AM] Bob: if you look at
+[6/20/2012 3:00:49 AM] Bob: ./application/views/includes/header.php
+[6/20/2012 3:01:04 AM] Bob: which is included for profile.php
+[6/20/2012 3:01:16 AM] Bob: it calls a method in the header.php called loadAll()
+[6/20/2012 3:01:27 AM] Bob: and loadAll calls load for each type of list
+[6/20/2012 3:01:31 AM] Bob:  68 function loadAll() {                                                                                                                                                  
+ 69         loadAndShowBio($("#bio"));
+ 70         loadAndShowEdu($("#education"));
+ 71         loadAndShowExp($("#experience"));
+ 72         loadAndShowSkills($("#skills"));
+ 73         loadAndShowReference($("#reference"));
+ 74         loadAndShowSocialIds($("#socialids"));
+ 75         loadAndShowContact($("#contact"));
+ 76 }
+[6/20/2012 3:01:38 AM | Edited 3:01:43 AM] Bob: and passes the div ids to each loader
+[6/20/2012 3:01:57 AM] Bob: this loadAll is called after the document is loaded
+[6/20/2012 3:01:58 AM] Bob:  $(document).ready(function(){
+ 80                 loadAll();
+ 81         }
+ 82 );
+[6/20/2012 3:02:41 AM] manjunath kalburgi: ok now I got it
+[6/20/2012 3:03:04 AM] Bob: in controllers/profile.php
+[6/20/2012 3:03:11 AM] Bob: it does not inherit CM_Controller
+[6/20/2012 3:03:48 AM] Bob: it just loads a view
+[6/20/2012 3:03:54 AM] Bob: called profile_view
+[6/20/2012 3:04:02 AM] manjunath kalburgi: ok
+[6/20/2012 3:04:58 AM] Bob: actually
+[6/20/2012 3:05:00 AM] Bob: in home.php
+[6/20/2012 3:05:08 AM] manjunath kalburgi: yes
+[6/20/2012 3:05:08 AM] Bob: if you notice what happens to the path
+[6/20/2012 3:05:16 AM] Bob:  96         function profile() {                                                                                                                                          
+ 97                 log_message("debug", "CM_Controller->index: profile()");
+ 98 
+ 99                 $this->_checkAndLoad('profile', true);
+100         }
+[6/20/2012 3:05:25 AM] Bob: it is just calling checkand load profile, true
+[6/20/2012 3:05:58 AM] manjunath kalburgi: and header footer caling frm _checkAndLoad
+[6/20/2012 3:06:06 AM] Bob: correct
+[6/20/2012 3:06:17 AM] Bob: since it is true
+[6/20/2012 3:06:31 AM] Bob: it will include the header, which includes the call to loadAll()
+[6/20/2012 3:07:11 AM] manjunath kalburgi: and for loadAll() how you are passing data
+[6/20/2012 3:07:53 AM] Bob: ok for loadAll
+[6/20/2012 3:07:59 AM] Bob: what happens is
+[6/20/2012 3:08:11 AM] Bob: hang on..let me load my IDE
+[6/20/2012 3:09:20 AM] Bob: ok in the header.php
+[6/20/2012 3:09:23 AM] Bob: you see
+[6/20/2012 3:09:23 AM] Bob: function loadAll() {
+ loadAndShowBio($("#bio"));
+ loadAndShowEdu($("#education"));
+ loadAndShowExp($("#experience"));
+ loadAndShowSkills($("#skills"));
+        loadAndShowReference($("#reference"));
+ loadAndShowSocialIds($("#socialids"));
+ loadAndShowContact($("#contact"));
+}
+[6/20/2012 3:09:29 AM] Bob: so at this point we dont have data...
+[6/20/2012 3:09:37 AM] manjunath kalburgi: ok
+[6/20/2012 3:09:55 AM] Bob: lets take one example
+[6/20/2012 3:09:58 AM] Bob: education
+[6/20/2012 3:10:03 AM] Bob: so loadAll is called
+[6/20/2012 3:10:13 AM] Bob: as soon as document is loaded, page is ready, no data is fetched yet
+[6/20/2012 3:10:34 AM] Bob: now it calls loadAndShowEdu($("#education"))
+[6/20/2012 3:10:39 AM] Bob: and passess the div id
+[6/20/2012 3:10:52 AM] Bob: passes the div actually, not the id
+[6/20/2012 3:10:57 AM] Bob: because it is calling jquery
+[6/20/2012 3:10:59 AM] Bob: $
+[6/20/2012 3:11:09 AM] Bob: so then if you go to education.js
+[6/20/2012 3:11:28 AM] Bob: u will see this method
+[6/20/2012 3:11:28 AM] Bob:  function loadAndShowEdu(edudiv) {
+ 
+  createEduTemplates();
+  
+  var postUrl = config.api.edu.get;
+  
+  $.ajax({
+       type: "POST",
+       url: postUrl,
+       dataType: 'json',
+       data:  { request : ""  } ,
+       success: function(response, status){
+     if (response.error) {
+      // error returned
+      if (response.error.code == 401) {
+          showLogin();
+      } else {
+       $.jGrowl ("Error retrieving Education :" . response.error.message);
+      }      
+     } else {
+      populateEducationInfo(edudiv, response.data /* edulist */);
+                 }
+             },
+       error: function(response) {
+     $.jGrowl("Error: " + response.message + " code : " + response.code);
+       }
+  });
+ }
+[6/20/2012 3:11:45 AM] Bob: this is where we go and do an Ajax call to the server to fetch the "education" info
+[6/20/2012 3:12:00 AM] Bob: the REST APIs for CredMine are all defined in the constants in config
+[6/20/2012 3:12:33 AM] Bob: which is initialized in header.php
+[6/20/2012 3:12:34 AM] Bob: <script>
+ var config = initApp("<?php echo base_url(); ?>")();
+</script>
+[6/20/2012 3:12:41 AM] Bob: this initApp
+[6/20/2012 3:12:47 AM] Bob: will set up different paths as constants
+[6/20/2012 3:13:02 AM] Bob: it is defined in common.js
+[6/20/2012 3:13:21 AM] Bob: e.g. the education APIs are defined as
+[6/20/2012 3:13:22 AM] Bob: 
+  Config.api.edu.get = Config.url.base + "user/education/get";
+  Config.api.edu.insert = Config.url.base + "user/education/insert";
+  Config.api.edu.remove = Config.url.base + "user/education/delete";
+  Config.api.edu.save = Config.url.base + "user/education/save";
+[6/20/2012 3:13:34 AM] Bob: so coming back to the education.js
+[6/20/2012 3:13:46 AM] Bob: the ajax call is going to
+[6/20/2012 3:13:50 AM] Bob: $.ajax({
+             type: "POST",
+             url: postUrl,..
+[6/20/2012 3:13:54 AM] Bob: where postURL is
+[6/20/2012 3:14:01 AM] Bob:   var postUrl = config.api.edu.get;
+[6/20/2012 3:14:10 AM] Bob: which is
+[6/20/2012 3:14:11 AM | Edited 3:14:21 AM] Bob: Config.api.edu.get = Config.url.base + "user/education/get";
+[6/20/2012 3:14:26 AM] Bob: makes sense so far?
+[6/20/2012 3:14:40 AM] manjunath kalburgi: ok
+[6/20/2012 3:14:43 AM] Bob: now, the user has logged in at this point...so there should be a session
+[6/20/2012 3:14:52 AM] Bob: the UI does not send any information other than just make a call to
+[6/20/2012 3:15:08 AM] Bob: http://localhost/... /user/education/get
+[6/20/2012 3:15:54 AM] Bob: now you should look at the education.php under controllers/user/education.pgp
+[6/20/2012 3:15:59 AM] Bob: which has a get() method
+[6/20/2012 3:16:09 AM] manjunath kalburgi: yes
+[6/20/2012 3:16:13 AM] Bob: it will check if  the user has logged in...
+[6/20/2012 3:16:15 AM] Bob:    if ($this->_checkAuth() == false) {
+    return;
+   }
+[6/20/2012 3:16:35 AM] Bob: and then it is simple
+[6/20/2012 3:16:36 AM] Bob:    $request = $this->input->post ('request') ;
+   
+   log_message('debug', "Education->get: Got request " . $request);
+    
+   $educationlist = $this->_getCurrentEducation();
+   $this->_computeMonthsYears($educationlist);
+    
+   log_message('debug', 'Education->get: returned from _getCurrentEducation  = ' . $educationlist);
+     
+   $response->setData($educationlist);
+   log_message('debug', 'Education->get: prepared response');
+[6/20/2012 3:16:41 AM] Bob: gets the post request
+[6/20/2012 3:16:56 AM] Bob: in case of get, there would be nothing...so it is not necesary
+[6/20/2012 3:17:10 AM] Bob: and then it calls _getCurrentEducation() method to get the current user's education info
+[6/20/2012 3:17:30 AM] Bob: then look at _getCurrentEducation()
+[6/20/2012 3:17:39 AM] Bob: it is a private method
+[6/20/2012 3:17:44 AM] Bob: in this controller
+[6/20/2012 3:17:51 AM] Bob: so it first gets the current userid
+[6/20/2012 3:17:58 AM] Bob: by calling
+[6/20/2012 3:17:58 AM] Bob:   $curruserid = $this->_getCurrentUserid();
+[6/20/2012 3:18:10 AM] Bob: and then it just fetches and returns
+[6/20/2012 3:18:12 AM] Bob: 
+  if ($curruserid) {
+     
+   $educationlist = $this->education_model->getMyEducation($curruserid);
+   
+   log_message('debug', 'Get->_getCurrentAccount: Got Education List = ' . $educationlist);
+   
+   return $educationlist;
+  } else {
+   throw new Exception("Cannot get account. User currently not signed in");
+  }
+[6/20/2012 3:18:20 AM] Bob: from the education model
+[6/20/2012 3:18:25 AM] Bob: for the current user id
+[6/20/2012 3:18:40 AM] manjunath kalburgi: ok
+[6/20/2012 3:18:52 AM] Bob: so from the UI to server...
+[6/20/2012 3:18:54 AM] Bob: it goes to
+[6/20/2012 3:19:01 AM] Bob: document load -> loadAll()
+[6/20/2012 3:19:16 AM] Bob: and loadAll() -> individual data set load methods
+[6/20/2012 3:19:38 AM | Edited 3:19:47 AM] Bob: -> ajax calls to respective controller to get/insert/delete/save
+[6/20/2012 3:20:07 AM] Bob: all the flows implement this pattern
+[6/20/2012 3:20:13 AM] Bob: makes sense?
+[6/20/2012 3:20:20 AM] manjunath kalburgi: yes
+[6/20/2012 3:20:38 AM] Bob: ok. so do you have any other questions about this?
+[6/20/2012 3:21:27 AM] manjunath kalburgi: no I got the flow will let you know if I get any
+[6/20/2012 3:21:36 AM] Bob: ok
+[6/20/2012 3:22:08 AM] manjunath kalburgi: Thanks a lot for nice explaination
+[6/20/2012 3:22:09 AM] Bob: now about the header part...what i was saying was...
+[6/20/2012 3:22:23 AM] Bob: i implemented that header and footer thing
+[6/20/2012 3:22:31 AM] Bob: thinking that the header would be a "navigation bar"
+[6/20/2012 3:22:36 AM] Bob: but it is not
+[6/20/2012 3:22:45 AM] Bob: if we use twitter bootstrap navigation bar
+[6/20/2012 3:22:50 AM] manjunath kalburgi: yes
+[6/20/2012 3:22:51 AM] Bob: we need to separate the header
+[6/20/2012 3:22:54 AM] Bob: into two parts
+[6/20/2012 3:23:04 AM] Bob: i mean the current header.php into two parts
+[6/20/2012 3:23:43 AM] Bob: one, we should introduce a generic navigation bar that has all the paths (like site map) to different features...this is available on all the pages after the user logs in and will be the single navigation bar
+[6/20/2012 3:23:53 AM | Edited 3:24:10 AM] Bob: the current header.php is really only the navbar for the "resume"
+[6/20/2012 3:24:32 AM] manjunath kalburgi: yes correct
+[6/20/2012 3:24:51 AM | Edited 3:25:19 AM] Bob: in the generic navbar we should place all the site functionality... for example... My Profile, My Resume, My Settings, My Theme, [  Search box ], Logout
+[6/20/2012 3:25:29 AM] manjunath kalburgi: ok
+[6/20/2012 3:26:33 AM] Bob: so we can refactor/rename the current header.php to resumeheader.php later and so on
+[6/20/2012 3:26:42 AM] Bob: or maybe we dont need it...not sure
+[6/20/2012 3:26:51 AM] Bob: we can think about that  a bit
+[6/20/2012 3:26:56 AM] Bob: and come up with the design/refactor
+[6/20/2012 3:27:28 AM] Bob: its late for you and i have a meeting...so will talk later ?
+[6/20/2012 3:27:35 AM] manjunath kalburgi: ok
+[6/20/2012 3:27:42 AM] Bob: bye get zzz
+[6/20/2012 3:27:49 AM] manjunath kalburgi: Thanks
+[6/20/2012 3:27:59 AM] manjunath kalburgi: bye
+[6/23/2012 9:45:57 PM] manjunath kalburgi: Hi
+[6/23/2012 9:46:14 PM] Bob: hi Manju
+[6/24/2012 10:51:11 AM] manjunath kalburgi: Hi
+[6/24/2012 10:56:36 AM] manjunath kalburgi: Re:updations in education.js file
+[6/26/2012 10:08:08 PM] manjunath kalburgi: Hi
+[6/26/2012 11:42:35 PM] Bob: Hey Manju
+[6/26/2012 11:42:49 PM] manjunath kalburgi: HI
+[6/26/2012 11:43:40 PM] Bob: how goes it
+[6/26/2012 11:44:22 PM] manjunath kalburgi: ya going well it seams Actually I started admin section as well
+[6/26/2012 11:50:22 PM] manjunath kalburgi: is it ok to create admin section with admin folder in the controller and view
+[6/26/2012 11:50:27 PM] Bob: yes
+[6/26/2012 11:50:36 PM] manjunath kalburgi: ok
+[6/26/2012 11:50:46 PM] Bob: i was thinking that we 3 should do a meeting sometime this week and do a code review/walkthrough
+[6/26/2012 11:50:51 PM] Bob: so we are all n the same page
+[6/26/2012 11:51:00 PM] manjunath kalburgi: ok
+[6/26/2012 11:51:14 PM] Bob: i will coordinate with Tim, what time/day is best for you?
+[6/26/2012 11:51:48 PM] Bob: we also need to talk about a few things/requirements and clarify any doubts, ideas, etc. so a meeting will be good for all of that
+[6/26/2012 11:51:57 PM] Bob: i would keep it around 90 mins slot
+[6/26/2012 11:52:10 PM] manjunath kalburgi: sure
+[6/26/2012 11:53:28 PM] manjunath kalburgi: tomorrow is ok for you?
+[6/26/2012 11:57:32 PM] Bob: what time?
+[6/26/2012 11:58:10 PM | Edited 11:58:24 PM] manjunath kalburgi: any time which convinient for you and Tim
+[6/27/2012 12:00:58 AM] Bob: ok lets tentatively plan for tomorrow our night 9pm ?
+[6/27/2012 12:01:17 AM] Bob: which ends up being your time 9:30 AM on thursday
+[6/27/2012 12:01:30 AM] Bob: or would you prefer to do it during your night
+[6/27/2012 12:02:02 AM] manjunath kalburgi: during night is ok for me
+[6/27/2012 12:03:02 AM] Bob: ok...our availability during our day time is limited..so will have to ask tim
+[6/27/2012 12:06:31 AM] manjunath kalburgi: ok
+[6/27/2012 12:07:20 AM] Bob: ok wil get back to you on that tonight
+[6/27/2012 12:07:28 AM] manjunath kalburgi: sure
+[6/27/2012 12:07:29 AM] Bob: so anyway, what are you currently working on
+[6/27/2012 12:08:02 AM] manjunath kalburgi: linkedin signup and admin part just started
+[6/27/2012 12:08:17 AM] Bob: is linkedin working now?
+[6/27/2012 12:08:43 AM] manjunath kalburgi: oauth token generation having some problem
+[6/27/2012 12:09:48 AM] manjunath kalburgi: and in my local xampp Its not getting installed
+[6/27/2012 12:10:32 AM] manjunath kalburgi: and pecl removed
+[6/27/2012 12:11:55 AM] Bob: i c
+[6/27/2012 11:13:55 AM] manjunath kalburgi: HI Tim
+[6/27/2012 11:14:06 AM] Tim Thimmaiah: hey manju hows it going
+[6/27/2012 11:14:20 AM] manjunath kalburgi: going good
+[6/27/2012 11:14:58 AM] manjunath kalburgi: when can we have a session?
+[6/27/2012 11:15:08 AM] Tim Thimmaiah: sometime tomorrow
+[6/27/2012 11:15:16 AM] Tim Thimmaiah: you said evenings work for you?
+[6/27/2012 11:15:39 AM] manjunath kalburgi: Great...
+[6/27/2012 11:15:41 AM] manjunath kalburgi: yes
+[6/27/2012 11:17:00 AM] Tim Thimmaiah: ok will ping you with details sometime tomorrow
+[6/27/2012 11:28:34 AM] manjunath kalburgi: ok
+[6/27/2012 11:28:41 AM] manjunath kalburgi: Thanks Tim
+[6/29/2012 9:37:44 PM] manjunath kalburgi: Hi
+[6/29/2012 11:17:23 PM] Tim Thimmaiah: hey manju whatsup
+[6/29/2012 11:17:34 PM] manjunath kalburgi: HI Tim
+[6/29/2012 11:17:51 PM] Tim Thimmaiah: how are you
+[6/29/2012 11:18:01 PM] manjunath kalburgi: ya good
+[6/29/2012 11:18:42 PM] manjunath kalburgi: today I was reading your blog on PPB its very nice
+[6/29/2012 11:18:52 PM] Tim Thimmaiah: thank you
+[6/29/2012 11:19:09 PM] Tim Thimmaiah: yes credmine has been "in progress" for over a year
+[6/29/2012 11:19:41 PM] manjunath kalburgi: oh ok
+[6/29/2012 11:20:18 PM] manjunath kalburgi: good news is Linkedin issue released the authentication integration
+[6/29/2012 11:21:19 PM] Tim Thimmaiah: ok great
+[6/29/2012 11:21:37 PM] manjunath kalburgi: I am working on that part now to integrate linkedin
+[6/29/2012 11:21:54 PM] manjunath kalburgi: and did you saw the admin panel which I started
+[6/29/2012 11:22:37 PM] manjunath kalburgi: I just created a view where you will get a list of user registered and resp profiles
+[6/29/2012 11:22:49 PM] Tim Thimmaiah: yes i saw that
+[6/29/2012 11:23:16 PM] Tim Thimmaiah: i will create a mockup of what our admin panel will consist of
+[6/29/2012 11:23:39 PM] Tim Thimmaiah: where users will be able to see options to edit/customize resume and also view notifications and job postings
+[6/29/2012 11:24:26 PM] manjunath kalburgi: ok I have one question here
+[6/29/2012 11:24:33 PM] Tim Thimmaiah: ok
+[6/29/2012 11:24:43 PM] manjunath kalburgi: what are the notifications you want to include?
+[6/29/2012 11:25:42 PM] Tim Thimmaiah: yes this is something that we need to discuss
+[6/29/2012 11:26:00 PM] Tim Thimmaiah: we need to create a messaging system so users can send messages to other users
+[6/29/2012 11:26:23 PM] Tim Thimmaiah: also basic analytics on how many people looked at your resume
+[6/29/2012 11:26:30 PM] manjunath kalburgi: yes exactly actually to store the notification and store messages I created table called messages
+[6/29/2012 11:26:38 PM] Tim Thimmaiah: ok great
+[6/29/2012 11:27:48 PM] manjunath kalburgi: but my concern is how many types of notification you want to store
+[6/29/2012 11:29:13 PM] Tim Thimmaiah: there will be notifications for messages and notifications for requests by employers
+[6/29/2012 11:29:26 PM] Tim Thimmaiah: like for example you applied for a position on an employers page
+[6/29/2012 11:29:27 PM] manjunath kalburgi: 1.forgot password 2.reset password3.email confirmation4.new connection etc etc like wise can you give me idea how many you require
+[6/29/2012 11:29:41 PM] Tim Thimmaiah: yes I will make this clear on the wiki
+[6/29/2012 11:29:50 PM] manjunath kalburgi: thanks
+[6/29/2012 11:30:36 PM] manjunath kalburgi: and do you require messaging system like Inbox,trash,compose,sent etc
+[6/29/2012 11:30:59 PM] Tim Thimmaiah: yes
+[6/29/2012 11:31:51 PM] manjunath kalburgi: and how you want to display them
+[6/29/2012 11:32:47 PM] manjunath kalburgi: it will in separate like notifications,alerts,message like that or just notification under that all messages
+[6/29/2012 11:33:59 PM] Tim Thimmaiah: messages should be different than notifications
+[6/29/2012 11:34:29 PM] Tim Thimmaiah: this will become more clear once i write this up and provide a mockup of admin panel
+[6/29/2012 11:35:25 PM] manjunath kalburgi: ok
+[6/29/2012 11:35:39 PM] Tim Thimmaiah: i will work on it this weekend
+[6/29/2012 11:35:49 PM] manjunath kalburgi: ok and what abt institutions
+[6/29/2012 11:36:26 PM] manjunath kalburgi: mockup?
+[6/29/2012 11:36:34 PM] Tim Thimmaiah: yes will do that as well
+[6/29/2012 11:36:43 PM] Tim Thimmaiah: deepak and I talked about the process
+[6/29/2012 11:36:48 PM] Tim Thimmaiah: will elaborate also in wiki
+[6/29/2012 11:36:51 PM] Tim Thimmaiah: with mockups
+[6/29/2012 11:38:00 PM] manjunath kalburgi: ok
+[6/29/2012 11:40:23 PM] manjunath kalburgi: and one more important thing when user unfills full details in signup what will be the interface to get the remaining data from the user
+[6/29/2012 11:42:50 PM] manjunath kalburgi: will he be redirected to same 3 signup forms or any other way
+[6/29/2012 11:43:27 PM] Tim Thimmaiah: sorry what do you mean by unfill full details?
+[6/29/2012 11:44:16 PM] manjunath kalburgi: if user doesnt fill the experience or skills
+[6/29/2012 11:44:54 PM] Tim Thimmaiah: user can continue through the forms. At some point they need to reach the last piece of the form where they style their resume
+[6/29/2012 11:44:59 PM] Tim Thimmaiah: or choose their theme
+[6/29/2012 11:45:27 PM] Tim Thimmaiah: on their admin panel, there will be an alert notifying them that they need to fill the rest of their resume
+[6/29/2012 11:48:33 PM] manjunath kalburgi: i didnt get this point on their admin panel its user dashboard or admin section will send an email to user to fill the form
+[6/29/2012 11:53:08 PM] manjunath kalburgi: I think here need a crowjob to check unfilled data in database and should send alert email automatically
+[6/30/2012 11:39:53 PM] Bob: http://taitems.github.com/Front-End-Development-Guidelines/
+[6/30/2012 11:40:11 PM] manjunath kalburgi: HI
+[7/4/2012 10:08:44 PM] manjunath kalburgi: Hi
+[7/9/2012 9:45:51 PM] manjunath kalburgi: Hi
+[7/9/2012 9:46:13 PM] Deepak: Hi Manju, how are you
+[7/9/2012 9:46:48 PM] manjunath kalburgi: yes good what abt u its long time rt..
+[7/9/2012 9:47:42 PM] manjunath kalburgi: i saw ur email and i checked again but its workin can you plz clear the db record and try
+[7/9/2012 9:47:57 PM] Deepak: sorry i have been very busy last 2 weeks
+[7/9/2012 9:48:28 PM] Deepak: and Tim's computer got fried since thursday, so he too was off the net for a few days...
+[7/9/2012 9:48:55 PM] manjunath kalburgi: its ok i tried to push the project ahead
+[7/9/2012 9:50:47 PM] manjunath kalburgi: i am doing code review in each steps so that to remove any redundancy in the code at the time of testing and fixing bugs many times i copy code and paste and after fixing I clean up the code
+[7/9/2012 9:51:19 PM] manjunath kalburgi: and did you saw the linkedin error which I got in the code
+[7/9/2012 9:51:38 PM] Deepak: ok. here is what i see: http://screencast.com/t/YooXHN0C
+[7/9/2012 9:52:02 PM] Deepak: i am at the latest revision
+[7/9/2012 9:52:04 PM] Deepak: Deepak-Alurs-MacBook-Pro:~/dev/credminesrc/trunk(master) $ svn update
+At revision 62.
+[7/9/2012 9:53:59 PM] manjunath kalburgi: ok thanks let me see the issue
+[7/9/2012 9:54:21 PM] manjunath kalburgi: i will just logout to start my xampp
+[7/9/2012 10:00:26 PM] manjunath kalburgi: when did you did signup now?
+[7/9/2012 10:01:57 PM] manjunath kalburgi: because in the screenshot user tab in the top header not loaded it loads two tabs at the top first with title dashboard second tab is username
+[7/9/2012 10:02:47 PM] manjunath kalburgi: which i wont find in the screencast can you plz clear the records in db and review again
+[7/9/2012 10:03:45 PM] manjunath kalburgi: in the dashboard page i am loading search module and linkedin connections module
+[7/9/2012 10:15:15 PM] manjunath kalburgi: http://screencast.com/t/GwQO1mFloLq
+[7/9/2012 10:15:18 PM | Edited 10:15:31 PM] manjunath kalburgi: plz chk how it comes
+[7/9/2012 10:17:05 PM | Edited 10:18:16 PM] manjunath kalburgi: going for preparing some dinner will catch you in some time,Thanks
+[7/9/2012 11:07:02 PM] Deepak: sorry i had to go to a meeting
+[7/9/2012 11:07:48 PM] manjunath kalburgi: ok np sorry for inconv'ce
+[7/9/2012 11:08:33 PM] Deepak: i singed up this account a while ago...should i drop and recreate the DB ?
+[7/9/2012 11:09:01 PM] manjunath kalburgi: yes ok
+[7/9/2012 11:09:04 PM] Deepak: i am using my old db
+[7/9/2012 11:09:24 PM] Deepak: or do i just delete all the records
+[7/9/2012 11:11:02 PM] manjunath kalburgi: no plz use db from sql folder I COMMINTED CHANGES
+[7/9/2012 11:11:27 PM] manjunath kalburgi: THANKS
+[7/9/2012 11:11:54 PM] Deepak: ok
+[7/9/2012 11:15:22 PM] Deepak: i get an error
+[7/9/2012 11:15:23 PM | Edited 11:15:45 PM] Deepak: There seems to be an error in your SQL query. The MySQL server error output below, if there is any, may also help you in diagnosing the problem
+
+ERROR: Unknown Punctuation String @ 8915
+STR: //
+[7/9/2012 11:16:08 PM] Deepak: but the tables get created anyway
+[7/9/2012 11:17:19 PM] manjunath kalburgi: you use mapp rt I am using xampp may that cause the error i guess
+[7/9/2012 11:19:34 PM] Deepak: when i use facebook signup on Firefox, it just takes me to my facebook page
+[7/9/2012 11:19:35 PM] Deepak: http://screencast.com/t/mWUNSZwA7Eux
+[7/9/2012 11:19:53 PM] Deepak: but when i do this on chrome, it works file, it asks me to grant permission
+[7/9/2012 11:22:26 PM] Deepak: sorry, even from chrome i see the same bahavior
+[7/9/2012 11:22:49 PM] Deepak: i hadn't logged in in chrome, so it was asking me for a login to facebook, which i mistook as request for permission
+[7/9/2012 11:23:42 PM] manjunath kalburgi: strange will check that it worked here as i shared you
+[7/9/2012 11:23:52 PM] manjunath kalburgi: will try again
+[7/9/2012 11:26:47 PM] Deepak: yes, i saw your video
+[7/9/2012 11:26:57 PM] Deepak: it is strange indeed...i dont see any errors
+[7/9/2012 11:27:09 PM] Deepak: let me look at php logs
+[7/9/2012 11:27:27 PM] manjunath kalburgi: ok
+[7/9/2012 11:28:51 PM] Deepak: no errors in php error log or codeigniter logs
+[7/9/2012 11:28:55 PM] Deepak: or apache logs
+[7/9/2012 11:29:24 PM] manjunath kalburgi: i tried in IE,firefox,chrome its working fine
+[7/9/2012 11:30:05 PM] Deepak: in firebug i see 1 error when the home page loads
+[7/9/2012 11:30:14 PM] Deepak: GET https://0-131.channel.facebook.com/pull?channel=p_624288364&seq=10&partition=7&clientid=42cf666f&cb=37og&idle=1&state=active  Aborted
+[7/9/2012 11:31:24 PM] manjunath kalburgi: which version of firefox you are using
+[7/9/2012 11:32:05 PM] Deepak: 12.0
+[7/9/2012 11:32:21 PM] manjunath kalburgi: oh I am using 13.0.1
+[7/9/2012 11:32:24 PM] Deepak: Chrome Version 19.0.1084.56
+[7/9/2012 11:32:42 PM] Deepak: http://screencast.com/t/y5O5CGOF5
+[7/9/2012 11:33:28 PM] manjunath kalburgi: strange you not updated browsers hm...
+[7/9/2012 11:34:39 PM] manjunath kalburgi: no issues I will check that now
+[7/9/2012 11:35:57 PM] Deepak: what chrome versino are you using
+[7/9/2012 11:36:36 PM] manjunath kalburgi: its 20.0.1132.47 m
+[7/9/2012 11:37:10 PM] Deepak: ok i just upgraded to Version 20.0.1132.47
+[7/9/2012 11:37:13 PM] Deepak: let me try again
+[7/9/2012 11:37:47 PM] manjunath kalburgi: ok thanks plz let me know if you find same issue again will test in old version as well
+[7/9/2012 11:38:44 PM] Deepak: same issue in new/latest chrome.... strange... video shows what i see http://screencast.com/t/CsMeoXVh9yx
+[7/9/2012 11:38:51 PM] Deepak: relaunched the browser after update
+[7/9/2012 11:40:18 PM] Deepak: cleared cache, etc... no change
+[7/9/2012 11:41:07 PM] manjunath kalburgi: i am extreamly sorry for inconvince wil check again all possibility and  will update you
+[7/9/2012 11:41:30 PM] Deepak: no problem...sure
+[7/9/2012 11:41:39 PM] manjunath kalburgi: can you logout from facebook and try
+[7/9/2012 11:41:44 PM] Deepak: sure
+[7/9/2012 11:43:02 PM] Deepak: here is what i see...this time i saw an error message from facebook about "demologin"
+[7/9/2012 11:43:12 PM] Deepak: http://screencast.com/t/dIw7FtaN
+[7/9/2012 11:45:16 PM] manjunath kalburgi: are you sure any file conflict in the sytem
+[7/9/2012 11:47:25 PM] manjunath kalburgi: strange things
+[7/9/2012 11:47:55 PM] manjunath kalburgi: i am still getting the dashboard and able to login properly
+[7/9/2012 11:50:02 PM] Deepak: there are no conflicts in the code
+[7/9/2012 11:50:07 PM] Deepak: this is the only change in my code base
+[7/9/2012 11:50:08 PM] Deepak: Deepak-Alurs-MacBook-Pro:~/dev/credminesrc/trunk(master) $ svn diff application/config/config.php 
+Index: application/config/config.php
+===================================================================
+--- application/config/config.php (revision 63)
++++ application/config/config.php (working copy)
+@@ -11,7 +11,7 @@
+ | http://example.com/
+ |
+ */
+-$config['base_url'] = "http://localhost/trunk";
++$config['base_url'] = "http://localhost";
+[7/9/2012 11:50:22 PM] Deepak: i removed trunk from the url
+[7/9/2012 11:50:53 PM] Deepak: i am reverting the change and trying now
+[7/9/2012 11:51:08 PM] manjunath kalburgi: oh ok I got it in the facebook callback I gave trunk path
+[7/9/2012 11:52:12 PM] Deepak: i see
+[7/9/2012 11:52:25 PM] manjunath kalburgi: yes
+[7/9/2012 11:52:43 PM] Deepak: if i dont do the above change...then the site wont work for me: See this video ... i start getting a lot of errors for paths: http://screencast.com/t/qVOkoLTcsFvK
+[7/9/2012 11:53:00 PM | Edited 11:53:26 PM] Deepak: thats the reason i removed the trunk in the config path for base url
+[7/9/2012 11:53:40 PM] Deepak: because for me the entier content of trunk is the root of the web server htdocs
+[7/9/2012 11:53:47 PM] manjunath kalburgi: no but all files are in trunk
+[7/9/2012 11:53:51 PM] Deepak: yes
+[7/9/2012 11:54:10 PM] manjunath kalburgi: then how it works in root htdocs
+[7/9/2012 11:54:42 PM] manjunath kalburgi: I am sure will get it in trunk
+[7/9/2012 11:54:48 PM] Deepak: ok..here is what i do
+[7/9/2012 11:54:56 PM] Deepak: i check out trunk in a separate directory... e.g. /dev
+[7/9/2012 11:55:20 PM] Deepak: and i have my webserver pointing to its htdocs... e.g. .../htdocs
+[7/9/2012 11:55:49 PM] Deepak: in MAMP
+[7/9/2012 11:55:53 PM] Deepak: i set the document root to
+[7/9/2012 11:55:54 PM] Deepak: /Users/deepakalur/Sites/cmone
+[7/9/2012 11:56:08 PM] Deepak: and cmone is where i check out the content of the trunk
+[7/9/2012 11:56:14 PM] Deepak: so in my case, there is no trunk dir
+[7/9/2012 11:56:32 PM] Deepak: under document root
+[7/9/2012 11:56:34 PM] Deepak: makes sense?
+[7/9/2012 11:57:18 PM] manjunath kalburgi: but in facebook returns data to trunk
+[7/9/2012 11:57:45 PM] Deepak: how?
+[7/9/2012 11:59:08 PM] manjunath kalburgi: in facebook my site url is https://localhost/trunk/facebook/loginpost
+[7/9/2012 11:59:15 PM] Deepak: i see
+[7/9/2012 11:59:35 PM] Deepak: can we remove trunk from there...and just use
+[7/9/2012 11:59:45 PM] Deepak: http://localhost/facebook/loginpost
+[7/9/2012 11:59:51 PM] Deepak: here is my setup: http://screencast.com/t/YMBLUSLi3u
+[7/10/2012 12:03:39 AM] manjunath kalburgi: why you want to change the trunk to root now itself my suggestion is will keep this structure till we complete beta version
+[7/10/2012 12:04:14 AM] manjunath kalburgi: before finishing will move that in prior
+[7/10/2012 12:04:29 AM] manjunath kalburgi: is that ok?
+[7/10/2012 12:05:49 AM] Deepak: sure
+[7/10/2012 12:05:58 AM] Deepak: let me make changes on my end and try
+[7/10/2012 12:06:37 AM] manjunath kalburgi: Great and one more I wanted to check is that mockup available for inner pages and institutions
+[7/10/2012 12:07:32 AM] manjunath kalburgi: or will send you some sample mockups if you are ok will start
+[7/10/2012 12:07:33 AM] Deepak: no...for the beta
+[7/10/2012 12:07:38 AM] Deepak: we will not do institutions
+[7/10/2012 12:07:45 AM] Deepak: we want to get the users side proper
+[7/10/2012 12:07:53 AM] Deepak: be able to create resumes and share them
+[7/10/2012 12:08:03 AM] manjunath kalburgi: ok
+[7/10/2012 12:08:13 AM] Deepak: and get the FB and LI integrations clear
+[7/10/2012 12:08:20 AM] manjunath kalburgi: ok
+[7/10/2012 12:08:23 AM] Deepak: the thing i want you to look into is
+[7/10/2012 12:08:31 AM] Deepak: how the user can change his settings in the profile and choose a different theme
+[7/10/2012 12:08:48 AM] Deepak: so thats where we need to either decide whether we use LESS
+[7/10/2012 12:09:01 AM] Deepak: or we just have multiple theme.css and switch between them based on user prference
+[7/10/2012 12:09:17 AM] Deepak: the second thing i want you to look at is that ticket i logged about Unique URL
+[7/10/2012 12:09:33 AM] Deepak: i think tim checked in a new theme as well
+[7/10/2012 12:09:40 AM] Deepak: so if we can just have 2 themes to begin with
+[7/10/2012 12:09:48 AM] Deepak: and let the user specify which tehem to use in his profile
+[7/10/2012 12:10:02 AM] Deepak: that should be a good start
+[7/10/2012 12:10:11 AM] manjunath kalburgi: ok will do that
+[7/10/2012 12:12:00 AM] Deepak: ok. so i moved the site to trunk
+[7/10/2012 12:12:09 AM] manjunath kalburgi: ok
+[7/10/2012 12:12:16 AM] Deepak: http://localhost/trunk/
+[7/10/2012 12:12:18 AM] Deepak: is that how you access it?
+[7/10/2012 12:12:25 AM] manjunath kalburgi: yes
+[7/10/2012 12:13:15 AM] Deepak: where does this map to
+[7/10/2012 12:13:16 AM] Deepak: facebook/loginpost
+[7/10/2012 12:14:11 AM] manjunath kalburgi: facebook login
+[7/10/2012 12:14:31 AM] Deepak: i still dont see it working....
+[7/10/2012 12:14:54 AM] Deepak: because i dont see this path working  https://localhost/trunk/facebook/loginpost
+[7/10/2012 12:16:35 AM] Deepak: do i need to enable https ? if so how?
+[7/10/2012 12:17:55 AM] manjunath kalburgi: no it automatically takes to https
+[7/10/2012 12:18:34 AM] Deepak: ok. i will debug this on my end...thanks.. at least we know what the problem is.
+[7/10/2012 12:18:54 AM] Deepak: i have to go now...but will connect with you later ... hopefully tim should have his laptop back today as well
+[7/10/2012 12:19:08 AM] manjunath kalburgi: yes sure
+[7/10/2012 12:19:09 AM] Deepak: sorry for the chasing around this
+[7/10/2012 12:19:28 AM] manjunath kalburgi: no its ok this is how all we work
+[7/10/2012 12:19:37 AM] manjunath kalburgi: in team
+[7/10/2012 12:19:46 AM] Deepak: great!
+[7/10/2012 12:20:03 AM] manjunath kalburgi: Thanks for your time
+[7/10/2012 12:20:53 AM] Deepak: according to this http://stackoverflow.com/questions/41218/testing-https-files-with-mamp
+[7/10/2012 12:21:06 AM] Deepak: i have to set something to enable SSL on the mac..let me give this one more try before i go
+[7/10/2012 12:22:34 AM] manjunath kalburgi: oh ok I dont no abt this ssl issue in mac and this ssl is used in oauth to run linkedin
+[7/10/2012 12:22:58 AM] manjunath kalburgi: can you install windows in mac
+[7/10/2012 12:23:53 AM] Deepak: yes, but i need to create a VM...anyway...i know how to setup SSL on mac..will try it..it needs a bit more of my time thats all
+[7/10/2012 12:24:00 AM] Deepak: will try it later today.
+[7/10/2012 12:24:24 AM] manjunath kalburgi: ok
+[7/10/2012 12:24:25 AM] Deepak: bye for now. have a good night
+[7/10/2012 12:24:31 AM] manjunath kalburgi: thanks bye
+[7/10/2012 3:15:52 AM] Deepak: OK. i now have SSL running..but I still get an error for this path  https://localhost/trunk/facebook/loginpost
+[7/10/2012 3:15:57 AM] Deepak: Note that the files in the controllers are
+[7/10/2012 3:16:04 AM] Deepak: controllers/facebook/fblogin.php
+[7/10/2012 3:16:10 AM] Deepak: and that file has a method called loginpost
+[7/10/2012 3:16:21 AM] Deepak: and there is another fblogin.php under controllers/
+[7/10/2012 3:16:56 AM] Deepak: so i feel there is something wrong. perhaps you have something setup in your system...maybe you have a facebook.php under controllers directory?
+[7/11/2012 11:09:37 PM] manjunath kalburgi: I wil be changing this code and wil remove the facebook folder from the controller
+[7/13/2012 4:29:46 AM] manjunath kalburgi: hi
+[7/13/2012 10:30:22 PM] manjunath kalburgi: hi
+[7/13/2012 10:31:25 PM] manjunath kalburgi: morning I tried to commit files but svn locked and could nt able to commit files
+[7/13/2012 10:32:10 PM] Deepak: hihi
+[7/13/2012 10:32:31 PM] manjunath kalburgi: and now also I cant
+[7/13/2012 10:32:41 PM] manjunath kalburgi: commit
+[7/13/2012 10:32:43 PM] Deepak: let me check
+[7/13/2012 10:32:46 PM] manjunath kalburgi: ok
+[7/13/2012 10:34:41 PM] Deepak: it works for me:
+[7/13/2012 10:34:44 PM] Deepak: Deepak-Alurs-MacBook-Pro:~/dev/credminesrc/trunk/css(master) $ svn commit credmine.css -m "testing commit"
+Sending        credmine.css
+Transmitting file data .
+Committed revision 66.
+[7/13/2012 10:35:12 PM] *** manjunath kalburgi sent IMG_13072012_223512.png IMG_13072012_223512.png IMG_13072012_223512.png ***
+[7/13/2012 10:37:45 PM] Deepak: i think it is locked on your disk
+[7/13/2012 10:37:57 PM] Deepak: can you do svn cleanup ?
+[7/13/2012 10:38:09 PM] manjunath kalburgi: ok
+[7/13/2012 10:38:54 PM] Deepak: are you using tortoise?
+[7/13/2012 10:39:00 PM] manjunath kalburgi: yes
+[7/13/2012 10:40:58 PM] manjunath kalburgi: yes comited the changes
+[7/13/2012 10:42:20 PM] manjunath kalburgi: can you provide me some of the website links which you developed in codeigniter
+[7/13/2012 10:42:49 PM] manjunath kalburgi: so that I will get some idea of  UI
+[7/13/2012 10:44:12 PM] manjunath kalburgi: and your way of msging
+[7/13/2012 10:47:56 PM] Deepak: i dont understand...can you explain
+[7/13/2012 10:50:41 PM] manjunath kalburgi: i iust want to know how u want to drive the user via fluid flow if you can provide some of your developed site example i will be inline with that flow
+[7/13/2012 10:52:06 PM] manjunath kalburgi: its not mandatory just request
+[7/13/2012 10:53:10 PM] manjunath kalburgi: and santosh told you wanted to discuss some points with me today
+[7/13/2012 10:53:50 PM] manjunath kalburgi: abt our discussion timing
+[7/13/2012 10:55:53 PM] Deepak: ur status shows as offline
+[7/13/2012 10:56:06 PM | Edited 10:56:15 PM] Deepak: so about the sites
+[7/13/2012 10:56:35 PM] Deepak: well, before the sites
+[7/13/2012 10:56:41 PM] Deepak: we should discuss how to sync up periodically
+[7/13/2012 10:57:08 PM] Deepak: one idea i had was to sync up daily for a few minutes so if you have any question/things that are blocking you/etc. can be clarified
+[7/13/2012 10:57:38 PM] Deepak: i am usually available anytime after 10:30PM IST (i have meetings and other things in the mornings)
+[7/13/2012 10:58:19 PM] Deepak: and on most days i am also available between 10:30-11:30 AM IST
+[7/13/2012 10:58:51 PM] Deepak: some days we may not have anything to discuss, thats ok. we just connect and see
+[7/13/2012 10:59:09 PM] Deepak: does that make sense?
+[7/13/2012 10:59:26 PM] manjunath kalburgi: ok that is good idea
+[7/13/2012 10:59:42 PM] Deepak: ok so about the sites
+[7/13/2012 10:59:54 PM] Deepak: do you have an account on tumblr
+[7/13/2012 11:00:14 PM] manjunath kalburgi: i dont have
+[7/13/2012 11:00:24 PM] Deepak: ok create one...so you can try it
+[7/13/2012 11:00:34 PM] manjunath kalburgi: ok
+[7/13/2012 11:00:37 PM] Deepak: basically, the styling we need the user to do
+[7/13/2012 11:00:39 PM] Deepak: in our site is
+[7/13/2012 11:00:56 PM] Deepak: that there will be many pre-styled themes available for them to use for their resume
+[7/13/2012 11:01:01 PM] Deepak: to begin with we will have 2
+[7/13/2012 11:01:08 PM] Deepak: to prove out the concept
+[7/13/2012 11:01:11 PM] manjunath kalburgi: ok
+[7/13/2012 11:01:29 PM] Deepak: the idea is that the content we generate in our resume using CI/PHP does not really care about styling
+[7/13/2012 11:01:44 PM] Deepak: it always generates the same content, with div ids and class names
+[7/13/2012 11:02:00 PM] manjunath kalburgi: ok
+[7/13/2012 11:02:05 PM] Deepak: but the only thing we need to do is to figure out how the user can change from theme 1 to theme 2
+[7/13/2012 11:03:05 PM] Deepak: so assuming that these themes are going to be stored in let's say our directory called themes
+[7/13/2012 11:03:09 PM] Deepak: and each theme could be
+[7/13/2012 11:03:22 PM] Deepak: /themes/theme1/
+[7/13/2012 11:03:27 PM] Deepak: /themes/theme2/
+[7/13/2012 11:03:29 PM] Deepak: and so on
+[7/13/2012 11:03:35 PM] Deepak: and inside that directory
+[7/13/2012 11:03:40 PM] Deepak: there would be a theme.css
+[7/13/2012 11:03:52 PM] manjunath kalburgi: ok
+[7/13/2012 11:04:09 PM] Deepak: so based on the user profile setting, we have to include the right theme css path in the url for stylesheet
+[7/13/2012 11:04:15 PM] Deepak: when we display the resume
+[7/13/2012 11:04:22 PM] Deepak: that is one approach
+[7/13/2012 11:04:54 PM] Deepak: another approach is to use LESS (which is what bootstrap does)
+[7/13/2012 11:04:56 PM] Deepak: http://lesscss.org/
+[7/13/2012 11:05:13 PM] manjunath kalburgi: ok
+[7/13/2012 11:05:29 PM] Deepak: have you used less before?
+[7/13/2012 11:06:23 PM] manjunath kalburgi: no will read today
+[7/13/2012 11:08:38 PM] Deepak: ok
+[7/13/2012 11:08:52 PM] Deepak: so basically, check out how tumblr allows users to change themes
+[7/13/2012 11:09:11 PM] Deepak: and other sites do that as well...e.g. blogger, wordpress, etc... but they are more complicated
+[7/13/2012 11:09:22 PM] manjunath kalburgi: ok
+[7/13/2012 11:10:10 PM] Deepak: does that answer your question about sites? or was there something else
+[7/13/2012 11:10:49 PM] manjunath kalburgi: plz hang on
+[7/13/2012 11:11:16 PM] Deepak: also see http://twitter.github.com/bootstrap/less.html
+[7/13/2012 11:12:52 PM] Deepak: and also http://wearekiss.com/simpless
+[7/13/2012 11:19:50 PM | Edited 11:20:04 PM] manjunath kalburgi: why I am emphasizing messaging style is will be different than what we use here which I guess
+[7/13/2012 11:20:36 PM] Deepak: oh by messaging style what do you mean
+[7/13/2012 11:21:14 PM] manjunath kalburgi: for ex:here we use simple line of alert like message saved successfully but if you see these sites which is very cachee
+[7/13/2012 11:22:05 PM] Deepak: ah ok. you mean messages we show for users when the perform an action?
+[7/13/2012 11:22:31 PM] manjunath kalburgi: yes exactly
+[7/13/2012 11:22:58 PM] manjunath kalburgi: I have not included any message still now because of this reason in the website
+[7/13/2012 11:23:12 PM] Deepak: i like bootstrap way of messages
+[7/13/2012 11:23:12 PM] Deepak: http://twitter.github.com/bootstrap/components.html#alerts
+[7/13/2012 11:24:01 PM] Deepak: so we should use http://twitter.github.com/bootstrap/javascript.html#alerts
+[7/13/2012 11:24:18 PM] Deepak: i was using growl like message plugin before
+[7/13/2012 11:25:03 PM] manjunath kalburgi: ok
+[7/13/2012 11:25:34 PM] Deepak: they also have a modal dialog like http://twitter.github.com/bootstrap/javascript.html#modals
+[7/13/2012 11:25:56 PM] manjunath kalburgi: ys I saw that
+[7/13/2012 11:27:29 PM] manjunath kalburgi: ok I use this but initially I try to add more meaning full sentencs but let me know if you want any thing else ok
+[7/13/2012 11:28:27 PM] Deepak: sure...add whatever you think is meaningful...if i need to change it i will change after that
+[7/13/2012 11:29:22 PM] manjunath kalburgi: ok and one more what will be the folder structure for theme
+[7/13/2012 11:30:30 PM] Deepak: i dont know
+[7/13/2012 11:30:41 PM] Deepak: i think to begin with it will be simple
+[7/13/2012 11:30:51 PM] Deepak: /themes/themename/theme.css
+[7/13/2012 11:31:02 PM] Deepak: where themename can be different theme name
+[7/13/2012 11:31:15 PM] Deepak: e.g. "Simple", "Elegant", "Blue" and so on
+[7/13/2012 11:31:17 PM] Deepak: and there would be
+[7/13/2012 11:31:30 PM] Deepak: /themes/Simple/theme.css, /themes/Elegant/theme.css and so on
+[7/13/2012 11:31:42 PM] Deepak: and in the user profile, you can ask the user to select a theme and list
+[7/13/2012 11:31:51 PM] Deepak: "Simple", "Elegant", "Blue" etc
+[7/13/2012 11:32:06 PM] Deepak: and they should be able to preview the theme before saving their choice
+[7/13/2012 11:32:26 PM] manjunath kalburgi: ok and can you provide inner page design after login if available
+[7/13/2012 11:32:51 PM] Deepak: you mean, what the user sees after logging in?
+[7/13/2012 11:33:12 PM] manjunath kalburgi: yes for resume I have
+[7/13/2012 11:33:43 PM] Deepak: i dont have a mock up yet, but basicaly, it should be showing the navigation bar (bootstrap) and their resume as the default page they would see after they login
+[7/13/2012 11:33:58 PM] Deepak: so that they can modify any part of the resume
+[7/13/2012 11:34:10 PM] Deepak: and the resume should be shown with the theme they had selected in the profile
+[7/13/2012 11:35:18 PM] manjunath kalburgi: ok then resume will be displayed after login as first page with header navigation
+[7/13/2012 11:35:29 PM] Deepak: yes
+[7/13/2012 11:37:03 PM] manjunath kalburgi: but I suggest to have not in home page itself because user always try to find the functionality at first look we can have at some place like public resume/profile like in the navigation
+[7/13/2012 11:37:43 PM] Deepak: eventually, we will show activities
+[7/13/2012 11:37:47 PM] Deepak: instead of resume
+[7/13/2012 11:37:48 PM] Deepak: such as
+[7/13/2012 11:38:36 PM] Deepak: * statistics (number of hits, etc.)
+* messages sent by other users
+* Feedback/recommendations, etc.
+[7/13/2012 11:39:14 PM] Deepak: so mock up what you think it should be and share it with us
+[7/13/2012 11:40:33 PM] manjunath kalburgi: ok I will put some design and provide you
+[7/13/2012 11:42:17 PM] manjunath kalburgi: and one more abt the facebook and linkedin what is ur plan? how you want to promote ?
+[7/13/2012 11:43:17 PM] Deepak: after the user creates a resume you mean?
+[7/13/2012 11:44:04 PM] manjunath kalburgi: any activity? like sharing, addng frnds what is your action plan?
+[7/13/2012 11:46:15 PM] Deepak: in think there are two things here:
+[7/13/2012 11:46:32 PM] manjunath kalburgi: this is tough question but this will brings value to the product
+[7/13/2012 11:46:59 PM] Deepak: 1. How can i update my resume on LinkedIn after I have perfected it on CredMine
+[7/13/2012 11:47:34 PM] Deepak: and same thing for Facebook. how can i update my bio from CredMine
+[7/13/2012 11:48:09 PM] Deepak: 2. Is about Sharing: how can i send my resume to someone: via email, tweet, put it on my facebook wall, put it on my linked in wall, etc.
+[7/13/2012 11:48:25 PM] Deepak: is that what you are asking? or you have some other ideas?
+[7/13/2012 11:49:43 PM] manjunath kalburgi: I was thinking of marketing strategy's like approaching companies
+[7/13/2012 11:49:52 PM] manjunath kalburgi: to hire people
+[7/13/2012 11:50:45 PM] manjunath kalburgi: providing some schemes for different approach
+[7/13/2012 11:51:35 PM] manjunath kalburgi: like premium plan you can apply these many companies for gold N.. like that
+[7/13/2012 11:52:59 PM] manjunath kalburgi: and providing training to resume building like drag drop the section from credmine with different themes and share it to get hired
+[7/13/2012 11:54:08 PM] Deepak: oh, you are talking about the institutional signups
+[7/13/2012 11:54:25 PM] Deepak: so what we thought was that first we need to perfect the resume making and sharing
+[7/13/2012 11:54:50 PM] Deepak: with themes, look&feel, etc properly done so users find it attractive to make and keep their resumes here
+[7/13/2012 11:55:16 PM] Deepak: and then focus on the institutional sign up. we are going to sign up universities and colleges here
+[7/13/2012 11:55:54 PM] Deepak: about "training to resume building..." we shuld provide that online for free with short videos
+[7/13/2012 11:56:33 PM] Deepak: so there will be future work after we launch to build out the job section, institution section and so on
+[7/13/2012 11:56:58 PM] Deepak: but we are just breaking it up into manageable small chunks so we can do each job well
+[7/13/2012 11:57:42 PM] manjunath kalburgi: and from this I guess your target audience is college students only
+[7/13/2012 11:58:17 PM] Deepak: no
+[7/13/2012 11:58:37 PM] Deepak: it will be initial demographic
+[7/13/2012 11:59:52 PM] manjunath kalburgi: ok
+[7/14/2012 12:09:20 AM] manjunath kalburgi: which version of MAC you are using
+[7/14/2012 12:10:02 AM] manjunath kalburgi: I am planning to install that as vertual for testing perpose
+[7/14/2012 12:10:38 AM] Deepak: macos?
+[7/14/2012 12:10:52 AM] manjunath kalburgi: yes
+[7/14/2012 12:12:07 AM] Deepak: 10.7.4
+[7/14/2012 12:12:20 AM] Deepak: do you use mac? or windows
+[7/14/2012 12:12:46 AM] manjunath kalburgi: I have windows 7 OS
+[7/14/2012 12:13:19 AM] Deepak: how can u install mac on windows?
+[7/14/2012 12:13:32 AM] manjunath kalburgi: using VMWare
+[7/14/2012 12:13:37 AM] Deepak: ok
+[7/14/2012 12:13:48 AM] Deepak: but where can you get macosx
+[7/14/2012 12:14:19 AM] manjunath kalburgi: in torrentz its freely available
+[7/14/2012 12:14:50 AM] Deepak: haha ok
+[7/14/2012 12:16:15 AM] manjunath kalburgi: here is a link http://torrentz.in/search?f=mac+os
+[7/14/2012 12:22:23 AM] manjunath kalburgi: Thanks
+[7/16/2012 10:32:44 AM] Deepak: hi guys, you there?
+[7/16/2012 10:28:02 PM] manjunath kalburgi: hi
+[7/16/2012 10:29:56 PM] Deepak: hi..how is it going
+[7/16/2012 10:30:58 PM] manjunath kalburgi: yes bit struckted in linkedin
+[7/16/2012 10:32:58 PM] Deepak: i still can't get facebook to work
+[7/16/2012 10:34:21 PM] manjunath kalburgi: which browser?
+[7/16/2012 10:34:54 PM] manjunath kalburgi: I changed whole code
+[7/16/2012 10:39:01 PM] Deepak: firefox and chrome
+[7/16/2012 10:39:10 PM] Deepak: ff 12.0
+[7/16/2012 10:39:24 PM] Deepak: i tried last night, and i tried this morning also
+[7/16/2012 10:39:44 PM] manjunath kalburgi: oh shut ok
+[7/16/2012 10:40:41 PM] Deepak: i can't even debug what is wrong this time...
+[7/16/2012 10:40:52 PM] Deepak: i am running the site straight out of svn
+[7/16/2012 10:40:59 PM] Deepak: under http://localhost/trunk/
+[7/16/2012 10:41:12 PM] Deepak: here is the video from just now http://screencast.com/t/Xe0ev9sqQYa
+[7/16/2012 10:41:17 PM] manjunath kalburgi: ok
+[7/16/2012 10:47:10 PM] manjunath kalburgi: oh even this time not working for me I tried afternoon it worked let me check the issue again
+[7/16/2012 10:47:28 PM] Deepak: ok...good at least we both getting same issue
+[7/16/2012 11:16:51 PM] Deepak: ok. let me know when it is fixed
+[7/16/2012 11:17:09 PM] manjunath kalburgi: sure
+[7/16/2012 11:17:28 PM] manjunath kalburgi: Thanks
+[7/17/2012 1:42:56 AM] manjunath kalburgi: Its working now in firefox
+[7/17/2012 1:46:25 AM] Deepak: ok great. will test
+[7/17/2012 1:47:42 AM] Deepak: no..still no luck...i just tried
+[7/17/2012 1:47:45 AM] Deepak: with latest code
+[7/17/2012 7:50:22 AM] Deepak: Here is the video showing all 3 browsers: FF, Chrome, Safari. If i am logged out of FB, and try this, it prompts me to login (as it should) and then shows an error "demologin...." as shown in the first screen: http://screencast.com/t/O5Uhdfzou
+[7/17/2012 8:15:38 AM] Deepak: there are also errors in the createschemasql file
+[7/17/2012 8:15:43 AM] Deepak: i just corrected a few of them
+[7/17/2012 8:15:53 AM] Deepak: and am able to create the DB without errors now
+[7/17/2012 8:15:59 AM] Deepak: i have a brand new db
+[7/17/2012 8:16:04 AM] Deepak: and all the tables are fine
+[7/17/2012 8:16:12 AM] Deepak: i am still not able to use the facebook sign up
+[7/17/2012 8:16:22 AM] Deepak: i can use the credmine signup , but the experience is very bad
+[7/17/2012 8:21:39 AM] Deepak: see this video: http://screencast.com/t/7J8LFwWKDpl
+[7/17/2012 8:23:05 AM] Deepak: here are the 3 changes to sql i made:
+[7/17/2012 8:23:06 AM] Deepak: 1. Corrected syntax errors: Missing semi colons
+2. Removed Create user. Grant command will automatically create the user anyway
+3. Change alter table to use MODIFY instead of ADD. Column already exists, so you cannot use ADD again.
+[7/17/2012 8:25:31 AM] Deepak: (bug) Another bug - If i create an account and try to login, i get errors: See http://screencast.com/t/uzcnfAXcBt2h
+[7/17/2012 8:25:52 AM] Deepak: Manju, you need to increase the thoroughness of testing
+[7/17/2012 8:28:08 AM] Deepak: please log tickets to monitor this
+[7/17/2012 11:15:10 AM] Deepak: Manju u there?
+[7/17/2012 11:15:47 PM] manjunath kalburgi: hi
+[7/17/2012 11:16:20 PM] Deepak: hey
+[7/17/2012 11:20:07 PM] manjunath kalburgi: I saw the issues which you identified
+[7/17/2012 11:24:06 PM] manjunath kalburgi: I have one question on education.js file
+[7/17/2012 11:24:39 PM] manjunath kalburgi: I included this in the signup 2: credential  page
+[7/17/2012 11:25:08 PM] manjunath kalburgi: what log I am getting is this Skills->get: returned from _getCurrentSkills  =
+[7/17/2012 11:25:42 PM] manjunath kalburgi: is any think need to pass
+[7/17/2012 11:26:05 PM] Deepak: hmm...i dont remember
+[7/17/2012 11:26:20 PM] Deepak: you need to look at the php code
+[7/17/2012 11:31:59 PM] manjunath kalburgi: ok
+[7/17/2012 11:33:47 PM] manjunath kalburgi: http://screencast.com/t/MbyTPAd1e this is what I tested
+[7/17/2012 11:35:51 PM] Deepak: looks better than what i was able to do
+[7/17/2012 11:37:28 PM] manjunath kalburgi: actually what is the difference is the location format entered was different which I expected
+[7/17/2012 11:37:29 PM] Deepak: i can now get to the stage where it shows my info in setp 2
+[7/17/2012 11:37:38 PM] Deepak: but clicking on the import from faceboook does not do anything for me
+[7/17/2012 11:38:54 PM] manjunath kalburgi: ok and can you see the buttons like Add skills,Add education after clicking page reloading
+[7/17/2012 11:39:21 PM] Deepak: yes
+[7/17/2012 11:41:27 PM] manjunath kalburgi: ok
+[7/17/2012 11:41:35 PM] Deepak: http://screencast.com/t/XQilVip2
+[7/17/2012 11:43:17 PM] manjunath kalburgi: oh! not went to fb login page
+[7/17/2012 11:46:37 PM] Deepak: yes..the whole FB thing is not working for me
+[7/17/2012 11:46:44 PM] Deepak: whether it is import or from the login page
+[7/17/2012 11:46:50 PM] Deepak: to sign up via FB
+[7/17/2012 11:47:05 PM] Deepak: which PHP FB library are you using
+[7/17/2012 11:50:11 PM] manjunath kalburgi: I prepared one for credmine
+[7/17/2012 11:51:42 PM] Deepak: did you not use the FB PHP SDK kit?
+[7/17/2012 11:55:09 PM] manjunath kalburgi: yes I used here
+[7/17/2012 11:55:28 PM] manjunath kalburgi: for code igniter I configured in library
+[7/17/2012 11:55:38 PM] Deepak: ok
+[7/17/2012 11:55:50 PM] Deepak: we have been trying to get this FB and LI working for many weeks now...
+[7/17/2012 11:56:26 PM] manjunath kalburgi: yes
+[7/18/2012 12:02:45 AM] Deepak: so what do we need to do now, to get FB login working
+[7/18/2012 12:03:00 AM] Deepak: it works for you, but not for us
+[7/18/2012 12:03:11 AM] Deepak: so what are we missing
+[7/18/2012 12:05:31 AM] Deepak: continuing the video from the previous one...if i click on any "Add" button, it refreshes the page...
+[7/18/2012 12:06:09 AM] Deepak: http://screencast.com/t/pzcRsmbbsTR
+[7/18/2012 12:06:37 AM] manjunath kalburgi: yes
+[7/18/2012 12:08:05 AM] Deepak: why does it do that?
+[7/18/2012 12:30:35 AM] manjunath kalburgi: its a jquery conflict
+[7/18/2012 12:31:24 AM] Deepak: meaning?
+[7/18/2012 12:33:48 AM] manjunath kalburgi: Trying to run jQuery and Prototype side by side
+[7/18/2012 12:35:56 AM] Deepak: we dont need prototype do we?
+[7/18/2012 12:37:02 AM] manjunath kalburgi: no
+[7/18/2012 12:39:31 AM] Deepak: then can you fix it?
+[7/18/2012 12:40:04 AM] manjunath kalburgi: I will try
+[7/18/2012 12:40:06 AM] Deepak: i dont see prototype.js in our code
+[7/18/2012 12:40:11 AM] Deepak: where did you find this conflict?
+[7/18/2012 12:45:03 AM] manjunath kalburgi: I didnt find the prototype file but I thought you used any in js file
+[7/18/2012 12:48:38 AM] Deepak: no
+[7/18/2012 12:48:44 AM] Deepak: i dont use prototype
+[7/18/2012 12:49:01 AM] Deepak: so it can't be the conflict then
+[7/18/2012 12:49:27 AM] manjunath kalburgi: ok
+[7/18/2012 10:51:00 PM | Removed 10:55:08 PM] Deepak: This message has been removed.
+[7/18/2012 10:51:05 PM | Removed 10:55:04 PM] Deepak: This message has been removed.
+[7/18/2012 10:51:07 PM | Removed 10:55:00 PM] Deepak: This message has been removed.
+[7/18/2012 10:51:55 PM | Removed 10:54:56 PM] Deepak: This message has been removed.
+[7/18/2012 10:59:51 PM] Deepak: i dont know what you did, but it is working now...still has some issues, but it was able to pull my bio from fb
+[7/18/2012 11:06:42 PM] manjunath kalburgi: sorry I was late today having food
+[7/18/2012 11:06:55 PM] manjunath kalburgi: its good new
+[7/18/2012 11:06:58 PM] manjunath kalburgi: s
+[7/18/2012 11:09:16 PM] manjunath kalburgi: yes I am testing all application throu'ly again will commit once completes
+[7/18/2012 11:09:25 PM] manjunath kalburgi: 100%
+[7/18/2012 11:13:19 PM] Deepak: i just committed a minor change to log messages in fblogin
+[7/18/2012 11:13:31 PM] Deepak: as i was using that to test
+[7/18/2012 11:15:03 PM] Deepak: ok. i have to go now..work...will connect later tonight
+[7/18/2012 11:17:23 PM] Deepak: are you looking into the stylesheet/theme
+[7/18/2012 11:18:01 PM] Deepak: one question about fb signup...in the second step after i return from fb, should credmine not automatically show me the profile picture?
+[7/18/2012 11:18:50 PM] Deepak: that is one thing that is not working for me...so can you log a bug on assembla for tracking purpose if that is a bug
+[7/18/2012 11:18:52 PM] Deepak: bye for now

@@ -1,0 +1,14 @@
+curl --data 'request={ "account" : { "userid": "xyz", "password": "password", "passconf": "passconf", "email": "deepak@email.com" } }' http://localhost/index.php/user/signup
+curl --data 'request={ "account" : { "email": "xyz", "password": "password" } }' http://localhost/index.php/user/signin
+curl --data 'request={ "account" : { "email": "d_alur@yahoo.com", "password": "password", "passconf" : "password", "userid" : "deepak", "fullname" : "Deepak Alur"  } }' http://localhost/index.php/user/signup
+curl --data "userid=deepak&email=testemail@mail.com&password=test&passconf=test2" http://localhost/index.php/signup
+curl --data 'request={ "account" : { "userid": "deepak" } }' http://localhost/index.php/user/validate/existsUserid
+curl --data 'request={ "account" : { "email": "d_alur@yahoo.com" } }' http://localhost/index.php/user/validate/existsEmail
+curl --data 'request={ "account" : { "aboutme": "This is about me" } }' http://localhost/index.php/user/aboutme/update
+curl --data 'request={ "account" : { "aboutme": "This is about me" } }' http://localhost/index.php/user/aboutme/get
+curl --data 'request="{}"' http://localhost/user/validate/isLoggedIn
+
+curl --data 'request="{}"' http://localhost/user/education/get
+
+curl --data 'request= {"education":{"posnum":"-1","startdate":"2011-01-01 00:00:00","enddate":"2011-01-01 00:00:00","institution":"BIET","fieldofstudy":"Comp Sci","credential":"BE","activities":" sdgf sdfs df sdf"}}' http://localhost/user/education/insert
+curl --data 'request= {"education":{"startdate":"2011-01-01 00:00:00","enddate":"2011-01-01 00:00:00","institution":"BIET","fieldofstudy":"Comp Sci","credential":"BE","activities":" sdgf sdfs df sdf"}}' http://localhost/user/education/insert

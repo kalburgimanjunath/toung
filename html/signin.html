@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="../css/credmine.css" />
+<title>Sign In</title>
+</head>
+
+<body>
+<div id="container_signin">
+	<div id="header_signin"></div>
+	<table class="columns" cellspacing="0">
+    	<tbody>
+        	<tr>
+            	<td id="content">
+                	<div class="wrapper_signin">
+                    <div class="content_header"</div>
+                    <div id="signin_form">
+                    <form class="signin" method="post" action="">
+                    <div style="margin:0; padding:0;">
+                    	<input type="hidden" value="" name="authenticity_check" />
+                    </div>
+                    <input id="authenticity_check" type="hidden" value="" name="authenticity_check" />
+                    <input id="redirect_after_login" type="hidden" value="" name="redirect_after_login" />
+                   
+                  	<fieldset class="commonform">
+                    	<table cellspacing="0">
+                    		<tbody>
+                          
+                            	<tr>
+                                	<th><label for="user_email">Email</label></th>
+                                    <td class="col-field"><input id="user_email" type="text" class="text_field" value="" name="session[user_email]"/></td>
+                                </tr>
+                                <tr>
+                                	<th><label for="user_password">Password</label></th>
+                                    <td class="col-field"><input id="user_password" type="password" class="text_field" value="" name="session[user_password]" /></td>
+                                </tr>
+                                <tr><th></th>
+                                	<td><input id="remember_me" type="checkbox" value="1" name="remember_me" />
+                                    <label class="inline" for="remember_me" style="font-size:12px; color:#999999; ">Remember Me</label>
+                                </tr>
+                                <tr>
+                                <th></th>
+                                	<td><input id="login_submit" type="submit" class="btn_m" value="Log In" name="login" /></td>
+                                </tr>
+                                </tbody>
+                        </table>
+                   	</fieldset>
+                    </form>
+                    </div>
+                    </div> 
+                </td>
+                <td id="sidebar">
+                 	<table cellspacing="0">
+                    	<tbody>
+                              <tr>
+                              	<td><label for="signup">Dont have an account?</label></td>
+                           
+                              </tr>              
+                              <tr>
+                                <td><input id="signup_submit" type="submit" class="btn_m" value="Sign Up" name="signup" /></td>   
+                 		</tbody>
+                    </table>
+                 </td> 
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
