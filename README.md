@@ -1,6 +1,6 @@
 toung
 =====
-Toung is very simple API engine which connects facebook and linkedin websites through openAPI.
+Toung is very simple API engine which connects facebook and linkedin websites through openAPI.This is profile building website where you can create beautiful profiles and can share it to the employee.
 
 Getting Started.
 Install PHP Server XAMP OR WAMP.
@@ -14,3 +14,5 @@ Licence
 Open to use.
 
 toung
+
+<a href='http://www.pledgie.com/campaigns/19947'><img alt='Click here to lend your support to: toung and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/19947.png?skin_name=chrome' border='0' /></a>
